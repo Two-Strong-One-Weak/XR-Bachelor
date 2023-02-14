@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -195,7 +194,6 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_tBC84A073C010A2A7C7179F24CE3212A8E6CFEE67 
 {
 };
-struct Il2CppArrayBounds;
 
 // Meta.WitAi.Data.AudioEncoding
 struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4  : public RuntimeObject
@@ -234,12 +232,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -326,14 +318,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Byte
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
@@ -348,29 +332,9 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 	uint64_t ____dateData_46;
 };
 
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
-};
-
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
 };
 // Native definition for P/Invoke marshalling of System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
@@ -402,12 +366,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -422,12 +380,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefOb
 	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask_3;
 	// System.Threading.SemaphoreSlim System.IO.Stream::_asyncActiveSemaphore
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_4;
-};
-
-struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
-{
-	// System.IO.Stream System.IO.Stream::Null
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null_1;
 };
 
 // System.Void
@@ -597,12 +549,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -712,25 +658,11 @@ struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF8
 	int64_t ___buf_start_22;
 };
 
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
-{
-	// System.Byte[] System.IO.FileStream::buf_recycle
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_6;
-	// System.Object System.IO.FileStream::buf_recycle_lock
-	RuntimeObject* ___buf_recycle_lock_7;
-};
-
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -867,6 +799,174 @@ struct MicDebug_t336D2BD58472B9D2B5106CEEA11A598A0100BAB3  : public MonoBehaviou
 	// System.Byte[] Meta.WitAi.Lib.MicDebug::_buffer
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_8;
 };
+
+// <Module>
+
+// <Module>
+
+// Meta.WitAi.Data.AudioEncoding
+
+// Meta.WitAi.Data.AudioEncoding
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// Meta.WitAi.Lib.MicBase/<ReadRawAudio>d__33
+
+// Meta.WitAi.Lib.MicBase/<ReadRawAudio>d__33
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Byte
+
+// System.Byte
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+
+// System.Enum
+
+// System.Int16
+
+// System.Int16
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Single
+
+// System.Single
+
+// System.IO.Stream
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
+{
+	// System.IO.Stream System.IO.Stream::Null
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null_1;
+};
+
+// System.IO.Stream
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.Coroutine
+
+// UnityEngine.Coroutine
+
+// System.Delegate
+
+// System.Delegate
+
+// System.IO.FileStream
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	// System.Byte[] System.IO.FileStream::buf_recycle
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_6;
+	// System.Object System.IO.FileStream::buf_recycle_lock
+	RuntimeObject* ___buf_recycle_lock_7;
+};
+
+// System.IO.FileStream
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// System.Action`3<System.Int32,System.Single[],System.Single>
+
+// System.Action`3<System.Int32,System.Single[],System.Single>
+
+// System.Action`3<System.Int32,System.Object,System.Single>
+
+// System.Action`3<System.Int32,System.Object,System.Single>
+
+// System.Action
+
+// System.Action
+
+// System.IO.DirectoryInfo
+
+// System.IO.DirectoryInfo
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// Meta.WitAi.Lib.MicBase
+
+// Meta.WitAi.Lib.MicBase
+
+// Meta.WitAi.Lib.MicDebug
+
+// Meta.WitAi.Lib.MicDebug
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -974,20 +1074,20 @@ struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArr
 
 
 // System.Void System.Action`3<System.Int32,System.Object,System.Single>::Invoke(T1,T2,T3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, float ___2_arg3, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponentInChildren<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Int32,System.Object,System.Single>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_m4DF8F60E9446A6DA0A67F2DBEEBF612A0FEF68FF_gshared (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_m4DF8F60E9446A6DA0A67F2DBEEBF612A0FEF68FF_gshared (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Microphone::IsRecording(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m93CA54969E12BF2083326E43794D71F0FED5D653 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m93CA54969E12BF2083326E43794D71F0FED5D653 (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Lib.MicBase::get_IsRecording()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MicBase_get_IsRecording_m1932DAC9EB4AC494E6074EE0F9A08E9304989EB8_inline (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Lib.MicBase::get_IsInputAvailable()
@@ -995,13 +1095,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicBase_get_IsInputAvailable_m39A616CA99
 // System.Void System.Action::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.MicBase::set_IsRecording(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440_inline (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440_inline (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.MicBase/<ReadRawAudio>d__33::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__33__ctor_mFD81112EEF51A24FFD91A887A8A343C9EB2A3F0E (U3CReadRawAudioU3Ed__33_tD47A789B80123C0D0B6F16003161F4BA3B3328CC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__33__ctor_mFD81112EEF51A24FFD91A887A8A343C9EB2A3F0E (U3CReadRawAudioU3Ed__33_tD47A789B80123C0D0B6F16003161F4BA3B3328CC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Data.AudioEncoding::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioEncoding__ctor_m3B8B23AA7A25A3069EA907156789A050DA90F28E (AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
@@ -1015,11 +1115,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_channels_mFEECF5D6389D1
 // System.Int32 UnityEngine.AudioClip::get_samples()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_data, int32_t ___1_offsetSamples, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Int32,System.Single[],System.Single>::Invoke(T1,T2,T3)
-inline void Action_3_Invoke_m210005E412E0E8B43987971844C4FB9D817BFCFB_inline (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, int32_t ___arg10, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___arg21, float ___arg32, const RuntimeMethod* method)
+inline void Action_3_Invoke_m210005E412E0E8B43987971844C4FB9D817BFCFB_inline (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, int32_t ___0_arg1, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_arg2, float ___2_arg3, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, int32_t, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, float, const RuntimeMethod*))Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, int32_t, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, float, const RuntimeMethod*))Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, method);
 }
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
@@ -1031,28 +1131,28 @@ inline RuntimeObject* GameObject_GetComponentInChildren_TisIAudioInputSource_t36
 	return ((  RuntimeObject* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentInChildren_TisRuntimeObject_mED181B37054A10395CA356010754C7DFC685893C_gshared)(__this, method);
 }
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Int32,System.Single[],System.Single>::.ctor(System.Object,System.IntPtr)
-inline void Action_3__ctor_m456761457D50C389C47B3D27E78233649D267B93 (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_3__ctor_m456761457D50C389C47B3D27E78233649D267B93 (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_m4DF8F60E9446A6DA0A67F2DBEEBF612A0FEF68FF_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_m4DF8F60E9446A6DA0A67F2DBEEBF612A0FEF68FF_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void Meta.WitAi.Lib.MicDebug::UnloadStream()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug_UnloadStream_m3961ABD9CB439A28052C324EE28CEB16EDC21237 (MicDebug_t336D2BD58472B9D2B5106CEEA11A598A0100BAB3* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_temporaryCachePath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_temporaryCachePath_mE4483A939988E69570C19F8B31AB9FB17B0FD97D (const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Boolean System.String::EndsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Int32 System.String::get_Length()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Substring(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
 // System.Boolean System.IO.Directory::Exists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.DateTime System.DateTime::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C (const RuntimeMethod* method) ;
 // System.Int32 System.DateTime::get_Year()
@@ -1068,13 +1168,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Minute_m73003491DA85D2C9
 // System.Int32 System.DateTime::get_Second()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DateTime_get_Second_mC860BA28DED65249BE9EA46E4898730C7828B3EA (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.IO.FileStream System.IO.File::Open(System.String,System.IO.FileMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64 (String_t* ___path0, int32_t ___mode1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_Open_m3C4C3B31523AC0687F60FFD1B0FD51F49161EB64 (String_t* ___0_path, int32_t ___1_mode, const RuntimeMethod* method) ;
 // System.Void System.IO.Stream::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Stream_Dispose_mCDB42F32A17541CCA6D3A5906827A401570B07A8 (Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* __this, const RuntimeMethod* method) ;
 // System.String System.Enum::ToString()
@@ -1095,7 +1195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m6191ABA3DC514ED47C1
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.Lib.MicBase::add_OnStartRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStartRecording_m10C53CCF4A09AEAADF3C75D68AB403D38E57C832 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStartRecording_m10C53CCF4A09AEAADF3C75D68AB403D38E57C832 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1116,7 +1216,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1138,7 +1238,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::remove_OnStartRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStartRecording_mB60835BF7745147BC433A3116FB071C782926DCB (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStartRecording_mB60835BF7745147BC433A3116FB071C782926DCB (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1159,7 +1259,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1181,7 +1281,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::add_OnStartRecordingFailed(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStartRecordingFailed_m8484CFFA0D0674750A4D95850ADBC48EE84E4B42 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStartRecordingFailed_m8484CFFA0D0674750A4D95850ADBC48EE84E4B42 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1202,7 +1302,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1224,7 +1324,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::remove_OnStartRecordingFailed(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStartRecordingFailed_m43EE6E55BE045408898922530D24877181812F86 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStartRecordingFailed_m43EE6E55BE045408898922530D24877181812F86 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1245,7 +1345,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1267,7 +1367,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::add_OnStopRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStopRecording_mD68E04121D4302BEF8200EE9237C73D9675D8A80 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnStopRecording_mD68E04121D4302BEF8200EE9237C73D9675D8A80 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1288,7 +1388,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1310,7 +1410,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::remove_OnStopRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStopRecording_m8E825D6BA242996A37FC51C57F2FA7AE5CCAA0DB (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnStopRecording_m8E825D6BA242996A37FC51C57F2FA7AE5CCAA0DB (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1331,7 +1431,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1353,7 +1453,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::add_OnSampleReady(System.Action`3<System.Int32,System.Single[],System.Single>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnSampleReady_m67931D5ECDBAF4D042DBCD9CBA75A86E94280D15 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_add_OnSampleReady_m67931D5ECDBAF4D042DBCD9CBA75A86E94280D15 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1374,7 +1474,7 @@ IL_0007:
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_1 = V_0;
 		V_1 = L_1;
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_2 = V_1;
-		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___value0;
+		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*)Castclass((RuntimeObject*)L_4, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8_il2cpp_TypeInfo_var));
@@ -1396,7 +1496,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::remove_OnSampleReady(System.Action`3<System.Int32,System.Single[],System.Single>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnSampleReady_m46FCC4548DEA40A12BC5FE73066FB5033C425E7C (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_remove_OnSampleReady_m46FCC4548DEA40A12BC5FE73066FB5033C425E7C (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1417,7 +1517,7 @@ IL_0007:
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_1 = V_0;
 		V_1 = L_1;
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_2 = V_1;
-		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___value0;
+		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*)Castclass((RuntimeObject*)L_4, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8_il2cpp_TypeInfo_var));
@@ -1448,11 +1548,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicBase_get_IsRecording_m1932DAC9EB4AC49
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::set_IsRecording(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsRecording { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsRecordingU3Ek__BackingField_8 = L_0;
 		return;
 	}
@@ -1498,11 +1598,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioEncoding_t98ED2D092A9829C604C73C3B611E2F
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::set_AudioEncoding(Meta.WitAi.Data.AudioEncoding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_set_AudioEncoding_m0697F2B0611BCA7E3944284617DC488A324B0F5B (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_set_AudioEncoding_m0697F2B0611BCA7E3944284617DC488A324B0F5B (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public AudioEncoding AudioEncoding { get; set; } = new AudioEncoding();
-		AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* L_0 = ___value0;
+		AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* L_0 = ___0_value;
 		__this->___U3CAudioEncodingU3Ek__BackingField_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAudioEncodingU3Ek__BackingField_9), (void*)L_0);
 		return;
@@ -1517,7 +1617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_CheckForInput_mAD8AF9CA31D4D31B8
 	}
 }
 // System.Void Meta.WitAi.Lib.MicBase::StartRecording(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_StartRecording_m0B0A2AFEEEF67415C64154B5BEDD03816A53FB60 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, int32_t ___sampleDurationMS0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase_StartRecording_m0B0A2AFEEEF67415C64154B5BEDD03816A53FB60 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, int32_t ___0_sampleDurationMS, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
@@ -1563,7 +1663,7 @@ IL_0030:
 		// IsRecording = true;
 		MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440_inline(__this, (bool)1, NULL);
 		// _reader = StartCoroutine(ReadRawAudio(sampleDurationMS));
-		int32_t L_5 = ___sampleDurationMS0;
+		int32_t L_5 = ___0_sampleDurationMS;
 		RuntimeObject* L_6;
 		L_6 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(25 /* System.Collections.IEnumerator Meta.WitAi.Lib.MicBase::ReadRawAudio(System.Int32) */, __this, L_5);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
@@ -1579,7 +1679,7 @@ IL_004b:
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.Lib.MicBase::ReadRawAudio(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MicBase_ReadRawAudio_m1E3FC1719BDEE3E0F485A9739C4B3FB972DBA2D7 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, int32_t ___sampleDurationMS0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MicBase_ReadRawAudio_m1E3FC1719BDEE3E0F485A9739C4B3FB972DBA2D7 (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, int32_t ___0_sampleDurationMS, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1596,7 +1696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* MicBase_ReadRawAudio_m1E3FC171
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		U3CReadRawAudioU3Ed__33_tD47A789B80123C0D0B6F16003161F4BA3B3328CC* L_2 = L_1;
-		int32_t L_3 = ___sampleDurationMS0;
+		int32_t L_3 = ___0_sampleDurationMS;
 		NullCheck(L_2);
 		L_2->___sampleDurationMS_2 = L_3;
 		return L_2;
@@ -1706,11 +1806,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase__ctor_m47A43E48E41DF06B384AB01F8
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.Lib.MicBase/<ReadRawAudio>d__33::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__33__ctor_mFD81112EEF51A24FFD91A887A8A343C9EB2A3F0E (U3CReadRawAudioU3Ed__33_tD47A789B80123C0D0B6F16003161F4BA3B3328CC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__33__ctor_mFD81112EEF51A24FFD91A887A8A343C9EB2A3F0E (U3CReadRawAudioU3Ed__33_tD47A789B80123C0D0B6F16003161F4BA3B3328CC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -2578,7 +2678,7 @@ IL_0050:
 	}
 }
 // System.Void Meta.WitAi.Lib.MicDebug::OnSampleReady(System.Int32,System.Single[],System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug_OnSampleReady_m45E38DF1C525FF7A6B37B3D54FED8C4EB76402E4 (MicDebug_t336D2BD58472B9D2B5106CEEA11A598A0100BAB3* __this, int32_t ___sampleCount0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___sample1, float ___levelMax2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug_OnSampleReady_m45E38DF1C525FF7A6B37B3D54FED8C4EB76402E4 (MicDebug_t336D2BD58472B9D2B5106CEEA11A598A0100BAB3* __this, int32_t ___0_sampleCount, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_sample, float ___2_levelMax, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2602,7 +2702,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug_OnSampleReady_m45E38DF1C525FF7A
 		}
 	}
 	{
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___sample1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1 = ___1_sample;
 		G_B3_0 = ((((RuntimeObject*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		goto IL_0010;
 	}
@@ -2638,7 +2738,7 @@ IL_001a:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = __this->____buffer_8;
 		NullCheck(L_4);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___sample1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_5 = ___1_sample;
 		NullCheck(L_5);
 		G_B8_0 = ((((int32_t)((((int32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))) == ((int32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_5)->max_length)), 2))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0037;
@@ -2660,7 +2760,7 @@ IL_0037:
 	}
 	{
 		// _buffer = new byte[sample.Length * BYTES_PER_SHORT];
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___sample1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_7 = ___1_sample;
 		NullCheck(L_7);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_7)->max_length)), 2)));
 		__this->____buffer_8 = L_8;
@@ -2677,7 +2777,7 @@ IL_004d:
 IL_0051:
 	{
 		// short data = (short) (sample[i] * FLOAT_TO_SHORT);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ___sample1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_9 = ___1_sample;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		int32_t L_11 = L_10;
@@ -2704,7 +2804,7 @@ IL_007e:
 	{
 		// for (int i = 0; i < sample.Length; i++)
 		int32_t L_20 = V_2;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = ___sample1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_21 = ___1_sample;
 		NullCheck(L_21);
 		V_4 = (bool)((((int32_t)L_20) < ((int32_t)((int32_t)(((RuntimeArray*)L_21)->max_length))))? 1 : 0);
 		bool L_22 = V_4;
@@ -2720,7 +2820,7 @@ IL_007e:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = __this->____buffer_8;
 		NullCheck(L_25);
 		NullCheck(L_23);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(33 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_23, L_24, 0, ((int32_t)(((RuntimeArray*)L_25)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_23, L_24, 0, ((int32_t)(((RuntimeArray*)L_25)->max_length)));
 	}
 
 IL_00a5:
@@ -2906,11 +3006,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440_inline (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MicBase_set_IsRecording_m6BE7224704263F47D676238B450B959AF8A03440_inline (MicBase_tD313E992DBB1F91D41FA69356826BA06449B8C8C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsRecording { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsRecordingU3Ek__BackingField_8 = L_0;
 		return;
 	}
@@ -2930,8 +3030,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, float ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, RuntimeObject*, float, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }

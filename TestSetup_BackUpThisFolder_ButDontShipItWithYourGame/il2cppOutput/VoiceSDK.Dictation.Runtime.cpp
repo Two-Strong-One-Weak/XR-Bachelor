@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -390,12 +389,6 @@ struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeO
 {
 };
 
-struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
-{
-	// T[] System.EmptyArray`1::Value
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
-};
-
 // UnityEngine.AndroidJavaObject
 struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
 {
@@ -404,13 +397,6 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public Run
 	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaObject::m_jclass
 	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
 };
-
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
-	bool ___enableDebugPrints_0;
-};
-struct Il2CppArrayBounds;
 
 // Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
 struct BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01  : public RuntimeObject
@@ -462,12 +448,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // UnityEngine.Events.UnityEventBase
@@ -600,14 +580,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // Meta.WitAi.Dictation.Events.DictationEvents
 struct DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC  : public EventRegistry_t712584F20910AAA2A4A85A34835BC58574C441FE
 {
@@ -656,12 +628,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl
 struct PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED  : public BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48
 {
@@ -705,26 +671,6 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___x_0;
 	// System.Single UnityEngine.Vector2::y
 	float ___y_1;
-};
-
-struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
-{
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
 };
 
 // Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
@@ -831,14 +777,6 @@ struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D  : public Runt
 	intptr_t ___proxyObject_1;
 };
 
-struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
-{
-	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
-	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
-	intptr_t ___s_HashCodeMethodID_3;
-};
-
 // System.Delegate
 struct Delegate_t  : public RuntimeObject
 {
@@ -914,12 +852,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -1102,6 +1034,272 @@ struct WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407  : public Dictatio
 	// Meta.WitAi.Events.VoiceEvents Meta.WitAi.Dictation.WitDictation::voiceEvents
 	VoiceEvents_t7755B8C2A9074FA12090CF7288E5512DFD225EA9* ___voiceEvents_7;
 };
+
+// <Module>
+
+// <Module>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKLoggerBinding>
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	// T[] System.EmptyArray`1::Value
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
+};
+
+// System.EmptyArray`1<System.Object>
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+};
+
+// UnityEngine.AndroidJavaObject
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Oculus.Voice.Core.Bindings.Android.BaseServiceBinding
+
+// Oculus.Voice.Dictation.Configuration.DictationConfiguration
+
+// Oculus.Voice.Dictation.Configuration.DictationConfiguration
+
+// Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding
+
+// Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding
+
+// Oculus.VoiceSDK.Dictation.Utilities.MicPermissionsManager
+
+// Oculus.VoiceSDK.Dictation.Utilities.MicPermissionsManager
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// Meta.WitAi.Configuration.WitRequestOptions
+
+// Meta.WitAi.Configuration.WitRequestOptions
+
+// Meta.WitAi.Json.WitResponseNode
+
+// Meta.WitAi.Json.WitResponseNode
+
+// Meta.WitAi.Configuration.WitRuntimeConfiguration
+
+// Meta.WitAi.Configuration.WitRuntimeConfiguration
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.Dictation.Data.DictationSession>
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.Dictation.Data.DictationSession>
+
+// UnityEngine.Events.UnityEvent`1<System.Single>
+
+// UnityEngine.Events.UnityEvent`1<System.Single>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.Json.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.Json.WitResponseNode>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// UnityEngine.Events.UnityEvent`2<System.String,System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// Meta.WitAi.Dictation.Events.DictationEvents
+
+// Meta.WitAi.Dictation.Events.DictationEvents
+
+// Meta.WitAi.Dictation.Data.DictationSession
+
+// Meta.WitAi.Dictation.Data.DictationSession
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding
+
+// System.Single
+
+// System.Single
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Events.UnityEvent
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl
+
+// System.Void
+
+// System.Void
+
+// Meta.WitAi.Configuration.WitDictationRuntimeConfiguration
+
+// Meta.WitAi.Configuration.WitDictationRuntimeConfiguration
+
+// UnityEngine.AndroidJavaProxy
+struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
+{
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
+	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
+	intptr_t ___s_HashCodeMethodID_3;
+};
+
+// UnityEngine.AndroidJavaProxy
+
+// System.Delegate
+
+// System.Delegate
+
+// Meta.WitAi.Dictation.Events.DictationSessionEvent
+
+// Meta.WitAi.Dictation.Events.DictationSessionEvent
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSession
+
+// Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSession
+
+// Meta.WitAi.Events.WitErrorEvent
+
+// Meta.WitAi.Events.WitErrorEvent
+
+// Meta.WitAi.Events.WitMicLevelChangedEvent
+
+// Meta.WitAi.Events.WitMicLevelChangedEvent
+
+// Meta.WitAi.Events.WitResponseEvent
+
+// Meta.WitAi.Events.WitResponseEvent
+
+// Meta.WitAi.Events.WitTranscriptionEvent
+
+// Meta.WitAi.Events.WitTranscriptionEvent
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding
+
+// Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.Dictation.Data.DictationSession>
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.Dictation.Data.DictationSession>
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.Json.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.Json.WitResponseNode>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// UnityEngine.Events.UnityAction`2<System.String,System.String>
+
+// System.Action
+
+// System.Action
+
+// UnityEngine.Events.UnityAction
+
+// UnityEngine.Events.UnityAction
+
+// Meta.WitAi.Data.Configuration.WitConfiguration
+
+// Meta.WitAi.Data.Configuration.WitConfiguration
+
+// Meta.WitAi.Dictation.DictationService
+
+// Meta.WitAi.Dictation.DictationService
+
+// Oculus.Voice.Dictation.AppDictationExperience
+
+// Oculus.Voice.Dictation.AppDictationExperience
+
+// Meta.WitAi.Dictation.WitDictation
+
+// Meta.WitAi.Dictation.WitDictation
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1147,60 +1345,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRunt
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Boolean>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, bool ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, bool ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Object>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, RuntimeObject* ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, RuntimeObject* ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Int32>(System.String,FieldType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, int32_t ___val1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, int32_t ___1_val, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::Invoke(T0,T1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___className0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_className, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___version0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, String_t* ___0_version, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<System.Object>::Disconnect()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared (BaseAndroidConnectionImpl_1_tA4C3B58831127678BDD16C6E068700A8CC5FFF88* __this, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 
 // System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Configuration.WitRuntimeConfiguration::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRuntimeConfiguration__ctor_mE05E2ACD079B168574B81B0A71CD8AEE05FE752F (WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Android.Permission::HasUserAuthorizedPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___permission0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___0_permission, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Android.Permission::RequestUserPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___permission0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___0_permission, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Dictation.AppDictationExperience::get_HasPlatformIntegrations()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_HasPlatformIntegrations_m96F5733B679B7D82962363D56AC61982F513E115 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::InitDictation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_InitDictation_m344E3985F74EC73B8BE8D548D4E43E65D9BF25FB (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Dictation.AppDictationExperience::get_UsePlatformIntegrations()
@@ -1208,9 +1406,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool AppDictationExperience_get_U
 // System.Void Oculus.Voice.Core.Bindings.Android.PlatformLogger.VoiceSDKPlatformLoggerImpl::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VoiceSDKPlatformLoggerImpl__ctor_mB98388D0B9F59FF41DA4D886AF2BE550F914E2DF (VoiceSDKPlatformLoggerImpl_tBAA8C01C9FBD0E25B084121DD1701BC00F0E0993* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::.ctor(Meta.WitAi.Dictation.IDictationService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl__ctor_m7E9C4E26243EEAF4CE4DB76A826C5AD845380E0E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___dictationService0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl__ctor_m7E9C4E26243EEAF4CE4DB76A826C5AD845380E0E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___0_dictationService, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Boolean Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::get_PlatformSupportsDictation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlatformDictationImpl_get_PlatformSupportsDictation_m19F01D2572236857FC5DC1408F301DA5A1C9CA82 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, const RuntimeMethod* method) ;
 // Meta.WitAi.Dictation.Events.DictationEvents Meta.WitAi.Dictation.DictationService::get_DictationEvents()
@@ -1218,7 +1416,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DictationEvents_t6745E4BAB771187F
 // Meta.WitAi.Configuration.WitDictationRuntimeConfiguration Oculus.Voice.Dictation.AppDictationExperience::get_RuntimeDictationConfiguration()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* AppDictationExperience_get_RuntimeDictationConfiguration_m900D587785FABCE2B3357207677DF075A0ED31EB_inline (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::SetDictationRuntimeConfiguration(Meta.WitAi.Configuration.WitDictationRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_SetDictationRuntimeConfiguration_mDFFFC4F7B2A9E1ED367703743065F193C678980E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_SetDictationRuntimeConfiguration_mDFFFC4F7B2A9E1ED367703743065F193C678980E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_configuration, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::RevertToWitDictation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_RevertToWitDictation_m52DCF19FE49B2A56B218E560FAFE2C6A0BCB5042 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, const RuntimeMethod* method) ;
 // System.String Meta.WitAi.Data.Configuration.WitConfiguration::GetLoggerAppId()
@@ -1231,7 +1429,7 @@ inline WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* Component_GetComp
 	return ((  WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<Meta.WitAi.Dictation.WitDictation>()
@@ -1240,11 +1438,11 @@ inline WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* GameObject_AddCom
 	return ((  WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
 // System.Void UnityEngine.Object::set_hideFlags(UnityEngine.HideFlags)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_hideFlags_mACB8BFC903FB3B01BBD427753E791BF28B5E33D4 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Dictation.WitDictation::set_RuntimeConfiguration(Meta.WitAi.Configuration.WitRuntimeConfiguration)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConfiguration_m5A2175C6DC4A2C23207F8825498E45D41B946619_inline (WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* __this, WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConfiguration_m5A2175C6DC4A2C23207F8825498E45D41B946619_inline (WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* __this, WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Dictation.DictationService::set_DictationEvents(Meta.WitAi.Dictation.Events.DictationEvents)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_DictationEvents_mD1DAAEA17A092E58DE1DD666C58CB673762BC40E_inline (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_DictationEvents_mD1DAAEA17A092E58DE1DD666C58CB673762BC40E_inline (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Dictation.DictationService::OnEnable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationService_OnEnable_m9F359DBD0CCD1D5F2670FC7A2089ECD12263D514 (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, const RuntimeMethod* method) ;
 // System.Boolean Oculus.VoiceSDK.Dictation.Utilities.MicPermissionsManager::HasMicPermission()
@@ -1252,55 +1450,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MicPermissionsManager_HasMicPermission_m
 // System.Void Oculus.VoiceSDK.Dictation.Utilities.MicPermissionsManager::RequestMicPermission()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicPermissionsManager_RequestMicPermission_m6DE7AB30E29FB50A9423F1091FFF526E177760ED (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction__ctor_mC53E20D6B66E0D5688CD81B88DBB34F5A58B7131 (UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_AddListener_m8AA4287C16628486B41DA41CA5E7A856A706D302 (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Meta.WitAi.Json.WitResponseNode>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_m8B1FC56332BDF48F305E5F292D2F751AAC2A90EE (UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_m8B1FC56332BDF48F305E5F292D2F751AAC2A90EE (UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.Json.WitResponseNode>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_m03EDE8CB25D09EA569869E869DC2554E4D9E2F55 (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D* __this, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_m03EDE8CB25D09EA569869E869DC2554E4D9E2F55 (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D* __this, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D*, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D*, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`2<System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_m1C937A45A2857F3199CB7182AD45A0D2AEA0A2BF (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_AddListener_m1F3FE6BD9D4A9C57206FB67E9CE9C277BF3557DE (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`1<Meta.WitAi.Dictation.Data.DictationSession>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_m9B852720B3892EEF6BE1680C7316572DB4F523E8 (UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_m9B852720B3892EEF6BE1680C7316572DB4F523E8 (UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.Dictation.Data.DictationSession>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_m75B895A9005FCD56C5370127F7B36B01518BAA7A (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_m75B895A9005FCD56C5370127F7B36B01518BAA7A (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent::RemoveListener(UnityEngine.Events.UnityAction)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_RemoveListener_m0E138F5575CB4363019D3DA570E98FAD502B812C (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* __this, UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.Json.WitResponseNode>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m84C07A346FB285EE2C1488B1F0D69BC6557E8D54 (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D* __this, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m84C07A346FB285EE2C1488B1F0D69BC6557E8D54 (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D* __this, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D*, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t3DC4F1FBCED8AF76C18EC16A2B55C43FBAE5E62D*, UnityAction_1_t7814257576DA9D92A82FF91BA3EE537553AC1BC8*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_RemoveListener_mF064823D14A8A7CC3CE23E401348A847A18FF7CF (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, UnityAction_2_t0DBAE2B43FD6E30FC19DDEB9BE926A3402202A83*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.Dictation.Data.DictationSession>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_m6C14CDD6E4207F372B94FE73D13F068634F11046 (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_m6C14CDD6E4207F372B94FE73D13F068634F11046 (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, UnityAction_1_tF3CE43E7741B5782B8BDF94FF3580C14E655E695*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void Meta.WitAi.Dictation.DictationService::OnDisable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationService_OnDisable_m844C346816A56ADC5BD00D0CCB1F1521C5D1AB8B (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, const RuntimeMethod* method) ;
@@ -1309,13 +1507,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR WitRuntimeConfiguration_t9724E21E
 // System.Void Meta.WitAi.Configuration.WitRequestOptions::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitRequestOptions__ctor_mE0690E218F01FC193447FCFACBD3A3BFF60AADCF (WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* __this, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Json.WitResponseNode::op_Inequality(Meta.WitAi.Json.WitResponseNode,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Inequality_mB890519AF1C832EC1EEB1644A5B0E1D0F4C324F9 (WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___a0, RuntimeObject* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitResponseNode_op_Inequality_mB890519AF1C832EC1EEB1644A5B0E1D0F4C324F9 (WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___0_a, RuntimeObject* ___1_b, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Dictation.DictationService::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationService__ctor_m9AFD7A256F383D33C9825760C202FC53263EFD3F (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Configuration.DictationConfiguration::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfiguration__ctor_mBC95CB49A1217571897B1407FF0F03E1C79BD3B4 (DictationConfiguration_t5ED65C60FC8795303E51480340815D29DE1C5A36* __this, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
@@ -1324,24 +1522,24 @@ inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRu
 	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
 }
 // System.Void UnityEngine.AndroidJavaObject::.ctor(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___className0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject__ctor_m5A65B5D325C2CEFAC4097A0D3813F8E158178DD7 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_className, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Boolean>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, bool ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, bool ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, bool, const RuntimeMethod*))AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, bool, const RuntimeMethod*))AndroidJavaObject_Set_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m1C70D480560CA0D0C171727EB7B1FF4C1F267F15_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<System.String>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisString_t_mC45E99DE5239B327CDD9B412DEADE7EA827797DE (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, String_t* ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisString_t_mC45E99DE5239B327CDD9B412DEADE7EA827797DE (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, String_t* ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, String_t*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, String_t*, const RuntimeMethod*))AndroidJavaObject_Set_TisRuntimeObject_m03148F756DBB615CB512097333F869C88D4D767A_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaObject::Set<System.Int32>(System.String,FieldType)
-inline void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, int32_t ___val1, const RuntimeMethod* method)
+inline void AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, int32_t ___1_val, const RuntimeMethod* method)
 {
-	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, int32_t, const RuntimeMethod*))AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared)(__this, ___fieldName0, ___val1, method);
+	((  void (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, int32_t, const RuntimeMethod*))AndroidJavaObject_Set_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m4BE09BF2FD0695C38B40120A43296C6808B0F31F_gshared)(__this, ___0_fieldName, ___1_val, method);
 }
 // System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___javaInterface0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___0_javaInterface, const RuntimeMethod* method) ;
 // Meta.WitAi.Dictation.Events.DictationEvents Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::get_DictationEvents()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* DictationListenerBinding_get_DictationEvents_m88907BB7E71A12D937E49804417779BAB2FD7948 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent::Invoke()
@@ -1349,29 +1547,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_Invoke_mFBF80D59B03C30C5FE6A0
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSession::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSession__ctor_mE25FD457E28701E01E016212ED5D4F516791BAC7 (PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.Dictation.Data.DictationSession>::Invoke(T0)
-inline void UnityEvent_1_Invoke_m9FBFA814B6BD08FF54FAB6B217CD0D1CD7821B59 (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_m9FBFA814B6BD08FF54FAB6B217CD0D1CD7821B59 (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356* __this, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_t28CBA41B8B0574B5E1848D4A3DF73736EBEBB356*, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<System.Single>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805 (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4* __this, float ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, float, const RuntimeMethod*))UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tDD811EB8F49CEE97BA6DF59344DFE6C6F42553D4*, float, const RuntimeMethod*))UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_gshared)(__this, ___0_arg0, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<System.String,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645 (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, String_t* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645 (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50* __this, String_t* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_t71C350611CC2C5B350589972D791938B5D41AB50*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding>::.ctor(System.String)
-inline void BaseAndroidConnectionImpl_1__ctor_mEAABB6C9CBF80D1D5F33190BB253AB2781B7B6A8 (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48* __this, String_t* ___className0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1__ctor_mEAABB6C9CBF80D1D5F33190BB253AB2781B7B6A8 (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48* __this, String_t* ___0_className, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___className0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1__ctor_m5CFBE8EB62AD96BE0AA2420148E2E1A9E36DFE80_gshared)(__this, ___0_className, method);
 }
 // System.Boolean Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::get_IsSupported()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlatformDictationSDKBinding_get_IsSupported_mC4918CEE3EB280D63BE53242F3BADD87508113FF (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, const RuntimeMethod* method) ;
@@ -1380,38 +1578,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlatformDictationSDKBinding_get_Active_m
 // System.Boolean Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::get_IsRequestActive()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlatformDictationSDKBinding_get_IsRequestActive_m57E2048111202726875018082506FC4EC1F8AD5B (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding>::Connect(System.String)
-inline void BaseAndroidConnectionImpl_1_Connect_m7E3034C832613BABA67391CCD88C5AA6E658787B (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48* __this, String_t* ___version0, const RuntimeMethod* method)
+inline void BaseAndroidConnectionImpl_1_Connect_m7E3034C832613BABA67391CCD88C5AA6E658787B (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48* __this, String_t* ___0_version, const RuntimeMethod* method)
 {
-	((  void (*) (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___version0, method);
+	((  void (*) (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48*, String_t*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Connect_m067CDFCA738027D352218CBE339841C1F2160217_gshared)(__this, ___0_version, method);
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::.ctor(Meta.WitAi.Dictation.IDictationService,Oculus.Voice.Dictation.Bindings.Android.IServiceEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00FA417F88E54F43A079738C25C72B615F9 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, RuntimeObject* ___dictationService0, RuntimeObject* ___serviceEvents1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00FA417F88E54F43A079738C25C72B615F9 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, RuntimeObject* ___0_dictationService, RuntimeObject* ___1_serviceEvents, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::SetListener(Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_SetListener_m419278FADF41DEA36190DCB67FFDEAA4A66A5C38 (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* ___listenerBinding0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_SetListener_m419278FADF41DEA36190DCB67FFDEAA4A66A5C38 (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* ___0_listenerBinding, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseAndroidConnectionImpl`1<Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding>::Disconnect()
 inline void BaseAndroidConnectionImpl_1_Disconnect_mF9DFF21AAA9FD3BB4240AF484C5C69D7845C9644 (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48* __this, const RuntimeMethod* method)
 {
 	((  void (*) (BaseAndroidConnectionImpl_1_t6C7D03F22E0D1A865E095B0104B6A3C2195DBA48*, const RuntimeMethod*))BaseAndroidConnectionImpl_1_Disconnect_mB2193E1A3D66A2F285F9DA739210A4A3AAACD61F_gshared)(__this, method);
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding::.ctor(Meta.WitAi.Configuration.WitDictationRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C44B701839423EA3C8343430BAD90708B22CB56 (DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___runtimeConfiguration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C44B701839423EA3C8343430BAD90708B22CB56 (DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_runtimeConfiguration, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::StartDictation(Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StartDictation_m57467F1B7BCB1953C9A2F0D1F9F0ED9C44A00BAB (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StartDictation_m57467F1B7BCB1953C9A2F0D1F9F0ED9C44A00BAB (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* ___0_configuration, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::Activate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Activate_mD26F47C5BF1817199A2750D24B8C680AF8831CA9 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::StopDictation()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StopDictation_mDEFCAE5BD7A46B706E824901BB18DE0753DA8455 (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
-inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline bool AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_Call_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_m05D3284A3FA772D032190A0FE82363C61000F1DF_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Void Oculus.Voice.Core.Bindings.Android.BaseServiceBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20 (BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) ;
 // UnityEngine.AndroidJavaObject Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding::ToJavaObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* DictationConfigurationBinding_ToJavaObject_mA27A25EA3A929BA57E1AAEBF2B71E03435644271 (DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::Call(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Dictation.Data.DictationSession::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationSession__ctor_m9B95E1111F60E6D443065FA7A37B09790A887AE4 (DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* __this, const RuntimeMethod* method) ;
 #ifdef __clang__
@@ -1530,18 +1728,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitDictationRuntimeConfiguration_t8330D272942
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::set_RuntimeDictationConfiguration(Meta.WitAi.Configuration.WitDictationRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_RuntimeDictationConfiguration_m070A8A2BD4614CF601287971127EE652CE2F1822 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_RuntimeDictationConfiguration_m070A8A2BD4614CF601287971127EE652CE2F1822 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => runtimeConfiguration = value;
-		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___value0;
+		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___0_value;
 		__this->___runtimeConfiguration_5 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___runtimeConfiguration_5), (void*)L_0);
 		return;
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::add_OnInitialized(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_add_OnInitialized_mE9211FDB52898395EF70B602BBB44432210AF918 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_add_OnInitialized_mE9211FDB52898395EF70B602BBB44432210AF918 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1562,7 +1760,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1584,7 +1782,7 @@ IL_0007:
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::remove_OnInitialized(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_remove_OnInitialized_m5E2C91A2B122CCC4891CCBAC09C5254399DE4A38 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_remove_OnInitialized_m5E2C91A2B122CCC4891CCBAC09C5254399DE4A38 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1605,7 +1803,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1670,7 +1868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AppDictationExperience_get_UsePlatformIn
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::set_UsePlatformIntegrations(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_UsePlatformIntegrations_mD6D4C4AC07C5EEF299508DCF8805D213CF870A90 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_UsePlatformIntegrations_mD6D4C4AC07C5EEF299508DCF8805D213CF870A90 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1687,7 +1885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_UsePlatformIn
 	{
 		// if (usePlatformServices != value || HasPlatformIntegrations != value)
 		bool L_0 = __this->___usePlatformServices_6;
-		bool L_1 = ___value0;
+		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
 			goto IL_0018;
@@ -1696,7 +1894,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_UsePlatformIn
 	{
 		bool L_2;
 		L_2 = AppDictationExperience_get_HasPlatformIntegrations_m96F5733B679B7D82962363D56AC61982F513E115(__this, NULL);
-		bool L_3 = ___value0;
+		bool L_3 = ___0_value;
 		G_B3_0 = ((((int32_t)((((int32_t)L_2) == ((int32_t)L_3))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0019;
 	}
@@ -1717,7 +1915,7 @@ IL_0019:
 	}
 	{
 		// usePlatformServices = value;
-		bool L_5 = ___value0;
+		bool L_5 = ___0_value;
 		__this->___usePlatformServices_6 = L_5;
 		// Debug.Log($"{(usePlatformServices ? "Enabling" : "Disabling")} platform integration.");
 		bool L_6 = __this->___usePlatformServices_6;
@@ -2437,7 +2635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AppDictationExperience_get_Tra
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::set_TranscriptionProvider(Meta.WitAi.Interfaces.ITranscriptionProvider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_TranscriptionProvider_mB3AC149E64D1F23AD91D1FB5785F13C154AA9328 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_TranscriptionProvider_mB3AC149E64D1F23AD91D1FB5785F13C154AA9328 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2448,7 +2646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_set_Transcription
 	{
 		// set => _dictationServiceImpl.TranscriptionProvider = value;
 		RuntimeObject* L_0 = __this->____dictationServiceImpl_8;
-		RuntimeObject* L_1 = ___value0;
+		RuntimeObject* L_1 = ___0_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< RuntimeObject* >::Invoke(4 /* System.Void Meta.WitAi.Dictation.IDictationService::set_TranscriptionProvider(Meta.WitAi.Interfaces.ITranscriptionProvider) */, IDictationService_tB2BC91A139297C3D8A0A27B32EC92B14437C8F10_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
@@ -2544,7 +2742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Activate_m4B6A836
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::Activate(Meta.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Activate_m680E581405F1961372BB2B4EF2C4DCB63D68D4DF (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Activate_m680E581405F1961372BB2B4EF2C4DCB63D68D4DF (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2557,14 +2755,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Activate_m680E581
 	{
 		// _voiceSDKLogger.LogInteractionStart(requestOptions.requestID, "dictation");
 		RuntimeObject* L_0 = __this->____voiceSDKLogger_9;
-		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_1 = ___requestOptions0;
+		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_1 = ___0_requestOptions;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___requestID_3;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(6 /* System.Void Oculus.Voice.Core.Bindings.Interfaces.IVoiceSDKLogger::LogInteractionStart(System.String,System.String) */, IVoiceSDKLogger_t8A0710A01D6E9FAA8D2FFE4190C3BD848CA655C0_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral24A11203BE0B847E4A17BDD8D12EA3B8E5F4101F);
 		// _dictationServiceImpl.Activate(requestOptions);
 		RuntimeObject* L_3 = __this->____dictationServiceImpl_8;
-		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_4 = ___requestOptions0;
+		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_4 = ___0_requestOptions;
 		NullCheck(L_3);
 		InterfaceActionInvoker1< WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* >::Invoke(8 /* System.Void Meta.WitAi.Dictation.IDictationService::Activate(Meta.WitAi.Configuration.WitRequestOptions) */, IDictationService_tB2BC91A139297C3D8A0A27B32EC92B14437C8F10_il2cpp_TypeInfo_var, L_3, L_4);
 		// }
@@ -2591,7 +2789,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_ActivateImmediate
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::ActivateImmediately(Meta.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_ActivateImmediately_m370F92664562948AAC37EC0D4EDB6BF07DE62CC3 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_ActivateImmediately_m370F92664562948AAC37EC0D4EDB6BF07DE62CC3 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2604,14 +2802,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_ActivateImmediate
 	{
 		// _voiceSDKLogger.LogInteractionStart(requestOptions.requestID, "dictation");
 		RuntimeObject* L_0 = __this->____voiceSDKLogger_9;
-		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_1 = ___requestOptions0;
+		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_1 = ___0_requestOptions;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___requestID_3;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(6 /* System.Void Oculus.Voice.Core.Bindings.Interfaces.IVoiceSDKLogger::LogInteractionStart(System.String,System.String) */, IVoiceSDKLogger_t8A0710A01D6E9FAA8D2FFE4190C3BD848CA655C0_il2cpp_TypeInfo_var, L_0, L_2, _stringLiteral24A11203BE0B847E4A17BDD8D12EA3B8E5F4101F);
 		// _dictationServiceImpl.ActivateImmediately(requestOptions);
 		RuntimeObject* L_3 = __this->____dictationServiceImpl_8;
-		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_4 = ___requestOptions0;
+		WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* L_4 = ___0_requestOptions;
 		NullCheck(L_3);
 		InterfaceActionInvoker1< WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* >::Invoke(10 /* System.Void Meta.WitAi.Dictation.IDictationService::ActivateImmediately(Meta.WitAi.Configuration.WitRequestOptions) */, IDictationService_tB2BC91A139297C3D8A0A27B32EC92B14437C8F10_il2cpp_TypeInfo_var, L_3, L_4);
 		// }
@@ -2655,7 +2853,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_Cancel_m24596723A
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::OnWitResponseListener(Meta.WitAi.Json.WitResponseNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnWitResponseListener_m630A5588CDB5D18871A8B5B0D9A954D1BB746C83 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___witResponseNode0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnWitResponseListener_m630A5588CDB5D18871A8B5B0D9A954D1BB746C83 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___0_witResponseNode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2681,7 +2879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnWitResponseList
 	WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* G_B9_0 = NULL;
 	{
 		// var tokens = witResponseNode?["speech"]?["tokens"];
-		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_0 = ___witResponseNode0;
+		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_0 = ___0_witResponseNode;
 		if (L_0)
 		{
 			goto IL_0007;
@@ -2694,7 +2892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnWitResponseList
 
 IL_0007:
 	{
-		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_1 = ___witResponseNode0;
+		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_1 = ___0_witResponseNode;
 		NullCheck(L_1);
 		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_2;
 		L_2 = VirtualFuncInvoker1< WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C*, String_t* >::Invoke(7 /* Meta.WitAi.Json.WitResponseNode Meta.WitAi.Json.WitResponseNode::get_Item(System.String) */, L_1, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
@@ -2741,7 +2939,7 @@ IL_0023:
 		L_9 = VirtualFuncInvoker0< int32_t >::Invoke(11 /* System.Int32 Meta.WitAi.Json.WitResponseNode::get_Count() */, L_8);
 		V_2 = L_9;
 		// string speechLength = witResponseNode["speech"]["tokens"][speechTokensLength - 1]?["end"]?.Value;
-		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_10 = ___witResponseNode0;
+		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_10 = ___0_witResponseNode;
 		NullCheck(L_10);
 		WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* L_11;
 		L_11 = VirtualFuncInvoker1< WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C*, String_t* >::Invoke(7 /* Meta.WitAi.Json.WitResponseNode Meta.WitAi.Json.WitResponseNode::get_Item(System.String) */, L_10, _stringLiteralEE1EF95F5D04D20EF4C7CF4CAB5C1D4027F8F1AB);
@@ -2812,7 +3010,7 @@ IL_0085:
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::OnError(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnError_mC8BF7088C5D4FE8374B532E63447E32DE30D6FFA (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, String_t* ___errorType0, String_t* ___errorMessage1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnError_mC8BF7088C5D4FE8374B532E63447E32DE30D6FFA (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, String_t* ___0_errorType, String_t* ___1_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2824,8 +3022,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnError_mC8BF7088
 	{
 		// _voiceSDKLogger.LogInteractionEndFailure($"{errorType}:{errorMessage}");
 		RuntimeObject* L_0 = __this->____voiceSDKLogger_9;
-		String_t* L_1 = ___errorType0;
-		String_t* L_2 = ___errorMessage1;
+		String_t* L_1 = ___0_errorType;
+		String_t* L_2 = ___1_errorMessage;
 		String_t* L_3;
 		L_3 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_1, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_2, NULL);
 		NullCheck(L_0);
@@ -2895,7 +3093,7 @@ IL_002f:
 	}
 }
 // System.Void Oculus.Voice.Dictation.AppDictationExperience::OnDictationSessionStarted(Meta.WitAi.Dictation.Data.DictationSession)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDictationSessionStarted_mCBE9502C0605037F06D27B27FA19E3E5A569D1C4 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* ___session0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDictationSessionStarted_mCBE9502C0605037F06D27B27FA19E3E5A569D1C4 (AppDictationExperience_t98BF0BE35FF8640B3D7F63323F222AC5B7242F42* __this, DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* ___0_session, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2909,7 +3107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience_OnDictationSessio
 	bool V_1 = false;
 	{
 		// if (session is PlatformDictationSession platformDictationSession)
-		DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* L_0 = ___session0;
+		DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D* L_0 = ___0_session;
 		V_0 = ((PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D*)IsInstClass((RuntimeObject*)L_0, PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D_il2cpp_TypeInfo_var));
 		PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D* L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -2961,7 +3159,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AppDictationExperience__ctor_mECA4F8793D
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding::.ctor(Meta.WitAi.Configuration.WitDictationRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C44B701839423EA3C8343430BAD90708B22CB56 (DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___runtimeConfiguration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C44B701839423EA3C8343430BAD90708B22CB56 (DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_runtimeConfiguration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2978,7 +3176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C4
 		// public DictationConfigurationBinding(WitDictationRuntimeConfiguration runtimeConfiguration)
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// if (null == runtimeConfiguration)
-		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___runtimeConfiguration0;
+		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___0_runtimeConfiguration;
 		V_0 = (bool)((((RuntimeObject*)(WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -3002,13 +3200,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfigurationBinding__ctor_m2C4
 IL_0035:
 	{
 		// _dictationConfiguration = runtimeConfiguration.dictationConfiguration;
-		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_3 = ___runtimeConfiguration0;
+		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_3 = ___0_runtimeConfiguration;
 		NullCheck(L_3);
 		DictationConfiguration_t5ED65C60FC8795303E51480340815D29DE1C5A36* L_4 = L_3->___dictationConfiguration_13;
 		__this->____dictationConfiguration_1 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dictationConfiguration_1), (void*)L_4);
 		// _runtimeConfiguration = runtimeConfiguration;
-		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_5 = ___runtimeConfiguration0;
+		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_5 = ___0_runtimeConfiguration;
 		__this->____runtimeConfiguration_0 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____runtimeConfiguration_0), (void*)L_5);
 	}
@@ -3152,7 +3350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DictationEvents_t6745E4BAB771187F75B1FC8BF3A0
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::.ctor(Meta.WitAi.Dictation.IDictationService,Oculus.Voice.Dictation.Bindings.Android.IServiceEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00FA417F88E54F43A079738C25C72B615F9 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, RuntimeObject* ___dictationService0, RuntimeObject* ___serviceEvents1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00FA417F88E54F43A079738C25C72B615F9 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, RuntimeObject* ___0_dictationService, RuntimeObject* ___1_serviceEvents, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3166,11 +3364,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00F
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteralA9D9C721B449B77D63B038C7A2F8E4F79C9EA02F, NULL);
 		// _dictationService = dictationService;
-		RuntimeObject* L_0 = ___dictationService0;
+		RuntimeObject* L_0 = ___0_dictationService;
 		__this->____dictationService_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dictationService_4), (void*)L_0);
 		// _serviceEvents = serviceEvents;
-		RuntimeObject* L_1 = ___serviceEvents1;
+		RuntimeObject* L_1 = ___1_serviceEvents;
 		__this->____serviceEvents_5 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____serviceEvents_5), (void*)L_1);
 		// }
@@ -3178,7 +3376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding__ctor_mB1A0C00F
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onStart(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onStart_mADF0D9B9EF64586C7A40AC09C1D6A614021C8F71 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onStart_mADF0D9B9EF64586C7A40AC09C1D6A614021C8F71 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3232,7 +3430,7 @@ IL_0018:
 		((DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*)L_4)->___dictationService_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*)L_4)->___dictationService_3), (void*)L_5);
 		PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D* L_6 = L_4;
-		String_t* L_7 = ___sessionId0;
+		String_t* L_7 = ___0_sessionId;
 		NullCheck(L_6);
 		L_6->___platformSessionId_6 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___platformSessionId_6), (void*)L_7);
@@ -3268,7 +3466,7 @@ IL_0049:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onMicAudioLevel(System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onMicAudioLevel_mFDC1C8098D566E69E083BBB174B9D54308DA4FBB (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, int32_t ___micLevel1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onMicAudioLevel_mFDC1C8098D566E69E083BBB174B9D54308DA4FBB (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, int32_t ___1_micLevel, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3298,7 +3496,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onMicAudioLevel
 
 IL_0012:
 	{
-		int32_t L_3 = ___micLevel1;
+		int32_t L_3 = ___1_micLevel;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(G_B2_0, ((float)(((float)L_3)/(100.0f))), UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
 	}
@@ -3310,7 +3508,7 @@ IL_0020:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onPartialTranscription(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onPartialTranscription_m45E764FDFC7C71494B05BD82300BEB4748EBA8CE (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, String_t* ___transcription1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onPartialTranscription_m45E764FDFC7C71494B05BD82300BEB4748EBA8CE (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, String_t* ___1_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3340,7 +3538,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onPartialTransc
 
 IL_0012:
 	{
-		String_t* L_3 = ___transcription1;
+		String_t* L_3 = ___1_transcription;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B2_0, L_3, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
 	}
@@ -3352,7 +3550,7 @@ IL_0019:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onFinalTranscription(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onFinalTranscription_m863B1BDDA6D247FE55110F5AAC6C49F2563616C3 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, String_t* ___transcription1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onFinalTranscription_m863B1BDDA6D247FE55110F5AAC6C49F2563616C3 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, String_t* ___1_transcription, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3382,7 +3580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onFinalTranscri
 
 IL_0012:
 	{
-		String_t* L_3 = ___transcription1;
+		String_t* L_3 = ___1_transcription;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15(G_B2_0, L_3, UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15_RuntimeMethod_var);
 	}
@@ -3394,7 +3592,7 @@ IL_0019:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onError(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onError_m697275CCFBC0E8C4589F441D62BFF42B8D128362 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, String_t* ___errorType1, String_t* ___errorMessage2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onError_m697275CCFBC0E8C4589F441D62BFF42B8D128362 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, String_t* ___1_errorType, String_t* ___2_errorMessage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3424,8 +3622,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onError_m697275
 
 IL_0012:
 	{
-		String_t* L_3 = ___errorType1;
-		String_t* L_4 = ___errorMessage2;
+		String_t* L_3 = ___1_errorType;
+		String_t* L_4 = ___2_errorMessage;
 		NullCheck(G_B2_0);
 		UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645(G_B2_0, L_3, L_4, UnityEvent_2_Invoke_m40308708481154EFE4E59A5787D5CB02DC8B5645_RuntimeMethod_var);
 	}
@@ -3437,7 +3635,7 @@ IL_001a:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onStopped(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onStopped_mA9F31376AD731FCF9C558646E11D3A2053F5F9DF (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___sessionId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onStopped_mA9F31376AD731FCF9C558646E11D3A2053F5F9DF (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_sessionId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3491,7 +3689,7 @@ IL_0018:
 		((DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*)L_4)->___dictationService_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((DictationSession_tD5DEAD00ADA69A7134F920A37933B042F4D3E74D*)L_4)->___dictationService_3), (void*)L_5);
 		PlatformDictationSession_t6B6C3E845DC5E636C4F406F46A5E13C55B135F2D* L_6 = L_4;
-		String_t* L_7 = ___sessionId0;
+		String_t* L_7 = ___0_sessionId;
 		NullCheck(L_6);
 		L_6->___platformSessionId_6 = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___platformSessionId_6), (void*)L_7);
@@ -3527,7 +3725,7 @@ IL_0049:
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding::onServiceNotAvailable(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onServiceNotAvailable_mD9170F060A2CCF3DA75814AA980726E4F774EAD7 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___error0, String_t* ___message1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onServiceNotAvailable_mD9170F060A2CCF3DA75814AA980726E4F774EAD7 (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* __this, String_t* ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3543,8 +3741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onServiceNotAva
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral813EAED53B08F73CCB784F375C322C4FA878F945, NULL);
 		// _serviceEvents.OnServiceNotAvailable(error, message);
 		RuntimeObject* L_0 = __this->____serviceEvents_5;
-		String_t* L_1 = ___error0;
-		String_t* L_2 = ___message1;
+		String_t* L_1 = ___0_error;
+		String_t* L_2 = ___1_message;
 		NullCheck(L_0);
 		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(0 /* System.Void Oculus.Voice.Dictation.Bindings.Android.IServiceEvents::OnServiceNotAvailable(System.String,System.String) */, IServiceEvents_tE4D782832204C070F3C292EED605C52935EB5CAE_il2cpp_TypeInfo_var, L_0, L_1, L_2);
 		// }
@@ -3560,7 +3758,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationListenerBinding_onServiceNotAva
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::.ctor(Meta.WitAi.Dictation.IDictationService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl__ctor_m7E9C4E26243EEAF4CE4DB76A826C5AD845380E0E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___dictationService0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl__ctor_m7E9C4E26243EEAF4CE4DB76A826C5AD845380E0E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___0_dictationService, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3575,7 +3773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl__ctor_m7E9C4E26243
 		// : base("com.oculus.assistant.api.unity.dictation.UnityDictationServiceFragment")
 		BaseAndroidConnectionImpl_1__ctor_mEAABB6C9CBF80D1D5F33190BB253AB2781B7B6A8(__this, _stringLiteral816B8FF6B9854A49D2F73CF1BA6D31E9C28CA6CF, BaseAndroidConnectionImpl_1__ctor_mEAABB6C9CBF80D1D5F33190BB253AB2781B7B6A8_RuntimeMethod_var);
 		// _baseService = dictationService;
-		RuntimeObject* L_0 = ___dictationService0;
+		RuntimeObject* L_0 = ___0_dictationService;
 		__this->____baseService_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____baseService_3), (void*)L_0);
 		// }
@@ -3659,11 +3857,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* PlatformDictationImpl_get_Tran
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::set_TranscriptionProvider(Meta.WitAi.Interfaces.ITranscriptionProvider)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_set_TranscriptionProvider_m89BEBC0C48D6A22AF88FBEAC02D30B9404F2C8EB (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_set_TranscriptionProvider_m89BEBC0C48D6A22AF88FBEAC02D30B9404F2C8EB (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, RuntimeObject* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public ITranscriptionProvider TranscriptionProvider { get; set; }
-		RuntimeObject* L_0 = ___value0;
+		RuntimeObject* L_0 = ___0_value;
 		__this->___U3CTranscriptionProviderU3Ek__BackingField_7 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTranscriptionProviderU3Ek__BackingField_7), (void*)L_0);
 		return;
@@ -3688,7 +3886,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DictationEvents_t6745E4BAB771187F75B1FC8BF3A0
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::set_DictationEvents(Meta.WitAi.Dictation.Events.DictationEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_set_DictationEvents_m6DCE4C4D314F31CACF273C58634A1B302DF3C80B (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_set_DictationEvents_m6DCE4C4D314F31CACF273C58634A1B302DF3C80B (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3699,14 +3897,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_set_DictationEvent
 	{
 		// set => _baseService.DictationEvents = value;
 		RuntimeObject* L_0 = __this->____baseService_3;
-		DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* L_1 = ___value0;
+		DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* L_1 = ___0_value;
 		NullCheck(L_0);
 		InterfaceActionInvoker1< DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* >::Invoke(6 /* System.Void Meta.WitAi.Dictation.IDictationService::set_DictationEvents(Meta.WitAi.Dictation.Events.DictationEvents) */, IDictationService_tB2BC91A139297C3D8A0A27B32EC92B14437C8F10_il2cpp_TypeInfo_var, L_0, L_1);
 		return;
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::Connect(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Connect_mEC3FF6792768C7A1636AB5554D3B0FEDEB29A248 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, String_t* ___version0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Connect_mEC3FF6792768C7A1636AB5554D3B0FEDEB29A248 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, String_t* ___0_version, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3717,7 +3915,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Connect_mEC3FF6792
 	}
 	{
 		// base.Connect(version);
-		String_t* L_0 = ___version0;
+		String_t* L_0 = ___0_version;
 		BaseAndroidConnectionImpl_1_Connect_m7E3034C832613BABA67391CCD88C5AA6E658787B(__this, L_0, BaseAndroidConnectionImpl_1_Connect_m7E3034C832613BABA67391CCD88C5AA6E658787B_RuntimeMethod_var);
 		// _listenerBinding = new DictationListenerBinding(this, this);
 		DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* L_1 = (DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37*)il2cpp_codegen_object_new(DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37_il2cpp_TypeInfo_var);
@@ -3751,11 +3949,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Disconnect_m5F604D
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::SetDictationRuntimeConfiguration(Meta.WitAi.Configuration.WitDictationRuntimeConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_SetDictationRuntimeConfiguration_mDFFFC4F7B2A9E1ED367703743065F193C678980E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___configuration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_SetDictationRuntimeConfiguration_mDFFFC4F7B2A9E1ED367703743065F193C678980E (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* ___0_configuration, const RuntimeMethod* method) 
 {
 	{
 		// _dictationRuntimeConfiguration = configuration;
-		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___configuration0;
+		WitDictationRuntimeConfiguration_t8330D272942A319CFD78CF0AE13AA3B5791A8BCC* L_0 = ___0_configuration;
 		__this->____dictationRuntimeConfiguration_5 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____dictationRuntimeConfiguration_5), (void*)L_0);
 		// }
@@ -3785,7 +3983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Activate_mD26F47C5
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::Activate(Meta.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Activate_mEE80F9D4912A5855D2CD530818ADB4E130D58FB5 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Activate_mEE80F9D4912A5855D2CD530818ADB4E130D58FB5 (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	{
 		// Activate();
@@ -3805,7 +4003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_ActivateImmediatel
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::ActivateImmediately(Meta.WitAi.Configuration.WitRequestOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_ActivateImmediately_m9231D863E8EBD6DCB1DEAFF3A18E0D83D21BF1AF (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___requestOptions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_ActivateImmediately_m9231D863E8EBD6DCB1DEAFF3A18E0D83D21BF1AF (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483* ___0_requestOptions, const RuntimeMethod* method) 
 {
 	{
 		// Activate();
@@ -3827,7 +4025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_Deactivate_m0A7490
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationImpl::OnServiceNotAvailable(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_OnServiceNotAvailable_m76831030360947117222D81FEAB6BFA5BAA0759C (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, String_t* ___error0, String_t* ___message1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationImpl_OnServiceNotAvailable_m76831030360947117222D81FEAB6BFA5BAA0759C (PlatformDictationImpl_tEBEAB151F3C03F5E0D42430F42DB5DEE7A4B16ED* __this, String_t* ___0_error, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B2_0 = NULL;
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* G_B1_0 = NULL;
@@ -3935,18 +4133,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlatformDictationSDKBinding_get_IsSuppor
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::.ctor(UnityEngine.AndroidJavaObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding__ctor_mA796E49388D5E3B49323BA29AA9076D849F3A05D (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___sdkInstance0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding__ctor_mA796E49388D5E3B49323BA29AA9076D849F3A05D (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___0_sdkInstance, const RuntimeMethod* method) 
 {
 	{
 		// public PlatformDictationSDKBinding(AndroidJavaObject sdkInstance) : base(sdkInstance) {}
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___sdkInstance0;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ___0_sdkInstance;
 		BaseServiceBinding__ctor_m22F1D7EDB34C2C3349D5678957D925793DAB1D20(__this, L_0, NULL);
 		// public PlatformDictationSDKBinding(AndroidJavaObject sdkInstance) : base(sdkInstance) {}
 		return;
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::StartDictation(Oculus.Voice.Dictation.Bindings.Android.DictationConfigurationBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StartDictation_m57467F1B7BCB1953C9A2F0D1F9F0ED9C44A00BAB (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* ___configuration0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StartDictation_m57467F1B7BCB1953C9A2F0D1F9F0ED9C44A00BAB (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* ___0_configuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3960,7 +4158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StartDictati
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* L_3 = ___configuration0;
+		DictationConfigurationBinding_t529CDE8B1F8F3FF5805FA07A9467CC87FAC0E3D0* L_3 = ___0_configuration;
 		NullCheck(L_3);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_4;
 		L_4 = DictationConfigurationBinding_ToJavaObject_mA27A25EA3A929BA57E1AAEBF2B71E03435644271(L_3, NULL);
@@ -3995,7 +4193,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_StopDictatio
 	}
 }
 // System.Void Oculus.Voice.Dictation.Bindings.Android.PlatformDictationSDKBinding::SetListener(Oculus.Voice.Dictation.Bindings.Android.DictationListenerBinding)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_SetListener_m419278FADF41DEA36190DCB67FFDEAA4A66A5C38 (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* ___listenerBinding0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_SetListener_m419278FADF41DEA36190DCB67FFDEAA4A66A5C38 (PlatformDictationSDKBinding_t386C78806F4251254C019364B637CA2F810A8214* __this, DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* ___0_listenerBinding, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4009,7 +4207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformDictationSDKBinding_SetListener_
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = ((BaseServiceBinding_tC22454D6751C375356A18F7AAD46982DBC0B2F01*)__this)->___binding_0;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
-		DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* L_3 = ___listenerBinding0;
+		DictationListenerBinding_t3EB8C3AAEFDBEB86CE8DD521347389B72A97CF37* L_3 = ___0_listenerBinding;
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -4067,12 +4265,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DictationConfiguration__ctor_mBC95CB49A1
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_0 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_1 = L_1;
 		return;
 	}
@@ -4106,21 +4304,21 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConfiguration_m5A2175C6DC4A2C23207F8825498E45D41B946619_inline (WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* __this, WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void WitDictation_set_RuntimeConfiguration_m5A2175C6DC4A2C23207F8825498E45D41B946619_inline (WitDictation_t446BE9E679967E6B3DEAAE2BB88D26432D700407* __this, WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => witRuntimeConfiguration = value;
-		WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* L_0 = ___value0;
+		WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05* L_0 = ___0_value;
 		__this->___witRuntimeConfiguration_5 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___witRuntimeConfiguration_5), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_DictationEvents_mD1DAAEA17A092E58DE1DD666C58CB673762BC40E_inline (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DictationService_set_DictationEvents_mD1DAAEA17A092E58DE1DD666C58CB673762BC40E_inline (DictationService_t120A3B548978DE9D6F3EF299907186C4AC963F3A* __this, DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set => dictationEvents = value;
-		DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* L_0 = ___value0;
+		DictationEvents_t6745E4BAB771187F75B1FC8BF3A02ADCACE84CFC* L_0 = ___0_value;
 		__this->___dictationEvents_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___dictationEvents_4), (void*)L_0);
 		return;

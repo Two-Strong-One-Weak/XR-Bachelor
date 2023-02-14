@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -152,12 +151,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.String>
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 {
@@ -170,13 +163,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
 };
-
-struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
-};
-struct Il2CppArrayBounds;
 
 // Meta.WitAi.Data.AudioEncoding
 struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4  : public RuntimeObject
@@ -198,12 +184,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.ValueType
@@ -272,14 +252,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Int32
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -292,12 +264,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // System.Single
@@ -437,12 +403,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -489,12 +449,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -614,11 +568,129 @@ struct Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4  : public MonoBehaviour_t53
 	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnStopRecording_15;
 };
 
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// Meta.WitAi.Data.AudioEncoding
+
+// Meta.WitAi.Data.AudioEncoding
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// Meta.WitAi.Lib.Mic/<ReadRawAudio>d__63
+
+// Meta.WitAi.Lib.Mic/<ReadRawAudio>d__63
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Int32
+
+// System.Int32
+
+// System.Single
+
+// System.Single
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.Coroutine
+
+// UnityEngine.Coroutine
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// System.Action`3<System.Int32,System.Single[],System.Single>
+
+// System.Action`3<System.Int32,System.Single[],System.Single>
+
+// System.Action`3<System.Int32,System.Object,System.Single>
+
+// System.Action`3<System.Int32,System.Object,System.Single>
+
+// System.Action
+
+// System.Action
+
+// System.ArgumentException
+
+// System.ArgumentException
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// Meta.WitAi.Lib.Mic
 struct Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4_StaticFields
 {
 	// Meta.WitAi.Lib.Mic Meta.WitAi.Lib.Mic::m_Instance
 	Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* ___m_Instance_16;
 };
+
+// Meta.WitAi.Lib.Mic
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -695,7 +767,7 @@ struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeA
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // T UnityEngine.Object::FindObjectOfType<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_FindObjectOfType_TisRuntimeObject_m02DFBF011F3B59F777A5E521DB2A116DD496E968_gshared (const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<System.Object>()
@@ -703,16 +775,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRun
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Int32,System.Object,System.Single>::Invoke(T1,T2,T3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, float ___2_arg3, const RuntimeMethod* method) ;
 
 // UnityEngine.AudioClip Meta.WitAi.Lib.Mic::get_AudioClip()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Mic_get_AudioClip_m05C846895337110DAB56C5D893468B9644469954_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::SafeStartMicrophone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_SafeStartMicrophone_m8DC643BAB43D2586A1C5F910A9D9F30B36A24216 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // Meta.WitAi.Data.AudioEncoding Meta.WitAi.Lib.Mic::get_AudioEncoding()
@@ -731,20 +803,20 @@ inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline
 	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // T System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)
-inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.String Meta.WitAi.Lib.Mic::get_CurrentDeviceName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Mic_get_CurrentDeviceName_m0C4E300B4CC13A635903C60622DB6F291F299C91 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Microphone::GetPosition(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m13F4C8EBE8536893D9AD8388B0E5B46D62E6A459 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Microphone_GetPosition_m13F4C8EBE8536893D9AD8388B0E5B46D62E6A459 (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T UnityEngine.Object::FindObjectOfType<Meta.WitAi.Lib.Mic>()
 inline Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* Object_FindObjectOfType_TisMic_t754EFE9D630FC1FBB701EB317849C522C0F384F4_m30B96F175E1C053E8EFDFECC85BFF5B790180DCE (const RuntimeMethod* method)
 {
@@ -753,7 +825,7 @@ inline Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* Object_FindObjectOfType_Ti
 // System.Boolean UnityEngine.Application::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<Meta.WitAi.Lib.Mic>()
 inline Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* GameObject_AddComponent_TisMic_t754EFE9D630FC1FBB701EB317849C522C0F384F4_mEDE89F407EEBE6CD16CDDF8EDE285FFFC92AC40A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -762,96 +834,96 @@ inline Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* GameObject_AddComponent_Ti
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::StopMicrophone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_StopMicrophone_m4EA9741BFBE65E65BC4521513918A56CAC76CCC9 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Lib.Mic::get_IsRecording()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mic_get_IsRecording_mF29DD9F4AC9C77F327D7EF0699390F8FB675E214_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.VLog::D(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37 (RuntimeObject* ___log0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37 (RuntimeObject* ___0_log, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Meta.WitAi.Lib.Mic::ReadRawAudio()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Mic_ReadRawAudio_m2540593A5E20AE8E57046FD08870373B5BEF662E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.String UnityEngine.Object::get_name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::Equals(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Lib.Mic::MicrophoneIsRecording(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_MicrophoneIsRecording_m7C74D5CD1AB2CD2823F9DE61569918BA7DD1A87E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___device0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_MicrophoneIsRecording_m7C74D5CD1AB2CD2823F9DE61569918BA7DD1A87E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___0_device, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::ChangeDevice(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_ChangeDevice_mDDA83C8262DFF0DEFC0D5F580CE899968D6FB23C (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_ChangeDevice_mDDA83C8262DFF0DEFC0D5F580CE899968D6FB23C (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor()
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.Void UnityEngine.Profiling.Profiler::BeginSample(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline (String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline (String_t* ___0_name, const RuntimeMethod* method) ;
 // System.String[] Meta.WitAi.Lib.Mic::MicrophoneGetDevices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Mic_MicrophoneGetDevices_mD7854A2C49C54E334D86D1EB1527CED25DEF7D6E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.String>::AddRange(System.Collections.Generic.IEnumerable`1<T>)
-inline void List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+inline void List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___collection0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___0_collection, method);
 }
 // System.Void Meta.WitAi.VLog::W(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_W_m7943297ED32FD0E92544C324E6793089056A2344 (RuntimeObject* ___log0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_W_m7943297ED32FD0E92544C324E6793089056A2344 (RuntimeObject* ___0_log, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Profiling.Profiler::EndSample()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler_EndSample_m3FCA26738A87C0B8E352533AD48E2A16B047A757 (const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)
-inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___item0, method);
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___0_item, method);
 }
 // System.Void Meta.WitAi.Lib.Mic::set_CurrentDeviceIndex(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::StartMicrophone()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_StartMicrophone_m77A63B3455FBED5488BB40D36D4D6C8C14D43360 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // UnityEngine.AudioClip UnityEngine.Microphone::Start(System.String,System.Boolean,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Microphone_Start_mDA38C5376D122F27D9DEFD2AE811BAE460F2242E (String_t* ___deviceName0, bool ___loop1, int32_t ___lengthSec2, int32_t ___frequency3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* Microphone_Start_mDA38C5376D122F27D9DEFD2AE811BAE460F2242E (String_t* ___0_deviceName, bool ___1_loop, int32_t ___2_lengthSec, int32_t ___3_frequency, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::set_AudioClip(UnityEngine.AudioClip)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::set_name(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Microphone::End(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_End_mB368877FCC9EA1522914006671E637848A0F7CC6 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Microphone_End_mB368877FCC9EA1522914006671E637848A0F7CC6 (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Lib.Mic::get_IsInputAvailable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_get_IsInputAvailable_mB923FAD41282AF61B18414EA4D289352A39CB37B (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::StopRecording()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_StopRecording_m8525C6F3D7E02848432DABACC3FCCB901BD1CB28 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::set_IsRecording(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::set_SampleDurationMS(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.AudioClip::get_channels()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84 (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic::set_Sample(System.Single[])
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_value, const RuntimeMethod* method) ;
 // System.Int32 Meta.WitAi.Lib.Mic::MicrophoneGetPosition(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_MicrophoneGetPosition_m472553E27CC1DE60E108FBADC80A304D1BB2B652 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___device0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_MicrophoneGetPosition_m472553E27CC1DE60E108FBADC80A304D1BB2B652 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___0_device, const RuntimeMethod* method) ;
 // System.Void System.Action::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mF9E93B82091E804595BE13AA29F9AB7517F7E04A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mF9E93B82091E804595BE13AA29F9AB7517F7E04A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Lib.Mic/<ReadRawAudio>d__63::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__63__ctor_mCA3488763C0B875BF8E98FE5678553313CE266C6 (U3CReadRawAudioU3Ed__63_tCF89D7015658AD3E369EC1364A34A7CDF8C09E06* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__63__ctor_mCA3488763C0B875BF8E98FE5678553313CE266C6 (U3CReadRawAudioU3Ed__63_tCF89D7015658AD3E369EC1364A34A7CDF8C09E06* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Microphone::IsRecording(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m93CA54969E12BF2083326E43794D71F0FED5D653 (String_t* ___deviceName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Microphone_IsRecording_m93CA54969E12BF2083326E43794D71F0FED5D653 (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 // System.String[] UnityEngine.Microphone::get_devices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Microphone_get_devices_mC2821E200C36C599DDC37927DEC9EA725240812D (const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Data.AudioEncoding::.ctor()
@@ -865,20 +937,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB585701
 // System.Int32 UnityEngine.AudioClip::get_samples()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AudioClip::GetData(System.Single[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___data0, int32_t ___offsetSamples1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioClip_GetData_m1F6480FFDA2E354A7D8C8DE40F61AAB5AF6B4A1D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_data, int32_t ___1_offsetSamples, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Int32,System.Single[],System.Single>::Invoke(T1,T2,T3)
-inline void Action_3_Invoke_m210005E412E0E8B43987971844C4FB9D817BFCFB_inline (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, int32_t ___arg10, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___arg21, float ___arg32, const RuntimeMethod* method)
+inline void Action_3_Invoke_m210005E412E0E8B43987971844C4FB9D817BFCFB_inline (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* __this, int32_t ___0_arg1, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_arg2, float ___2_arg3, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, int32_t, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, float, const RuntimeMethod*))Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+	((  void (*) (Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*, int32_t, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*, float, const RuntimeMethod*))Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, method);
 }
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Profiling.Profiler::ValidateArguments(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline (String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline (String_t* ___0_name, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler_BeginSampleImpl_m7CA0C092A61229CA7BF617E521F2DE0E2B155CEA (String_t* ___name0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___targetObject1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Profiler_BeginSampleImpl_m7CA0C092A61229CA7BF617E521F2DE0E2B155CEA (String_t* ___0_name, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_targetObject, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___message0, String_t* ___paramName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, String_t* ___1_paramName, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -902,11 +974,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_get_IsRecording_mF29DD9F4AC9C77F327D
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::set_IsRecording(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsRecording { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsRecordingU3Ek__BackingField_4 = L_0;
 		return;
 	}
@@ -930,11 +1002,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::set_Sample(System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public float[] Sample { get; private set; }
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___value0;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___0_value;
 		__this->___U3CSampleU3Ek__BackingField_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSampleU3Ek__BackingField_6), (void*)L_0);
 		return;
@@ -950,11 +1022,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_get_SampleDurationMS_m725B8440FA1
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::set_SampleDurationMS(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int SampleDurationMS { get; private set; }
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CSampleDurationMSU3Ek__BackingField_7 = L_0;
 		return;
 	}
@@ -1050,11 +1122,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::set_AudioClip(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public AudioClip AudioClip { get; private set; }
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___value0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_value;
 		__this->___U3CAudioClipU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAudioClipU3Ek__BackingField_8), (void*)L_0);
 		return;
@@ -1105,11 +1177,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_get_CurrentDeviceIndex_m7E82A371F
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::set_CurrentDeviceIndex(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int CurrentDeviceIndex { get; private set; } = -1;
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CCurrentDeviceIndexU3Ek__BackingField_10 = L_0;
 		return;
 	}
@@ -1204,7 +1276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_get_MicPosition_m115FC819946710B4
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::add_OnStartRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStartRecording_mD3DF696C7B330CA46082731CF39F11A6C3793BD3 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStartRecording_mD3DF696C7B330CA46082731CF39F11A6C3793BD3 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1225,7 +1297,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1247,7 +1319,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::remove_OnStartRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStartRecording_m6D0BBFD5146BED6F9411F6438A1AC9CC79F7E826 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStartRecording_m6D0BBFD5146BED6F9411F6438A1AC9CC79F7E826 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1268,7 +1340,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1290,7 +1362,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::add_OnStartRecordingFailed(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStartRecordingFailed_m61E268F404DA0F6106EC509511E7C59F0F7A3ADD (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStartRecordingFailed_m61E268F404DA0F6106EC509511E7C59F0F7A3ADD (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1311,7 +1383,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1333,7 +1405,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::remove_OnStartRecordingFailed(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStartRecordingFailed_m3B345863DCC181EDF31C2B2B00B193A380DED561 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStartRecordingFailed_m3B345863DCC181EDF31C2B2B00B193A380DED561 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1354,7 +1426,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1376,7 +1448,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::add_OnSampleReady(System.Action`3<System.Int32,System.Single[],System.Single>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnSampleReady_mB7D8EB67F971422ED6859C20E189076D972F0392 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnSampleReady_mB7D8EB67F971422ED6859C20E189076D972F0392 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1397,7 +1469,7 @@ IL_0007:
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_1 = V_0;
 		V_1 = L_1;
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_2 = V_1;
-		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___value0;
+		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*)Castclass((RuntimeObject*)L_4, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8_il2cpp_TypeInfo_var));
@@ -1419,7 +1491,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::remove_OnSampleReady(System.Action`3<System.Int32,System.Single[],System.Single>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnSampleReady_mD37CCD606D9A9629DF45687430F5E0753BF7A025 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnSampleReady_mD37CCD606D9A9629DF45687430F5E0753BF7A025 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1440,7 +1512,7 @@ IL_0007:
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_1 = V_0;
 		V_1 = L_1;
 		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_2 = V_1;
-		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___value0;
+		Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8*)Castclass((RuntimeObject*)L_4, Action_3_t014775F97068AFC7018FE805CA856B7C5CF281F8_il2cpp_TypeInfo_var));
@@ -1462,7 +1534,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::add_OnStopRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStopRecording_m1112F8AFEC2645C15DF36A9D5B37AFE8575CB2ED (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_add_OnStopRecording_m1112F8AFEC2645C15DF36A9D5B37AFE8575CB2ED (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1483,7 +1555,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1505,7 +1577,7 @@ IL_0007:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::remove_OnStopRecording(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStopRecording_m30A81DE352E60601F5822BB0668BECE251ADEECA (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_remove_OnStopRecording_m30A81DE352E60601F5822BB0668BECE251ADEECA (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1526,7 +1598,7 @@ IL_0007:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -1675,7 +1747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnDisable_m7CEDA1D6235A215F8E27705E3
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::OnApplicationFocus(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationFocus_m7A517C88E04301F5CC4587277E7DBECB07D22FCE (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___hasFocus0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationFocus_m7A517C88E04301F5CC4587277E7DBECB07D22FCE (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___0_hasFocus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1690,7 +1762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationFocus_m7A517C88E04301F5
 	int32_t G_B3_0 = 0;
 	{
 		// if (hasFocus && IsRecording)
-		bool L_0 = ___hasFocus0;
+		bool L_0 = ___0_hasFocus;
 		if (!L_0)
 		{
 			goto IL_000c;
@@ -1737,7 +1809,7 @@ IL_000d:
 IL_003f:
 	{
 		// else if (!hasFocus)
-		bool L_7 = ___hasFocus0;
+		bool L_7 = ___0_hasFocus;
 		V_1 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_1;
 		if (!L_8)
@@ -1763,7 +1835,7 @@ IL_006b:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::OnApplicationPause(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationPause_mF3A0877291883BAA8CD8AF1B9F0ADDDE521F1D6D (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___pauseStatus0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationPause_mF3A0877291883BAA8CD8AF1B9F0ADDDE521F1D6D (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___0_pauseStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1775,7 +1847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_OnApplicationPause_mF3A0877291883BAA
 	bool V_0 = false;
 	{
 		// if (pauseStatus)
-		bool L_0 = ___pauseStatus0;
+		bool L_0 = ___0_pauseStatus;
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -2139,13 +2211,13 @@ IL_007f:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::ChangeDevice(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_ChangeDevice_mDDA83C8262DFF0DEFC0D5F580CE899968D6FB23C (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___index0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_ChangeDevice_mDDA83C8262DFF0DEFC0D5F580CE899968D6FB23C (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	{
 		// StopMicrophone();
 		Mic_StopMicrophone_m4EA9741BFBE65E65BC4521513918A56CAC76CCC9(__this, NULL);
 		// CurrentDeviceIndex = index;
-		int32_t L_0 = ___index0;
+		int32_t L_0 = ___0_index;
 		Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E_inline(__this, L_0, NULL);
 		// StartMicrophone();
 		Mic_StartMicrophone_m77A63B3455FBED5488BB40D36D4D6C8C14D43360(__this, NULL);
@@ -2260,7 +2332,7 @@ IL_005d:
 	}
 }
 // System.Void Meta.WitAi.Lib.Mic::StartRecording(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_StartRecording_mA08F543E712CA47B1D92CDB893AC0E635AB852E1 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___sampleLen0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic_StartRecording_mA08F543E712CA47B1D92CDB893AC0E635AB852E1 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_sampleLen, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2296,7 +2368,7 @@ IL_0014:
 		// IsRecording = true;
 		Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D_inline(__this, (bool)1, NULL);
 		// SampleDurationMS = sampleLen;
-		int32_t L_2 = ___sampleLen0;
+		int32_t L_2 = ___0_sampleLen;
 		Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3_inline(__this, L_2, NULL);
 		// Sample = new float[AudioEncoding.samplerate / 1000 * SampleDurationMS * AudioClip.channels];
 		AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4* L_3;
@@ -2461,12 +2533,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Mic_ReadRawAudio_m2540593A5E20
 	}
 }
 // System.Boolean Meta.WitAi.Lib.Mic::MicrophoneIsRecording(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_MicrophoneIsRecording_m7C74D5CD1AB2CD2823F9DE61569918BA7DD1A87E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___device0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Mic_MicrophoneIsRecording_m7C74D5CD1AB2CD2823F9DE61569918BA7DD1A87E (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___0_device, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// return Microphone.IsRecording(device);
-		String_t* L_0 = ___device0;
+		String_t* L_0 = ___0_device;
 		bool L_1;
 		L_1 = Microphone_IsRecording_m93CA54969E12BF2083326E43794D71F0FED5D653(L_0, NULL);
 		V_0 = L_1;
@@ -2500,12 +2572,12 @@ IL_0009:
 	}
 }
 // System.Int32 Meta.WitAi.Lib.Mic::MicrophoneGetPosition(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_MicrophoneGetPosition_m472553E27CC1DE60E108FBADC80A304D1BB2B652 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___device0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Mic_MicrophoneGetPosition_m472553E27CC1DE60E108FBADC80A304D1BB2B652 (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, String_t* ___0_device, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
 		// return Microphone.GetPosition(device);
-		String_t* L_0 = ___device0;
+		String_t* L_0 = ___0_device;
 		int32_t L_1;
 		L_1 = Microphone_GetPosition_m13F4C8EBE8536893D9AD8388B0E5B46D62E6A459(L_0, NULL);
 		V_0 = L_1;
@@ -2552,11 +2624,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic__ctor_m43EC686B38CDE093B94D0AD1AA5F2
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.Lib.Mic/<ReadRawAudio>d__63::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__63__ctor_mCA3488763C0B875BF8E98FE5678553313CE266C6 (U3CReadRawAudioU3Ed__63_tCF89D7015658AD3E369EC1364A34A7CDF8C09E06* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CReadRawAudioU3Ed__63__ctor_mCA3488763C0B875BF8E98FE5678553313CE266C6 (U3CReadRawAudioU3Ed__63_tCF89D7015658AD3E369EC1364A34A7CDF8C09E06* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -3042,58 +3114,58 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mic_get_IsRecording_mF29DD9F
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline (String_t* ___name0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_BeginSample_m640E26B682D803CC5DB4EDFDF2F6E83771BF0BE4_inline (String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___name0;
+		String_t* L_0 = ___0_name;
 		Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline(L_0, NULL);
-		String_t* L_1 = ___name0;
+		String_t* L_1 = ___0_name;
 		Profiler_BeginSampleImpl_m7CA0C092A61229CA7BF617E521F2DE0E2B155CEA(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_CurrentDeviceIndex_mBE12F013AA9E4960005FA3E555C91F59EFBAB01E_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int CurrentDeviceIndex { get; private set; } = -1;
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CCurrentDeviceIndexU3Ek__BackingField_10 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_AudioClip_m669271C92845436644125FE7F2C2772D606FF7BC_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public AudioClip AudioClip { get; private set; }
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___value0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_value;
 		__this->___U3CAudioClipU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAudioClipU3Ek__BackingField_8), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_IsRecording_m3F0A99CC2B7421CDA82940CD8218F6FB1E82D94D_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public bool IsRecording { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___U3CIsRecordingU3Ek__BackingField_4 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_SampleDurationMS_mB651F5378E82541862F643CAC54BDEA43D588AD3_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int SampleDurationMS { get; private set; }
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CSampleDurationMSU3Ek__BackingField_7 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Mic_set_Sample_m597932121A4B7EE048277235928450EC95AB46C8_inline (Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public float[] Sample { get; private set; }
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___value0;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___0_value;
 		__this->___U3CSampleU3Ek__BackingField_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSampleU3Ek__BackingField_6), (void*)L_0);
 		return;
@@ -3119,16 +3191,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___arg10, RuntimeObject* ___arg21, float ___arg32, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_mE6726AD48C4B0576C12CD89A49A438E707529E36_gshared_inline (Action_3_t041F9EB77535247CDCF010C1F285CCCEFE9E2F04* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, float ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, RuntimeObject*, float, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline (String_t* ___name0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Profiler_ValidateArguments_m631DF788CA8A7DF599A5871AF4D7FA8B9C3B52CC_inline (String_t* ___0_name, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		String_t* L_0 = ___name0;
+		String_t* L_0 = ___0_name;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_0 = L_1;

@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -930,12 +929,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.String>
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 {
@@ -947,12 +940,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.Queue`1<System.Object>
@@ -995,7 +982,6 @@ struct ValueCollection_tE14AE9A409BAE0C3A169C0DE57F2A8A02ADAEDCE  : public Runti
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::_dictionary
 	Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* ____dictionary_0;
 };
-struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -1024,30 +1010,6 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObjec
 	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback_14;
 };
 
-struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
-{
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
-	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
-	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
-	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
-	// System.Object System.Text.Encoding::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_15;
-};
-
 // System.Security.Cryptography.HashAlgorithm
 struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D  : public RuntimeObject
 {
@@ -1073,12 +1035,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.Text.StringBuilder
@@ -1259,54 +1215,6 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 	bool ___m_iriParsing_22;
 };
 
-struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
-{
-	// System.String System.Uri::UriSchemeFile
-	String_t* ___UriSchemeFile_0;
-	// System.String System.Uri::UriSchemeFtp
-	String_t* ___UriSchemeFtp_1;
-	// System.String System.Uri::UriSchemeGopher
-	String_t* ___UriSchemeGopher_2;
-	// System.String System.Uri::UriSchemeHttp
-	String_t* ___UriSchemeHttp_3;
-	// System.String System.Uri::UriSchemeHttps
-	String_t* ___UriSchemeHttps_4;
-	// System.String System.Uri::UriSchemeWs
-	String_t* ___UriSchemeWs_5;
-	// System.String System.Uri::UriSchemeWss
-	String_t* ___UriSchemeWss_6;
-	// System.String System.Uri::UriSchemeMailto
-	String_t* ___UriSchemeMailto_7;
-	// System.String System.Uri::UriSchemeNews
-	String_t* ___UriSchemeNews_8;
-	// System.String System.Uri::UriSchemeNntp
-	String_t* ___UriSchemeNntp_9;
-	// System.String System.Uri::UriSchemeNetTcp
-	String_t* ___UriSchemeNetTcp_10;
-	// System.String System.Uri::UriSchemeNetPipe
-	String_t* ___UriSchemeNetPipe_11;
-	// System.String System.Uri::SchemeDelimiter
-	String_t* ___SchemeDelimiter_12;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_23;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_24;
-	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_25;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_26;
-	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_27;
-	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_29;
-	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_30;
-	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
-	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
-};
-
 // Meta.WitAi.Requests.VRequest
 struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1  : public RuntimeObject
 {
@@ -1326,14 +1234,6 @@ struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1  : public RuntimeObjec
 	RequestCompleteDelegate_1_t5AF447A591A5097051D3A5AFBB764165380A9835* ____onComplete_8;
 	// Meta.WitAi.CoroutineUtility/CoroutinePerformer Meta.WitAi.Requests.VRequest::_coroutine
 	CoroutinePerformer_t2423B696217C7475EF6AFE1D33000E8766703559* ____coroutine_9;
-};
-
-struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1_StaticFields
-{
-	// System.Int32 Meta.WitAi.Requests.VRequest::MaxConcurrentRequests
-	int32_t ___MaxConcurrentRequests_0;
-	// System.Int32 Meta.WitAi.Requests.VRequest::_requestCount
-	int32_t ____requestCount_1;
 };
 
 // System.ValueType
@@ -1385,14 +1285,6 @@ struct U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031  : pu
 // Meta.WitAi.TTS.TTSService/<>c
 struct U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22_StaticFields
-{
-	// Meta.WitAi.TTS.TTSService/<>c Meta.WitAi.TTS.TTSService/<>c::<>9
-	U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22* ___U3CU3E9_0;
-	// System.Predicate`1<Meta.WitAi.TTS.TTSService> Meta.WitAi.TTS.TTSService/<>c::<>9__1_0
-	Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* ___U3CU3E9__1_0_1;
 };
 
 // Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0
@@ -1626,14 +1518,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Byte
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
@@ -1648,20 +1532,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 	uint64_t ____dateData_46;
 };
 
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
-};
-
 // System.Double
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
@@ -1672,12 +1542,6 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 // System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
 {
-};
-
-struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
-{
-	// System.Char[] System.Enum::enumSeperatorCharArray
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
 };
 // Native definition for P/Invoke marshalling of System.Enum
 struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
@@ -1712,12 +1576,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // UnityEngine.PropertyAttribute
@@ -1781,16 +1639,6 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A
 {
 	// System.Int64 System.TimeSpan::_ticks
 	int64_t ____ticks_22;
-};
-
-struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
-{
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
 };
 
 // System.Void
@@ -1889,24 +1737,6 @@ struct WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534  : public VRequest_
 	RuntimeObject* ____configuration_14;
 	// System.Boolean Meta.WitAi.Requests.WitVRequest::_useServerToken
 	bool ____useServerToken_15;
-};
-
-struct WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534_StaticFields
-{
-	// System.Func`2<System.UriBuilder,System.Uri> Meta.WitAi.Requests.WitVRequest::OnProvideCustomUri
-	Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___OnProvideCustomUri_11;
-	// System.Action`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> Meta.WitAi.Requests.WitVRequest::OnProvideCustomHeaders
-	Action_1_tE974880775FC548AAD9D5D87454AA897D3B56023* ___OnProvideCustomHeaders_12;
-	// System.Action`1<System.Text.StringBuilder> Meta.WitAi.Requests.WitVRequest::OnProvideCustomUserAgent
-	Action_1_t9E1712DA0A3123C126566BD722BF0E60F1E0AAD6* ___OnProvideCustomUserAgent_13;
-	// System.String Meta.WitAi.Requests.WitVRequest::_operatingSystem
-	String_t* ____operatingSystem_16;
-	// System.String Meta.WitAi.Requests.WitVRequest::_deviceModel
-	String_t* ____deviceModel_17;
-	// System.String Meta.WitAi.Requests.WitVRequest::_appIdentifier
-	String_t* ____appIdentifier_18;
-	// System.String Meta.WitAi.Requests.WitVRequest::_unityVersion
-	String_t* ____unityVersion_19;
 };
 
 // UnityEngine.Coroutine
@@ -2027,12 +1857,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -2079,12 +1903,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -2158,12 +1976,6 @@ struct WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0  : public WitVRe
 {
 };
 
-struct WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0_StaticFields
-{
-	// UnityEngine.AudioType Meta.WitAi.Requests.WitTTSVRequest::TTSAudioType
-	int32_t ___TTSAudioType_20;
-};
-
 // Meta.WitAi.TTS.Utilities.TTSSpeaker/<>c__DisplayClass40_0
 struct U3CU3Ec__DisplayClass40_0_t65CF5C63B613443BF2B879F8E5B08AD37A555689  : public RuntimeObject
 {
@@ -2234,24 +2046,6 @@ struct Type_t  : public MemberInfo_t
 {
 	// System.RuntimeTypeHandle System.Type::_impl
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
-};
-
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
 // System.Action`1<System.Object>
@@ -2447,12 +2241,6 @@ struct TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D  : public MonoBehavi
 	SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___CLIP_HASH_8;
 };
 
-struct TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D_StaticFields
-{
-	// Meta.WitAi.TTS.TTSService Meta.WitAi.TTS.TTSService::_instance
-	TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* ____instance_4;
-};
-
 // Meta.WitAi.TTS.Utilities.TTSSpeaker
 struct TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2509,6 +2297,661 @@ struct TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3  : public TTSService_t7D
 	// Meta.WitAi.TTS.Integrations.TTSWitVoiceSettings[] Meta.WitAi.TTS.Integrations.TTSWit::_presetVoiceSettings
 	TTSWitVoiceSettingsU5BU5D_tDFE65CA13F997DF3C056E13DED47708E78375B31* ____presetVoiceSettings_17;
 };
+
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>
+
+// System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// System.Collections.Generic.Queue`1<System.Object>
+
+// System.Collections.Generic.Queue`1<System.Object>
+
+// System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Text.Encoding
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::defaultEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding_0;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::unicodeEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding_1;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::bigEndianUnicode
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode_2;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf7Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding_3;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf8Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding_4;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::utf32Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding_5;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::asciiEncoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding_6;
+	// System.Text.Encoding modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::latin1Encoding
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding_7;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Text.Encoding> modreq(System.Runtime.CompilerServices.IsVolatile) System.Text.Encoding::encodings
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
+	// System.Object System.Text.Encoding::s_InternalSyncObject
+	RuntimeObject* ___s_InternalSyncObject_15;
+};
+
+// System.Text.Encoding
+
+// System.Security.Cryptography.HashAlgorithm
+
+// System.Security.Cryptography.HashAlgorithm
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.Text.StringBuilder
+
+// System.Text.StringBuilder
+
+// Meta.WitAi.TTS.Data.TTSClipData
+
+// Meta.WitAi.TTS.Data.TTSClipData
+
+// Meta.WitAi.TTS.Data.TTSDiskCacheSettings
+
+// Meta.WitAi.TTS.Data.TTSDiskCacheSettings
+
+// Meta.WitAi.TTS.Events.TTSDownloadEvents
+
+// Meta.WitAi.TTS.Events.TTSDownloadEvents
+
+// Meta.WitAi.TTS.Events.TTSServiceEvents
+
+// Meta.WitAi.TTS.Events.TTSServiceEvents
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerEvents
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerEvents
+
+// Meta.WitAi.TTS.Events.TTSStreamEvents
+
+// Meta.WitAi.TTS.Events.TTSStreamEvents
+
+// Meta.WitAi.TTS.Data.TTSVoiceSettings
+
+// Meta.WitAi.TTS.Data.TTSVoiceSettings
+
+// System.Uri
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	// System.String System.Uri::UriSchemeFile
+	String_t* ___UriSchemeFile_0;
+	// System.String System.Uri::UriSchemeFtp
+	String_t* ___UriSchemeFtp_1;
+	// System.String System.Uri::UriSchemeGopher
+	String_t* ___UriSchemeGopher_2;
+	// System.String System.Uri::UriSchemeHttp
+	String_t* ___UriSchemeHttp_3;
+	// System.String System.Uri::UriSchemeHttps
+	String_t* ___UriSchemeHttps_4;
+	// System.String System.Uri::UriSchemeWs
+	String_t* ___UriSchemeWs_5;
+	// System.String System.Uri::UriSchemeWss
+	String_t* ___UriSchemeWss_6;
+	// System.String System.Uri::UriSchemeMailto
+	String_t* ___UriSchemeMailto_7;
+	// System.String System.Uri::UriSchemeNews
+	String_t* ___UriSchemeNews_8;
+	// System.String System.Uri::UriSchemeNntp
+	String_t* ___UriSchemeNntp_9;
+	// System.String System.Uri::UriSchemeNetTcp
+	String_t* ___UriSchemeNetTcp_10;
+	// System.String System.Uri::UriSchemeNetPipe
+	String_t* ___UriSchemeNetPipe_11;
+	// System.String System.Uri::SchemeDelimiter
+	String_t* ___SchemeDelimiter_12;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
+	bool ___s_ConfigInitialized_23;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
+	bool ___s_ConfigInitializing_24;
+	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
+	int32_t ___s_IdnScope_25;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
+	bool ___s_IriParsing_26;
+	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
+	bool ___useDotNetRelativeOrAbsolute_27;
+	// System.Boolean System.Uri::IsWindowsFileSystem
+	bool ___IsWindowsFileSystem_29;
+	// System.Object System.Uri::s_initLock
+	RuntimeObject* ___s_initLock_30;
+	// System.Char[] System.Uri::HexLowerChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
+	// System.Char[] System.Uri::_WSchars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
+};
+
+// System.Uri
+
+// Meta.WitAi.Requests.VRequest
+struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1_StaticFields
+{
+	// System.Int32 Meta.WitAi.Requests.VRequest::MaxConcurrentRequests
+	int32_t ___MaxConcurrentRequests_0;
+	// System.Int32 Meta.WitAi.Requests.VRequest::_requestCount
+	int32_t ____requestCount_1;
+};
+
+// Meta.WitAi.Requests.VRequest
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass13_0
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass13_0
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0
+
+// Meta.WitAi.TTS.TTSService/<>c
+struct U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22_StaticFields
+{
+	// Meta.WitAi.TTS.TTSService/<>c Meta.WitAi.TTS.TTSService/<>c::<>9
+	U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22* ___U3CU3E9_0;
+	// System.Predicate`1<Meta.WitAi.TTS.TTSService> Meta.WitAi.TTS.TTSService/<>c::<>9__1_0
+	Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* ___U3CU3E9__1_0_1;
+};
+
+// Meta.WitAi.TTS.TTSService/<>c
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass63_0
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass63_0
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass69_0
+
+// Meta.WitAi.TTS.TTSService/<>c__DisplayClass69_0
+
+// Meta.WitAi.TTS.TTSService/<CallAfterAMoment>d__35
+
+// Meta.WitAi.TTS.TTSService/<CallAfterAMoment>d__35
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__32
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__32
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__33
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__33
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__34
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__34
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__35
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__35
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<WaitForCompletion>d__47
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<WaitForCompletion>d__47
+
+// Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0
+
+// Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0
+
+// Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0
+
+// Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Meta.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityEvent`1<UnityEngine.AudioClip>
+
+// UnityEngine.Events.UnityEvent`1<UnityEngine.AudioClip>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityEvent`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Utilities.TTSSpeaker,System.String>
+
+// UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Utilities.TTSSpeaker,System.String>
+
+// UnityEngine.Events.UnityEvent`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// UnityEngine.Events.UnityEvent`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Byte
+
+// System.Byte
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Double
+
+// System.Double
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+
+// System.Enum
+
+// System.Reflection.FieldInfo
+
+// System.Reflection.FieldInfo
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Security.Cryptography.SHA256
+
+// System.Security.Cryptography.SHA256
+
+// UnityEngine.SceneManagement.Scene
+
+// UnityEngine.SceneManagement.Scene
+
+// System.Single
+
+// System.Single
+
+// Meta.WitAi.TTS.Integrations.TTSWitRequestSettings
+
+// Meta.WitAi.TTS.Integrations.TTSWitRequestSettings
+
+// Meta.WitAi.TTS.Integrations.TTSWitVoiceSettings
+
+// Meta.WitAi.TTS.Integrations.TTSWitVoiceSettings
+
+// System.TimeSpan
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
+{
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___Zero_19;
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// System.TimeSpan
+
+// System.Void
+
+// System.Void
+
+// UnityEngine.WaitForEndOfFrame
+
+// UnityEngine.WaitForEndOfFrame
+
+// UnityEngine.WaitWhile
+
+// UnityEngine.WaitWhile
+
+// Meta.WitAi.Requests.WitVRequest
+struct WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534_StaticFields
+{
+	// System.Func`2<System.UriBuilder,System.Uri> Meta.WitAi.Requests.WitVRequest::OnProvideCustomUri
+	Func_2_tD35264BF31837EBE5C19381E5A65F84604181C28* ___OnProvideCustomUri_11;
+	// System.Action`1<System.Collections.Generic.Dictionary`2<System.String,System.String>> Meta.WitAi.Requests.WitVRequest::OnProvideCustomHeaders
+	Action_1_tE974880775FC548AAD9D5D87454AA897D3B56023* ___OnProvideCustomHeaders_12;
+	// System.Action`1<System.Text.StringBuilder> Meta.WitAi.Requests.WitVRequest::OnProvideCustomUserAgent
+	Action_1_t9E1712DA0A3123C126566BD722BF0E60F1E0AAD6* ___OnProvideCustomUserAgent_13;
+	// System.String Meta.WitAi.Requests.WitVRequest::_operatingSystem
+	String_t* ____operatingSystem_16;
+	// System.String Meta.WitAi.Requests.WitVRequest::_deviceModel
+	String_t* ____deviceModel_17;
+	// System.String Meta.WitAi.Requests.WitVRequest::_appIdentifier
+	String_t* ____appIdentifier_18;
+	// System.String Meta.WitAi.Requests.WitVRequest::_unityVersion
+	String_t* ____unityVersion_19;
+};
+
+// Meta.WitAi.Requests.WitVRequest
+
+// UnityEngine.Coroutine
+
+// UnityEngine.Coroutine
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// UnityEngine.RangeAttribute
+
+// UnityEngine.RangeAttribute
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// Meta.WitAi.TTS.Events.TTSClipDownloadErrorEvent
+
+// Meta.WitAi.TTS.Events.TTSClipDownloadErrorEvent
+
+// Meta.WitAi.TTS.Events.TTSClipDownloadEvent
+
+// Meta.WitAi.TTS.Events.TTSClipDownloadEvent
+
+// Meta.WitAi.TTS.Events.TTSClipErrorEvent
+
+// Meta.WitAi.TTS.Events.TTSClipErrorEvent
+
+// Meta.WitAi.TTS.Events.TTSClipEvent
+
+// Meta.WitAi.TTS.Events.TTSClipEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerClipDataEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerClipDataEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerClipEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerClipEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerTextEvent
+
+// Meta.WitAi.TTS.Utilities.TTSSpeakerTextEvent
+
+// Meta.WitAi.Requests.WitTTSVRequest
+struct WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0_StaticFields
+{
+	// UnityEngine.AudioType Meta.WitAi.Requests.WitTTSVRequest::TTSAudioType
+	int32_t ___TTSAudioType_20;
+};
+
+// Meta.WitAi.Requests.WitTTSVRequest
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<>c__DisplayClass40_0
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker/<>c__DisplayClass40_0
+
+// UnityEngine.AudioClip
+
+// UnityEngine.AudioClip
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// System.Type
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// System.Type
+
+// System.Action`1<System.Object>
+
+// System.Action`1<System.Object>
+
+// System.Action`1<System.String>
+
+// System.Action`1<System.String>
+
+// System.Action`2<System.Object,System.Boolean>
+
+// System.Action`2<System.Object,System.Boolean>
+
+// System.Action`2<System.Object,System.Int32Enum>
+
+// System.Action`2<System.Object,System.Int32Enum>
+
+// System.Action`2<System.Object,System.Object>
+
+// System.Action`2<System.Object,System.Object>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.Boolean>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.Boolean>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState>
+
+// System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState>
+
+// System.Action`3<System.Object,System.Object,System.Object>
+
+// System.Action`3<System.Object,System.Object,System.Object>
+
+// System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Func`1<System.Boolean>
+
+// System.Func`1<System.Boolean>
+
+// System.Predicate`1<Meta.WitAi.TTS.TTSService>
+
+// System.Predicate`1<Meta.WitAi.TTS.TTSService>
+
+// System.Predicate`1<Meta.WitAi.TTS.Data.TTSVoiceSettings>
+
+// System.Predicate`1<Meta.WitAi.TTS.Data.TTSVoiceSettings>
+
+// Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<UnityEngine.AudioClip>
+
+// Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<UnityEngine.AudioClip>
+
+// Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>
+
+// Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityAction`1<Meta.WitAi.TTS.Data.TTSClipData>
+
+// UnityEngine.Events.UnityAction`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityAction`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>
+
+// UnityEngine.Events.UnityAction`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// UnityEngine.Events.UnityAction`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>
+
+// System.Action
+
+// System.Action
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// Meta.WitAi.Data.Configuration.WitConfiguration
+
+// Meta.WitAi.Data.Configuration.WitConfiguration
+
+// Meta.WitAi.Requests.VRequest/RequestProgressDelegate
+
+// Meta.WitAi.Requests.VRequest/RequestProgressDelegate
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.AudioSource
+
+// UnityEngine.AudioSource
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache
+
+// Meta.WitAi.TTS.Integrations.TTSDiskCache
+
+// Meta.WitAi.TTS.Integrations.TTSRuntimeCache
+
+// Meta.WitAi.TTS.Integrations.TTSRuntimeCache
+
+// Meta.WitAi.TTS.TTSService
+struct TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D_StaticFields
+{
+	// Meta.WitAi.TTS.TTSService Meta.WitAi.TTS.TTSService::_instance
+	TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* ____instance_4;
+};
+
+// Meta.WitAi.TTS.TTSService
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker
+
+// Meta.WitAi.TTS.Utilities.TTSSpeaker
+
+// Meta.WitAi.CoroutineUtility/CoroutinePerformer
+
+// Meta.WitAi.CoroutineUtility/CoroutinePerformer
+
+// Meta.WitAi.TTS.Integrations.TTSWit
+
+// Meta.WitAi.TTS.Integrations.TTSWit
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -2795,27 +3238,27 @@ struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8  : public Runti
 // T[] UnityEngine.Resources::FindObjectsOfTypeAll<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Resources_FindObjectsOfTypeAll_TisRuntimeObject_mD84D8C84477F126072383A3F1E7789DA25B4206B_gshared (const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // T System.Array::Find<System.Object>(T[],System.Predicate`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___array0, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___match1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___0_array, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___1_match, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared (UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared (UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared (UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::AddListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, UnityAction_2_tCCCBE77741D4E611E102D49D355D4DA6C9797A0C* ___0_call, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::RemoveListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, UnityAction_3_t61020A175240225D5FB1BF6CEC0575F375C51323* ___0_call, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Keys()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KeyCollection_tB45A861D090B15129521119AE48ED3813820A974* Dictionary_2_get_Keys_m72D290F90654BFD683FA7AA7C63D9F4F692218B6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::GetEnumerator()
@@ -2825,29 +3268,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEB2A61F3F3F420C1B1DF
 // TKey System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>::get_Current()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline (Enumerator_t65CC956745B1180C04CE6C6910FB27C5F32BB9FF* __this, const RuntimeMethod* method) ;
 // TValue System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Item(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Object,System.Object>::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mB5E00F11BCA3AC963F9BA72659FA76B107863F3C_gshared (Enumerator_t65CC956745B1180C04CE6C6910FB27C5F32BB9FF* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Int32Enum>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___arg10, int32_t ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Object>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(T0)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___arg00, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, RuntimeObject* ___0_arg0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::Invoke(T0,T1)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::Invoke(T0,T1,T2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, RuntimeObject* ___arg00, RuntimeObject* ___arg11, RuntimeObject* ___arg22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, RuntimeObject* ___0_arg0, RuntimeObject* ___1_arg1, RuntimeObject* ___2_arg2, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Object,System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Action`3<System.Object,System.Object,System.Object>::Invoke(T1,T2,T3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_2__ctor_m36CB65F6682CF6EFB69FE2F1939D331599C453E3_gshared (UnityEvent_2_t77BDA795C84FBEFE9D3AE3DCA619B97A9F423961* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
@@ -2861,45 +3304,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponentInChild
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Queue`1<System.Object>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_Contains_m2005E02D4DC2C3186E5BA0722C8435C966AB7B0E_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Queue_1_Contains_m2005E02D4DC2C3186E5BA0722C8435C966AB7B0E_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<System.Object>::Enqueue(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m5CB8CF3906F1289F92036F0973EC5BE3450402EF_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1_Enqueue_m5CB8CF3906F1289F92036F0973EC5BE3450402EF_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // T System.Collections.Generic.Queue`1<System.Object>::Dequeue()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_Dequeue_m86B243DF9EC238316EC3D27DF3E0AB8DB0987E84_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // T System.Collections.Generic.Queue`1<System.Object>::Peek()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Queue_1_Peek_mBCFFD1AF751385D78C4EA93D62857F936CD03866_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Queue_1__ctor_m6E2A5A8173E0CC524496D5155C737DF8FD10D0EB_gshared (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Action`2<System.Object,System.Boolean>::Invoke(T1,T2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___arg10, bool ___arg21, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___0_arg1, bool ___1_arg2, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5_gshared (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5_gshared (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(TKey,TValue)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestCompleteDelegate_1__ctor_m5B4BD9930967DA4A93C01EE87192DA6DBB2988F1_gshared (RequestCompleteDelegate_1_t336E76112EC94D50E34938D06BC1F55D2227D738* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestCompleteDelegate_1__ctor_m5B4BD9930967DA4A93C01EE87192DA6DBB2988F1_gshared (RequestCompleteDelegate_1_t336E76112EC94D50E34938D06BC1F55D2227D738* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::ContainsKey(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Remove(TKey)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Values()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA* Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 // TSource[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::IndexOf(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>::get_Count()
@@ -2909,86 +3352,86 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D
 // T UnityEngine.GameObject::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // T System.Reflection.CustomAttributeExtensions::GetCustomAttribute<System.Object>(System.Reflection.MemberInfo)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared (MemberInfo_t* ___element0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared (MemberInfo_t* ___0_element, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_3__ctor_m977F48E7B446FA00AE2DB8F68B71E2033313739A_gshared (UnityEvent_3_t55868EB0205828F99945BD02DAAB68E6953E61D4* __this, const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // T[] UnityEngine.Resources::FindObjectsOfTypeAll<Meta.WitAi.TTS.TTSService>()
 inline TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F* Resources_FindObjectsOfTypeAll_TisTTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D_mC241E007A520D3C080569ADAF2A81341352C700E (const RuntimeMethod* method)
 {
 	return ((  TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F* (*) (const RuntimeMethod*))Resources_FindObjectsOfTypeAll_TisRuntimeObject_mD84D8C84477F126072383A3F1E7789DA25B4206B_gshared)(method);
 }
 // System.Void System.Predicate`1<Meta.WitAi.TTS.TTSService>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_m7FF7B5BF3FDED2C2A50792B0653541622C4BD9BB (Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_m7FF7B5BF3FDED2C2A50792B0653541622C4BD9BB (Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
 }
 // T System.Array::Find<Meta.WitAi.TTS.TTSService>(T[],System.Predicate`1<T>)
-inline TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* Array_Find_TisTTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D_mFCAE1071E7BA4FF71AC598B02F43B106240CE8D6 (TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F* ___array0, Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* ___match1, const RuntimeMethod* method)
+inline TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* Array_Find_TisTTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D_mFCAE1071E7BA4FF71AC598B02F43B106240CE8D6 (TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F* ___0_array, Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177* ___1_match, const RuntimeMethod* method)
 {
-	return ((  TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* (*) (TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F*, Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___array0, ___match1, method);
+	return ((  TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* (*) (TTSServiceU5BU5D_tB9EEEB9A872AF058BFF5866F6CBEDBF52CA34A8F*, Predicate_1_tBDB33610E9234C7F655573B6F40EC8A0AB871177*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___0_array, ___1_match, method);
 }
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.VLog::W(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_W_m7943297ED32FD0E92544C324E6793089056A2344 (RuntimeObject* ___log0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_W_m7943297ED32FD0E92544C324E6793089056A2344 (RuntimeObject* ___0_log, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<Meta.WitAi.TTS.Data.TTSClipData>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mC26DA1E1FE7439877A7BE949B1E2042217DCEAA4 (UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mC26DA1E1FE7439877A7BE949B1E2042217DCEAA4 (UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.TTS.Data.TTSClipData>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_m3542371DC031A8A2172BE89C0D58CC2A2AAA5061 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_m3542371DC031A8A2172BE89C0D58CC2A2AAA5061 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_m4B8D2480719115C5963BC4A03ABE0AA4B42AE1A3 (UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_m4B8D2480719115C5963BC4A03ABE0AA4B42AE1A3 (UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m13361A4FDB34792A370647BE3DCFDF2AE9043F43_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::AddListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_AddListener_mB9AFAC2C94982D7679B6F7B53D69E9CA550A8183 (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_AddListener_mB9AFAC2C94982D7679B6F7B53D69E9CA550A8183 (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, const RuntimeMethod*))UnityEvent_2_AddListener_mDFE9269B80D7B70296A328376452DFA83905E153_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityAction`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_3__ctor_m59FF18B95CC81D01531FE501948FF6E4B01527B5 (UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_3__ctor_m59FF18B95CC81D01531FE501948FF6E4B01527B5 (UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_3__ctor_mA0AAA8732CC80C1BD1A6ACE2B9EDCD66F6335E99_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::AddListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-inline void UnityEvent_3_AddListener_mF1335FE663655836592344B6EAC9A9CB01A68D42 (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_3_AddListener_mF1335FE663655836592344B6EAC9A9CB01A68D42 (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, const RuntimeMethod*))UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, const RuntimeMethod*))UnityEvent_3_AddListener_mCA408D528B5F443A450B843EA891C625CE4D9E38_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.TTS.Data.TTSClipData>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_RemoveListener_mD12C38D30E8DAC8D5258E9DA2F6EB22B44AA3282 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_RemoveListener_mD12C38D30E8DAC8D5258E9DA2F6EB22B44AA3282 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, UnityAction_1_t51A0A0331440D6D036F7A016CA10C5B54E99C809*, const RuntimeMethod*))UnityEvent_1_RemoveListener_m904FA6BDD0D33FDF8650EF816FF5C131867E693E_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::RemoveListener(UnityEngine.Events.UnityAction`2<T0,T1>)
-inline void UnityEvent_2_RemoveListener_mBD3BAD7D84E79C46731123EB99C3E10A2C81163C (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_2_RemoveListener_mBD3BAD7D84E79C46731123EB99C3E10A2C81163C (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, UnityAction_2_tC20760D89780A105537DDF1A078D83E4F913729B*, const RuntimeMethod*))UnityEvent_2_RemoveListener_m9C8E93B029B8AEF7A7BAD316FCE909A0E8053930_gshared)(__this, ___0_call, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::RemoveListener(UnityEngine.Events.UnityAction`3<T0,T1,T2>)
-inline void UnityEvent_3_RemoveListener_m6B6AF183A3CFC5EA94FA42DF9691FEBB048F1945 (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_3_RemoveListener_m6B6AF183A3CFC5EA94FA42DF9691FEBB048F1945 (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, const RuntimeMethod*))UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, UnityAction_3_t9856F5DFDEC93068DB8D7C0522248FD4263A270D*, const RuntimeMethod*))UnityEvent_3_RemoveListener_mF76CFCB8F0AA943AAF6D0801A4817F4554AE6F96_gshared)(__this, ___0_call, method);
 }
 // System.Void Meta.WitAi.TTS.TTSService::UnloadAll()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_UnloadAll_m68FE5D7047E13F422277A0D374BC8640FB8EDC11 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, const RuntimeMethod* method) ;
 // System.Void System.Text.StringBuilder::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D (StringBuilder_t* __this, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::AppendLine(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88 (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88 (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___format0, RuntimeObject* ___arg01, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8 (String_t* ___0_format, RuntimeObject* ___1_arg0, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Keys()
 inline KeyCollection_t2EDD317F5771E575ACB63527B5AFB71291040342* Dictionary_2_get_Keys_m0014C8E91B9B4377ACFBD26A9175A7E5C016D9E9 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
 {
@@ -3010,132 +3453,132 @@ inline String_t* Enumerator_get_Current_m4620EF2C1DF7D94D5A511226C42A3A42040B1C9
 	return ((  String_t* (*) (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867*, const RuntimeMethod*))Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline)(__this, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Item(TKey)
-inline String_t* Dictionary_2_get_Item_mB13DFB3E7499031847CF544977D4EFB1AC0157AB (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, const RuntimeMethod* method)
+inline String_t* Dictionary_2_get_Item_mB13DFB3E7499031847CF544977D4EFB1AC0157AB (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  String_t* (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.String System.String::ToLower()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD (String_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Replace(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___oldValue0, String_t* ___newValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Replace_mABDB7003A1D0AEDCAE9FF85E3DFFFBA752D2A166 (String_t* __this, String_t* ___0_oldValue, String_t* ___1_newValue, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,System.String>::MoveNext()
 inline bool Enumerator_MoveNext_mE8FB9EBD177219F5AC0BF48642FB47D3E186C283 (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Enumerator_t84BD4D6D35ABE5554A430614BF2F7588BC152867*, const RuntimeMethod*))Enumerator_MoveNext_mB5E00F11BCA3AC963F9BA72659FA76B107863F3C_gshared)(__this, method);
 }
 // System.String Meta.WitAi.TTS.TTSService::GetSha256Hash(System.Security.Cryptography.SHA256,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11F89C58BA6C4DDE025B18DF9C5A379A2 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___shaHash0, String_t* ___input1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11F89C58BA6C4DDE025B18DF9C5A379A2 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___0_shaHash, String_t* ___1_input, const RuntimeMethod* method) ;
 // System.Text.Encoding System.Text.Encoding::get_UTF8()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
 // System.Byte[] System.Security.Cryptography.HashAlgorithm::ComputeHash(System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) ;
 // System.String System.Byte::ToString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_m793A41EEEB7B422F6FE658E99D2F7683F59EE310 (uint8_t* __this, String_t* ___format0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Byte_ToString_m793A41EEEB7B422F6FE658E99D2F7683F59EE310 (uint8_t* __this, String_t* ___0_format, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::GetRuntimeCachedClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___clipID0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_clipID, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Data.TTSClipData::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSClipData__ctor_m8E8813962847F69D286A609B0CC34ECFAB6AACF7 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState>::Invoke(T1,T2)
-inline void Action_2_Invoke_mFDF876A3D40656B3217BE47B427785129CF70061_inline (Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg10, int32_t ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_mFDF876A3D40656B3217BE47B427785129CF70061_inline (Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t, const RuntimeMethod*))Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t, const RuntimeMethod*))Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // Meta.WitAi.TTS.Data.TTSVoiceSettings Meta.WitAi.TTS.TTSService::GetPresetVoiceSettings(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___presetVoiceId0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_presetVoiceId, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_m3520C0A2B28626E501AE270ABDD8ABC3D4B02263 (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.VLog::E(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_E_m72B89ED9282703998618195366B61B9F26A40AC1 (RuntimeObject* ___log0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_E_m72B89ED9282703998618195366B61B9F26A40AC1 (RuntimeObject* ___0_log, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::Invoke(T1,T2)
-inline void Action_2_Invoke_m1DBB6E225374096C6D9376FFA05CB29D9254A300_inline (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg10, String_t* ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m1DBB6E225374096C6D9376FFA05CB29D9254A300_inline (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg1, String_t* ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, const RuntimeMethod*))Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Void System.Action`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_1__ctor_m9DC2953C55C4D7D4B7BEFE03D84DA1F9362D652C (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_1__ctor_m2E1DFA67718FC1A0B6E5DFEB78831FFE9C059EB4_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Meta.WitAi.TTS.TTSService::CallAfterAMoment(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1766781CB4D6A587C3E079AB3A21988BC06501F4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1766781CB4D6A587C3E079AB3A21988BC06501F4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_call, const RuntimeMethod* method) ;
 // Meta.WitAi.CoroutineUtility/CoroutinePerformer Meta.WitAi.CoroutineUtility::StartCoroutine(System.Collections.IEnumerator,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutinePerformer_t2423B696217C7475EF6AFE1D33000E8766703559* CoroutineUtility_StartCoroutine_m5680A02AF835BAFFC3A54F57446E7594EEB832B8 (RuntimeObject* ___asyncMethod0, bool ___useUpdate1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CoroutinePerformer_t2423B696217C7475EF6AFE1D33000E8766703559* CoroutineUtility_StartCoroutine_m5680A02AF835BAFFC3A54F57446E7594EEB832B8 (RuntimeObject* ___0_asyncMethod, bool ___1_useUpdate, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnLoadBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_m465EB9C9C01F48F9DF6C39DEBFB4004837E26BCF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_m465EB9C9C01F48F9DF6C39DEBFB4004837E26BCF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService/<CallAfterAMoment>d__35::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__35__ctor_mD6B60907C94BB96313CA7507F6EEE2425044EFDB (U3CCallAfterAMomentU3Ed__35_tDA8338DB4F6E12834C8938E6B0A87AC202DFB211* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__35__ctor_mD6B60907C94BB96313CA7507F6EEE2425044EFDB (U3CCallAfterAMomentU3Ed__35_tDA8338DB4F6E12834C8938E6B0A87AC202DFB211* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.VLog::D(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37 (RuntimeObject* ___log0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37 (RuntimeObject* ___0_log, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Events.TTSServiceEvents Meta.WitAi.TTS.TTSService::get_Events()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSServiceEvents_t5769AE38018E87D8F9DCB9F19D4C85FC5AA295BF* TTSService_get_Events_m1C3A579398F83877EC2DE6CCB93D17C736E1D4A5_inline (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<Meta.WitAi.TTS.Data.TTSClipData>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119 (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tB5A108005350A1D135736101AA3F9B005F244BDC*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamBegin(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamReady(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamError(Meta.WitAi.TTS.Data.TTSClipData,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, bool ___fromDisk2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, bool ___2_fromDisk, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.String>::Invoke(T)
-inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, String_t* ___obj0, const RuntimeMethod* method)
+inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* __this, String_t* ___0_obj, const RuntimeMethod* method)
 {
-	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, String_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___obj0, method);
+	((  void (*) (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*, String_t*, const RuntimeMethod*))Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline)(__this, ___0_obj, method);
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamCancel(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::Unload(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7 (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7 (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_t32A1988A0478933681890479EFF584B5C1D1BEC8*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.Void System.Array::CopyTo(System.Array,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB (RuntimeArray* __this, RuntimeArray* ___array0, int32_t ___index1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB (RuntimeArray* __this, RuntimeArray* ___0_array, int32_t ___1_index, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnUnloadBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.String Meta.WitAi.TTS.TTSService::GetDiskCachePath(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m042A61F1789DD1344E3023617BF688BCD3598911 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m042A61F1789DD1344E3023617BF688BCD3598911 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___4_onDownloadComplete, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass63_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0__ctor_mACF879F390ADB9C9F942DA97D482A5254B18F072 (U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* __this, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_m3FDC374212F42B0C23B179F1335A6B702F6A3D6F (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_m3FDC374212F42B0C23B179F1335A6B702F6A3D6F (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m460C72FDDE5FF8033C7BD19A07CF4E3F473F7414_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::Invoke(T0,T1,T2)
-inline void UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg00, String_t* ___arg11, String_t* ___arg22, const RuntimeMethod* method)
+inline void UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg0, String_t* ___1_arg1, String_t* ___2_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared)(__this, ___arg00, ___arg11, ___arg22, method);
+	((  void (*) (UnityEvent_3_tA7209BD4DC7621A3CB3D6025C884F9CEA0617FFA*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, const RuntimeMethod*))UnityEvent_3_Invoke_m49021A429720036E9DEA177CAB8D5375847FADCB_gshared)(__this, ___0_arg0, ___1_arg1, ___2_arg2, method);
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass69_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_m523768DAB4A4C74ADEAE20E4C7554FCB2AA902F1 (U3CU3Ec__DisplayClass69_0_t262D662142132DB79AAF0ECF35C08D7680D17582* __this, const RuntimeMethod* method) ;
 // System.Void System.Predicate`1<Meta.WitAi.TTS.Data.TTSVoiceSettings>::.ctor(System.Object,System.IntPtr)
-inline void Predicate_1__ctor_mEAD34E1883E74D40C6A33FB21485E6529A681C04 (Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Predicate_1__ctor_mEAD34E1883E74D40C6A33FB21485E6529A681C04 (Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
 }
 // T System.Array::Find<Meta.WitAi.TTS.Data.TTSVoiceSettings>(T[],System.Predicate`1<T>)
-inline TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* Array_Find_TisTTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326_m706CF481D6CB0257FD8BFF0E141C1EF0A165AD78 (TTSVoiceSettingsU5BU5D_tE40613FD6BDBC81ED88596520FA5027F89DF435C* ___array0, Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E* ___match1, const RuntimeMethod* method)
+inline TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* Array_Find_TisTTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326_m706CF481D6CB0257FD8BFF0E141C1EF0A165AD78 (TTSVoiceSettingsU5BU5D_tE40613FD6BDBC81ED88596520FA5027F89DF435C* ___0_array, Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E* ___1_match, const RuntimeMethod* method)
 {
-	return ((  TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* (*) (TTSVoiceSettingsU5BU5D_tE40613FD6BDBC81ED88596520FA5027F89DF435C*, Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___array0, ___match1, method);
+	return ((  TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* (*) (TTSVoiceSettingsU5BU5D_tE40613FD6BDBC81ED88596520FA5027F89DF435C*, Predicate_1_tB621C3DC63CA7FF31FB86645EEB605F610BFAE2E*, const RuntimeMethod*))Array_Find_TisRuntimeObject_m03DE8D6544B37CBB6B339128ACC38C60CCFC4C24_gshared)(___0_array, ___1_match, method);
 }
 // System.Void Meta.WitAi.TTS.Events.TTSServiceEvents::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSServiceEvents__ctor_m82EF258C00AB920E79E011CF464D9B6E1EBCB353 (TTSServiceEvents_t5769AE38018E87D8F9DCB9F19D4C85FC5AA295BF* __this, const RuntimeMethod* method) ;
@@ -3154,24 +3597,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B9223183
 // System.Int32 UnityEngine.SceneManagement.Scene::get_rootCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Scene_get_rootCount_mCEEBE76B883D2FCDC25AB8D2DEE565E696887D6B (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamError(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_m54B61BF3CCA008B30FE95EB06D4E6B96697AE659 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_m54B61BF3CCA008B30FE95EB06D4E6B96697AE659 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.TTS.TTSService::ShouldCacheToDisk(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mC8645C62BB958735C12B053416C122C9DB1B0E78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mC8645C62BB958735C12B053416C122C9DB1B0E78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadBegin(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m8A25725AE577B0A66502B3C5186A716FFA81B292 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m8A25725AE577B0A66502B3C5186A716FFA81B292 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadCancel(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m699E93D33AD6D6C701554927E2152C3920C0F98A (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m699E93D33AD6D6C701554927E2152C3920C0F98A (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_m6C98FE27CAE678C817E2938E9C47667ABFD873A4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_m6C98FE27CAE678C817E2938E9C47667ABFD873A4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamCancel(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_m390F1C15AC89D640E2C2CEB16DCFD29D769A98BF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_m390F1C15AC89D640E2C2CEB16DCFD29D769A98BF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_3__ctor_mC4EA44981086B6C5D5142C90ADAC15001A00E418 (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_3__ctor_mC4EA44981086B6C5D5142C90ADAC15001A00E418 (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_3__ctor_mFDF135E5454D50D572002F7C83EEB55B3CAA5211_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Boolean System.String::Equals(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Application::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.WaitForEndOfFrame::.ctor()
@@ -3181,14 +3624,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
 // System.Void System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>::Invoke(T1,T2,T3)
-inline void Action_3_Invoke_mCBE5041E64DF8FE41C807D2CE878F6F7CD4BA3CB_inline (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg10, String_t* ___arg21, String_t* ___arg32, const RuntimeMethod* method)
+inline void Action_3_Invoke_mCBE5041E64DF8FE41C807D2CE878F6F7CD4BA3CB_inline (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg1, String_t* ___1_arg2, String_t* ___2_arg3, const RuntimeMethod* method)
 {
-	((  void (*) (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___arg10, ___arg21, ___arg32, method);
+	((  void (*) (Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, const RuntimeMethod*))Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline)(__this, ___0_arg1, ___1_arg2, ___2_arg3, method);
 }
 // System.Boolean System.String::Equals(System.String,System.String,System.StringComparison)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___a0, String_t* ___b1, int32_t ___comparisonType2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B (String_t* ___0_a, String_t* ___1_b, int32_t ___2_comparisonType, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Utilities.TTSSpeaker,System.String>::.ctor()
 inline void UnityEvent_2__ctor_mCC277154CFCC7993481B3E9C3C86C235A979341E (UnityEvent_2_tC5398C2D6649CA9C4A3A798F911EFC8146430A3D* __this, const RuntimeMethod* method)
 {
@@ -3232,44 +3675,44 @@ inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* GameObject_AddComp
 	return ((  AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
 }
 // System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_playOnAwake_m7EACC6ECEF12D7BA86A4E5A53603F1C8F9E11949 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, bool ___0_value, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.TTSService Meta.WitAi.TTS.TTSService::get_Instance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* TTSService_get_Instance_m2AFDD22A8A5E433E2B13424DFD8DD36A1F9E6F68 (const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___format0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m918500C1EFB475181349A79989BB79BB36102894 (String_t* ___0_format, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>::Contains(T)
-inline bool Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___item0, const RuntimeMethod* method)
+inline bool Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Queue_1_Contains_m2005E02D4DC2C3186E5BA0722C8435C966AB7B0E_gshared)(__this, ___item0, method);
+	return ((  bool (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Queue_1_Contains_m2005E02D4DC2C3186E5BA0722C8435C966AB7B0E_gshared)(__this, ___0_item, method);
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::RemoveLoadingClip(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___allInstances1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_allInstances, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m3E1160A00BC1A52F8C21368EF046FC231DCDEC5F (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m3E1160A00BC1A52F8C21368EF046FC231DCDEC5F (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueued(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_m953A1C710DCDCD8DB8743581606933580AC31278 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_m953A1C710DCDCD8DB8743581606933580AC31278 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) ;
 // System.String Meta.WitAi.TTS.Utilities.TTSSpeaker::GetFormattedText(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___format0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_format, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_textsToSpeak, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__32::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__32__ctor_m2E4016EC1479643B55B1B809A7E0E372BCE11C0C (U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__32__ctor_m2E4016EC1479643B55B1B809A7E0E372BCE11C0C (U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__33::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__33__ctor_mE565444614C4FE31C7A1AF6EB71DE230D4590FEA (U3CSpeakAsyncU3Ed__33_t259571AB608559D9B27622778CAAF788062C6775* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__33__ctor_mE565444614C4FE31C7A1AF6EB71DE230D4590FEA (U3CSpeakAsyncU3Ed__33_t259571AB608559D9B27622778CAAF788062C6775* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__34::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__34__ctor_mDB5CFE577FED18D2CB64A4E5BC219AC5071E807F (U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__34__ctor_mDB5CFE577FED18D2CB64A4E5BC219AC5071E807F (U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__35::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__35__ctor_m9734BA80900926C49871935688E643D2EE28F777 (U3CSpeakQueuedAsyncU3Ed__35_t9866CAFE2B15F1C551D673DAEFC9CB79729DB818* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__35__ctor_m9734BA80900926C49871935688E643D2EE28F777 (U3CSpeakQueuedAsyncU3Ed__35_t9866CAFE2B15F1C551D673DAEFC9CB79729DB818* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Int32 System.String::get_Length()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::EndsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.String::StartsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Data.TTSVoiceSettings Meta.WitAi.TTS.Utilities.TTSSpeaker::get_VoiceSettings()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* TTSSpeaker_get_VoiceSettings_mD13F2686E89EB574B33A0D6A4588124587B86E9B (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>::Enqueue(T)
-inline void Queue_1_Enqueue_mCDACE8654C2D5B9271244202FE193BDFE67D9D8B (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___item0, const RuntimeMethod* method)
+inline void Queue_1_Enqueue_mCDACE8654C2D5B9271244202FE193BDFE67D9D8B (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Queue_1_Enqueue_m5CB8CF3906F1289F92036F0973EC5BE3450402EF_gshared)(__this, ___item0, method);
+	((  void (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Queue_1_Enqueue_m5CB8CF3906F1289F92036F0973EC5BE3450402EF_gshared)(__this, ___0_item, method);
 }
 // Meta.WitAi.TTS.Utilities.TTSSpeakerEvents Meta.WitAi.TTS.Utilities.TTSSpeaker::get_Events()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSSpeakerEvents_t80895FED7384EDF060ADE4CA42FAEA800B0103FB* TTSSpeaker_get_Events_m980602149D6FD801D8023A2B52B8456566C91891_inline (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, const RuntimeMethod* method) ;
@@ -3287,76 +3730,76 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_m9173549
 // System.DateTime System.DateTime::get_Now()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C (const RuntimeMethod* method) ;
 // System.Void System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>::.ctor(System.Object,System.IntPtr)
-inline void Action_2__ctor_mADCB17A6A021877564862A28F1EFCCB172F56C37 (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Action_2__ctor_mADCB17A6A021877564862A28F1EFCCB172F56C37 (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36*, RuntimeObject*, intptr_t, const RuntimeMethod*))Action_2__ctor_m6A0E7FE9DF9AE6C4BEE58611CB55F64FC3D79052_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`2<Meta.WitAi.TTS.Utilities.TTSSpeaker,System.String>::Invoke(T0,T1)
-inline void UnityEvent_2_Invoke_m60D600A85B50A5F084FFA217B6C0DE699BB1EC68 (UnityEvent_2_tC5398C2D6649CA9C4A3A798F911EFC8146430A3D* __this, TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* ___arg00, String_t* ___arg11, const RuntimeMethod* method)
+inline void UnityEvent_2_Invoke_m60D600A85B50A5F084FFA217B6C0DE699BB1EC68 (UnityEvent_2_tC5398C2D6649CA9C4A3A798F911EFC8146430A3D* __this, TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* ___0_arg0, String_t* ___1_arg1, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_2_tC5398C2D6649CA9C4A3A798F911EFC8146430A3D*, TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___arg00, ___arg11, method);
+	((  void (*) (UnityEvent_2_tC5398C2D6649CA9C4A3A798F911EFC8146430A3D*, TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C*, String_t*, const RuntimeMethod*))UnityEvent_2_Invoke_m9815C6864ED92A2000D3CCF1086DC1FF31CAB3AC_gshared)(__this, ___0_arg0, ___1_arg1, method);
 }
 // System.TimeSpan System.DateTime::op_Subtraction(System.DateTime,System.DateTime)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d10, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___d21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_d1, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_d2, const RuntimeMethod* method) ;
 // System.Double System.TimeSpan::get_TotalMilliseconds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double TimeSpan_get_TotalMilliseconds_m3506C1A49F1FE37A82F3027EA061D18215EF87CF (TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987 (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, const RuntimeMethod* method) ;
 // T System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>::Peek()
 inline TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* Queue_1_Peek_m990185F1E8995A7DD49270ED4E4B22588A5D7512 (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, const RuntimeMethod* method)
 {
 	return ((  TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, const RuntimeMethod*))Queue_1_Peek_mBCFFD1AF751385D78C4EA93D62857F936CD03866_gshared)(__this, method);
 }
 // System.Boolean Meta.WitAi.TTS.Data.TTSClipData::Equals(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___other0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_other, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Queue`1<Meta.WitAi.TTS.Data.TTSClipData>::.ctor()
 inline void Queue_1__ctor_mDCB1C2AB37A6DAE61F919F7BBCC0DB83805E8EE1 (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* __this, const RuntimeMethod* method)
 {
 	((  void (*) (Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629*, const RuntimeMethod*))Queue_1__ctor_m6E2A5A8173E0CC524496D5155C737DF8FD10D0EB_gshared)(__this, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.AudioClip>::Invoke(T0)
-inline void UnityEvent_1_Invoke_m0F626340093B5145C31EA6E80F255B429F134833 (UnityEvent_1_tAAA723930EF5C2DD5C11869C526B4A44D162F39B* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_m0F626340093B5145C31EA6E80F255B429F134833 (UnityEvent_1_tAAA723930EF5C2DD5C11869C526B4A44D162F39B* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tAAA723930EF5C2DD5C11869C526B4A44D162F39B*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tAAA723930EF5C2DD5C11869C526B4A44D162F39B*, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::set_SpeakingClip(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01_inline (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01_inline (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioSource::PlayOneShot(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::Invoke(T0)
-inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___arg00, const RuntimeMethod* method)
+inline void UnityEvent_1_Invoke_mA633B48B5D287DA856FB954AC3E4012487E63C15 (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, String_t* ___0_arg0, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___arg00, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, String_t*, const RuntimeMethod*))UnityEvent_1_Invoke_m6CDC8B0639CE8935E2E13D10B2C8E500968130B6_gshared)(__this, ___0_arg0, method);
 }
 // System.Void UnityEngine.MonoBehaviour::StopCoroutine(UnityEngine.Coroutine)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour_StopCoroutine_mB0FC91BE84203BD8E360B3FBAE5B958B4C5ED22A (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___0_routine, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<WaitForCompletion>d__47::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForCompletionU3Ed__47__ctor_m23D6062EDF934E5E74B4B32952DFA79C4C6817AA (U3CWaitForCompletionU3Ed__47_t62C536F4869B58BDCF720475C059AA27BF065D7C* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForCompletionU3Ed__47__ctor_m23D6062EDF934E5E74B4B32952DFA79C4C6817AA (U3CWaitForCompletionU3Ed__47_t62C536F4869B58BDCF720475C059AA27BF065D7C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.AudioSource::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AudioSource::Stop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueuedAsync(System.String[],Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6561C526498CE631432D2C23FAE13A0B01D8930D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6561C526498CE631432D2C23FAE13A0B01D8930D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_textsToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakAsync(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF7EFA2582E8029413C1FD730845AD857F9 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF7EFA2582E8029413C1FD730845AD857F9 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) ;
 // System.Void System.Func`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22 (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22 (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_1__ctor_mDFFAE9C73346372438B5B04C4558AC42F1A3DA22_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.WaitWhile::.ctor(System.Func`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* __this, Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___predicate0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitWhile__ctor_mF803B2F3BC88135FEA9024F6C51E7267A7E7B82C (WaitWhile_t6E10E586970164905286BEAB019D7F73DA661967* __this, Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457* ___0_predicate, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_deltaTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
 // System.Single UnityEngine.AudioClip::get_length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* __this, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSDiskCache::ShouldCacheToDisk(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_m5D6E1265C7354DD9FE92F64AB0A6A5EE513C8361 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_m5D6E1265C7354DD9FE92F64AB0A6A5EE513C8361 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_persistentDataPath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_temporaryCachePath()
@@ -3366,63 +3809,63 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath
 // System.String Meta.WitAi.TTS.Integrations.TTSDiskCache::get_DiskPath()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* TTSDiskCache_get_DiskPath_m32FDB08E8E355E83AD0CEB88689CF09E5701B10E_inline (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, const RuntimeMethod* method) ;
 // System.String System.IO.Path::Combine(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Utilities.IOUtility::CreateDirectory(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IOUtility_CreateDirectory_m9CEDEFB04138BABAA175B66857EE9867031D5CBB (String_t* ___directoryPath0, bool ___recursively1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IOUtility_CreateDirectory_m9CEDEFB04138BABAA175B66857EE9867031D5CBB (String_t* ___0_directoryPath, bool ___1_recursively, const RuntimeMethod* method) ;
 // System.String System.Enum::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass13_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_m64F4743BE69F04B7343534CB468C3999D2F08E66 (U3CU3Ec__DisplayClass13_0_t6B9CFB7447E8013ACDC325751A5DDCF8AFC7B5CF* __this, const RuntimeMethod* method) ;
 // System.String Meta.WitAi.TTS.Integrations.TTSDiskCache::GetDiskCachePath(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB5A23A6C0889C63B7B08DE5BFC2D17F7475A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB5A23A6C0889C63B7B08DE5BFC2D17F7475A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.Boolean>::Invoke(T1,T2)
-inline void Action_2_Invoke_m3F27D046697BDCE14C7F53A0C99CA3DC933DBAFF_inline (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___arg10, bool ___arg21, const RuntimeMethod* method)
+inline void Action_2_Invoke_m3F27D046697BDCE14C7F53A0C99CA3DC933DBAFF_inline (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_arg1, bool ___1_arg2, const RuntimeMethod* method)
 {
-	((  void (*) (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, bool, const RuntimeMethod*))Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline)(__this, ___arg10, ___arg21, method);
+	((  void (*) (Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, bool, const RuntimeMethod*))Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline)(__this, ___0_arg1, ___1_arg2, method);
 }
 // System.Void Meta.WitAi.Requests.VRequest::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRequest__ctor_m2CBEC55394F069C557B77F74AEC80508F65C8537 (VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5 (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5 (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227*, RuntimeObject*, intptr_t, const RuntimeMethod*))RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227*, RuntimeObject*, intptr_t, const RuntimeMethod*))RequestCompleteDelegate_1__ctor_mA9DEBEFCED043D9F65240B963691AC2AED7A53D5_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Boolean Meta.WitAi.Requests.VRequest::RequestFileExists(System.String,Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRequest_RequestFileExists_m10362277B1273A6C217E9BABAC916476D0E24778 (VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* __this, String_t* ___checkPath0, RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* ___onComplete1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRequest_RequestFileExists_m10362277B1273A6C217E9BABAC916476D0E24778 (VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* __this, String_t* ___0_checkPath, RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* ___1_onComplete, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m9F91457BE833C21231155D090C4B729469D620DA (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___key0, VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m9F91457BE833C21231155D090C4B729469D620DA (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___0_key, VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m50208C4947E0F071B327BD30D316628C349D45CB (U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* __this, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Events.TTSStreamEvents Meta.WitAi.TTS.Integrations.TTSDiskCache::get_DiskStreamEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* TTSDiskCache_get_DiskStreamEvents_mAC6F6C020BB14837BC96167600EB251357A2A518_inline (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, const RuntimeMethod* method) ;
 // System.Void System.Uri::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___uriString0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___0_uriString, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<UnityEngine.AudioClip>::.ctor(System.Object,System.IntPtr)
-inline void RequestCompleteDelegate_1__ctor_m0652A714187CBDC14E8660615DE06C82FF11937F (RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void RequestCompleteDelegate_1__ctor_m0652A714187CBDC14E8660615DE06C82FF11937F (RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227*, RuntimeObject*, intptr_t, const RuntimeMethod*))RequestCompleteDelegate_1__ctor_m5B4BD9930967DA4A93C01EE87192DA6DBB2988F1_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227*, RuntimeObject*, intptr_t, const RuntimeMethod*))RequestCompleteDelegate_1__ctor_m5B4BD9930967DA4A93C01EE87192DA6DBB2988F1_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void Meta.WitAi.Requests.VRequest/RequestProgressDelegate::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestProgressDelegate__ctor_m3E241D94035D7034B4DEF78A048A4B909EEEC20F (RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestProgressDelegate__ctor_m3E241D94035D7034B4DEF78A048A4B909EEEC20F (RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Requests.VRequest::RequestAudioClip(System.Uri,Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<UnityEngine.AudioClip>,UnityEngine.AudioType,System.Boolean,Meta.WitAi.Requests.VRequest/RequestProgressDelegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRequest_RequestAudioClip_m889F3CDCDB4752DCB79529692CCB23459C855800 (VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___uri0, RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* ___onClipReady1, int32_t ___audioType2, bool ___audioStream3, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___onProgress4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VRequest_RequestAudioClip_m889F3CDCDB4752DCB79529692CCB23459C855800 (VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_uri, RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* ___1_onClipReady, int32_t ___2_audioType, bool ___3_audioStream, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___4_onProgress, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m69AE1A9ACD02995822338BBBC5A74B59D2DA393D (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m69AE1A9ACD02995822338BBBC5A74B59D2DA393D (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>::get_Item(TKey)
-inline VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* Dictionary_2_get_Item_mC988D080FDD725289D4E7194EA9635F997E87B27 (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* Dictionary_2_get_Item_mC988D080FDD725289D4E7194EA9635F997E87B27 (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1* (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.VRequest>::Remove(TKey)
-inline bool Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3 (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3 (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // System.Void Meta.WitAi.TTS.Data.TTSDiskCacheSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCacheSettings__ctor_m40DDC2AC27F34F5C35BB57426DF1DC9FD96B29F1 (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* __this, const RuntimeMethod* method) ;
@@ -3439,47 +3882,47 @@ inline ValueCollection_tE14AE9A409BAE0C3A169C0DE57F2A8A02ADAEDCE* Dictionary_2_g
 	return ((  ValueCollection_tE14AE9A409BAE0C3A169C0DE57F2A8A02ADAEDCE* (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, const RuntimeMethod*))Dictionary_2_get_Values_mA0C01DEA55329E55380E96BBD04D4D228B437EC5_gshared)(__this, method);
 }
 // TSource[] System.Linq.Enumerable::ToArray<Meta.WitAi.TTS.Data.TTSClipData>(System.Collections.Generic.IEnumerable`1<TSource>)
-inline TTSClipDataU5BU5D_t2AE56AC2A4BB002E81CB8249EC540E8B9F043260* Enumerable_ToArray_TisTTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827_m325A83BF8E7EA6F97E54E8A70A015D428B81A1FB (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline TTSClipDataU5BU5D_t2AE56AC2A4BB002E81CB8249EC540E8B9F043260* Enumerable_ToArray_TisTTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827_m325A83BF8E7EA6F97E54E8A70A015D428B81A1FB (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
-	return ((  TTSClipDataU5BU5D_t2AE56AC2A4BB002E81CB8249EC540E8B9F043260* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___source0, method);
+	return ((  TTSClipDataU5BU5D_t2AE56AC2A4BB002E81CB8249EC540E8B9F043260* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisRuntimeObject_mA54265C2C8A0864929ECD300B75E4952D553D17D_gshared)(___0_source, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Int32 System.Collections.Generic.List`1<System.String>::IndexOf(T)
-inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline int32_t List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___item0, method);
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_IndexOf_m378F61BA812B79DEE58D86FE8AA9F20E3FC7D85F_gshared)(__this, ___0_item, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::Add(T)
-inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>::get_Item(TKey)
-inline TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___key0, const RuntimeMethod* method)
+inline TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m831FE5AEBCD52CBE0AB00782DF90AF91849C0CB3 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___key0, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m831FE5AEBCD52CBE0AB00782DF90AF91849C0CB3 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___0_key, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // T System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)
-inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSRuntimeCache::RemoveClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mA5B7062558B1F632383BFBE6D678B2D97EFFBB74 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___clipID0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mA5B7062558B1F632383BFBE6D678B2D97EFFBB74 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___0_clipID, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSRuntimeCache::IsCacheFull()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSRuntimeCache_IsCacheFull_mEC7332D863C614DE241703ACAB66A1C3A706E12A (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
@@ -3500,9 +3943,9 @@ inline int32_t KeyCollection_get_Count_mF09C04E80C2C3DB8A72E09AED08501A0D53ADA0C
 // Meta.WitAi.TTS.Events.TTSClipEvent Meta.WitAi.TTS.Integrations.TTSRuntimeCache::get_OnClipAdded()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* TTSRuntimeCache_get_OnClipAdded_m6B463C4790E9AEFEC8362B8EBFB19EAAC64E56EB_inline (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.TTS.Data.TTSClipData>::Remove(TKey)
-inline bool Dictionary_2_Remove_m191904AE148BE08CB5D6AD1EBE45CFF0EA579A79 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_m191904AE148BE08CB5D6AD1EBE45CFF0EA579A79 (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // Meta.WitAi.TTS.Events.TTSClipEvent Meta.WitAi.TTS.Integrations.TTSRuntimeCache::get_OnClipRemoved()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* TTSRuntimeCache_get_OnClipRemoved_m065743317AE958A1839DF80DDD4EE33FDB722FB6_inline (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, const RuntimeMethod* method) ;
@@ -3524,7 +3967,7 @@ inline String_t* Enumerator_get_Current_m34318CAF7B7734274E24B6E6FDF13C88183E42B
 	return ((  String_t* (*) (Enumerator_tF3E6A24A38C1F7E502C18ECCD6E1C609396F933A*, const RuntimeMethod*))Enumerator_get_Current_mD6472FA27D28B9AE64A0FEF796C72ABBC2420EBF_gshared_inline)(__this, method);
 }
 // System.Int64 Meta.WitAi.TTS.Integrations.TTSRuntimeCache::GetClipBytes(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED74477FE1D25D3028FEAFB695127DF56444CCA (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED74477FE1D25D3028FEAFB695127DF56444CCA (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.String,Meta.WitAi.TTS.Data.TTSClipData>::MoveNext()
 inline bool Enumerator_MoveNext_mB7ACC68F39FEC2167FBFDF4B9479120E0D8620A7 (Enumerator_tF3E6A24A38C1F7E502C18ECCD6E1C609396F933A* __this, const RuntimeMethod* method)
 {
@@ -3567,40 +4010,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m5805D2B
 // Meta.WitAi.TTS.Events.TTSStreamEvents Meta.WitAi.TTS.Integrations.TTSWit::get_WebStreamEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* TTSWit_get_WebStreamEvents_m98C0FD7510A47954ACB394DBDA927C1D9E78C7B6_inline (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, const RuntimeMethod* method) ;
 // System.String Meta.WitAi.TTS.Integrations.TTSWit::IsRequestValid(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m3373AB0DDA02667FD6624752203966A80DFBC0DA (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E* ___configuration1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m3373AB0DDA02667FD6624752203966A80DFBC0DA (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E* ___1_configuration, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSWit::CancelWebStream(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_m65761464CCCFAF8DC17976EB7AD6BC7BE6D68578 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_m65761464CCCFAF8DC17976EB7AD6BC7BE6D68578 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Requests.WitTTSVRequest::.ctor(Meta.WitAi.IWitRequestConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTTSVRequest__ctor_mE43EC29E3525BEC8516493C873894135017E6FB6 (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, RuntimeObject* ___configuration0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTTSVRequest__ctor_mE43EC29E3525BEC8516493C873894135017E6FB6 (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, RuntimeObject* ___0_configuration, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Requests.WitTTSVRequest::RequestStream(System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<UnityEngine.AudioClip>,Meta.WitAi.Requests.VRequest/RequestProgressDelegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitTTSVRequest_RequestStream_m543A1147518C743CEB7925E4B69D72A1C9784508 (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, String_t* ___textToSpeak0, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___ttsData1, RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* ___onClipReady2, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___onProgress3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitTTSVRequest_RequestStream_m543A1147518C743CEB7925E4B69D72A1C9784508 (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, String_t* ___0_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___1_ttsData, RequestCompleteDelegate_1_tD847EF3BC3FD3D3B90166A1BFD118C2024197227* ___2_onClipReady, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___3_onProgress, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_m5BC4C7E86F42C61955F5AD77E3ECDD2D69218CC9 (U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* __this, const RuntimeMethod* method) ;
 // Meta.WitAi.TTS.Events.TTSDownloadEvents Meta.WitAi.TTS.Integrations.TTSWit::get_WebDownloadEvents()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* TTSWit_get_WebDownloadEvents_m80794F5B9588B6BCBDDD5186E00B1FBD23F35830_inline (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_mCBF70D9AE0245287511956EE3B7BCCC8C58933A5 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_mCBF70D9AE0245287511956EE3B7BCCC8C58933A5 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSWit::CancelWebDownload(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m668EECF084A405833C0F6A10ED18128521EF5F63 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m668EECF084A405833C0F6A10ED18128521EF5F63 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.Requests.WitTTSVRequest::RequestDownload(System.String,System.String,System.Collections.Generic.Dictionary`2<System.String,System.String>,Meta.WitAi.Requests.VRequest/RequestCompleteDelegate`1<System.Boolean>,Meta.WitAi.Requests.VRequest/RequestProgressDelegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitTTSVRequest_RequestDownload_mC18DF9CEEB421F2A33282F36F70844C508731D3B (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, String_t* ___downloadPath0, String_t* ___textToSpeak1, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___ttsData2, RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* ___onComplete3, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___onProgress4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool WitTTSVRequest_RequestDownload_mC18DF9CEEB421F2A33282F36F70844C508731D3B (WitTTSVRequest_tC62D63EA0B7FF7812D8674980098D818EE743CC0* __this, String_t* ___0_downloadPath, String_t* ___1_textToSpeak, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___2_ttsData, RequestCompleteDelegate_1_t1B18F41B11AC8901780786A9FA45BE64B8872227* ___3_onComplete, RequestProgressDelegate_tCEE5B616F4FDCD488E4914A7F554F2F57B7D03A4* ___4_onProgress, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m5E41D7D254BEEECF0C87603D1BC836163E4B371E (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___key0, WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m5E41D7D254BEEECF0C87603D1BC836163E4B371E (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___0_key, WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // TValue System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>::get_Item(TKey)
-inline WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* Dictionary_2_get_Item_m8C298CC25B3C523E237C96C65C79F8472E2DE955 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* Dictionary_2_get_Item_m8C298CC25B3C523E237C96C65C79F8472E2DE955 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___key0, method);
+	return ((  WitVRequest_t8604AB4F31C0E6BB2572F16A2C0992E09DEA1534* (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_get_Item_m4AAAECBE902A211BF2126E6AFA280AEF73A3E0D6_gshared)(__this, ___0_key, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,Meta.WitAi.Requests.WitVRequest>::Remove(TKey)
-inline bool Dictionary_2_Remove_mAC0649F6B4E6A5853735FAF4A0B8639D1656D027 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_Remove_mAC0649F6B4E6A5853735FAF4A0B8639D1656D027 (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7*, String_t*, const RuntimeMethod*))Dictionary_2_Remove_m5C7C45E75D951A75843F3F7AADD56ECD64F6BC86_gshared)(__this, ___0_key, method);
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWitVoiceSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWitVoiceSettings__ctor_mF02F476EE719E6BE0B984429F0DCF3CE82E4BD24 (TTSWitVoiceSettings_tA58275B53D3A2B6F140D79B235C53396D1E9AA29* __this, const RuntimeMethod* method) ;
@@ -3616,25 +4059,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972C
 // System.Reflection.FieldInfo[] System.Type::GetFields()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* Type_GetFields_mC0570FF1986A6D93FA7976303B44B2FF8D0BC77F (Type_t* __this, const RuntimeMethod* method) ;
 // T System.Reflection.CustomAttributeExtensions::GetCustomAttribute<UnityEngine.RangeAttribute>(System.Reflection.MemberInfo)
-inline RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* CustomAttributeExtensions_GetCustomAttribute_TisRangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557_m7CA94D1DCD70C1E86CA6DDB2AC741C7627F4F2ED (MemberInfo_t* ___element0, const RuntimeMethod* method)
+inline RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* CustomAttributeExtensions_GetCustomAttribute_TisRangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557_m7CA94D1DCD70C1E86CA6DDB2AC741C7627F4F2ED (MemberInfo_t* ___0_element, const RuntimeMethod* method)
 {
-	return ((  RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* (*) (MemberInfo_t*, const RuntimeMethod*))CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared)(___element0, method);
+	return ((  RangeAttribute_t8765B7FFCE8F675585C966D7E9FC8FE555D84557* (*) (MemberInfo_t*, const RuntimeMethod*))CustomAttributeExtensions_GetCustomAttribute_TisRuntimeObject_m5B4B712DB5F08EBF4518A1973C9F11C15A4BEAE9_gshared)(___0_element, method);
 }
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 // System.Boolean System.Type::op_Equality(System.Type,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Equality_m99930A0E44E420A685FABA60E60BA1CC5FA0EBDC (Type_t* ___0_left, Type_t* ___1_right, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::Clamp(System.Int32,System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(TKey,TValue)
-inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_set_Item_m1A840355E8EDAECEA9D0C6F5E51B248FAA449CBD_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.String>::ContainsKey(TKey)
-inline bool Dictionary_2_ContainsKey_m17345EA05D3F26087F953F6793B2401AA6EE7B0F (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, const RuntimeMethod* method)
+inline bool Dictionary_2_ContainsKey_m17345EA05D3F26087F953F6793B2401AA6EE7B0F (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___key0, method);
+	return ((  bool (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, const RuntimeMethod*))Dictionary_2_ContainsKey_m703047C213F7AB55C9DC346596287773A1F670CD_gshared)(__this, ___0_key, method);
 }
 // System.Void Meta.WitAi.TTS.Events.TTSDownloadEvents::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDownloadEvents__ctor_m249AC09F74FE93E73E3E1E47683966D1FD65CC84 (TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* __this, const RuntimeMethod* method) ;
@@ -3662,7 +4105,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSClipDownloadErrorEvent__ctor_mB662787
 // System.Void Meta.WitAi.TTS.Events.TTSClipErrorEvent::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSClipErrorEvent__ctor_mD7FE85AFFFD6A1445E8775CE5B1D619D29C77221 (TTSClipErrorEvent_t6C9313A0819BDD71F8BA14EED5A72DD52F119689* __this, const RuntimeMethod* method) ;
 // System.Boolean Meta.WitAi.TTS.Data.TTSClipData::HasClipId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_HasClipId_m80BE688C84E0930E3B701E3A99729C71184E2F27 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, String_t* ___clipId0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_HasClipId_m80BE688C84E0930E3B701E3A99729C71184E2F27 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, String_t* ___0_clipId, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -4513,7 +4956,7 @@ IL_0018:
 	}
 }
 // System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipLog_m728EC27547BA5CAEB422714A4B8261BF9EF87CE6 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___logMessage0, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipLog_m728EC27547BA5CAEB422714A4B8261BF9EF87CE6 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_logMessage, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___1_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4551,12 +4994,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipLog_m728EC27547BA
 		V_0 = L_0;
 		// builder.AppendLine(logMessage);
 		StringBuilder_t* L_1 = V_0;
-		String_t* L_2 = ___logMessage0;
+		String_t* L_2 = ___0_logMessage;
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_1, L_2, NULL);
 		// if (clipData != null)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___1_clipData;
 		V_1 = (bool)((!(((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_5 = V_1;
 		if (!L_5)
@@ -4567,7 +5010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipLog_m728EC27547BA
 	{
 		// builder.AppendLine($"Voice: {(clipData.voiceSettings == null ? "Default" : clipData.voiceSettings.settingsID)}");
 		StringBuilder_t* L_6 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___1_clipData;
 		NullCheck(L_7);
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_8 = L_7->___voiceSettings_3;
 		G_B2_0 = _stringLiteral62BA94CF7D398C28008971803552F390CCE00C8B;
@@ -4580,7 +5023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipLog_m728EC27547BA
 		}
 	}
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___1_clipData;
 		NullCheck(L_9);
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_10 = L_9->___voiceSettings_3;
 		NullCheck(L_10);
@@ -4607,7 +5050,7 @@ IL_003b:
 		L_13 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(G_B4_2, L_12, NULL);
 		// builder.AppendLine($"Text: {clipData.textToSpeak}");
 		StringBuilder_t* L_14 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___1_clipData;
 		NullCheck(L_15);
 		String_t* L_16 = L_15->___textToSpeak_0;
 		String_t* L_17;
@@ -4617,7 +5060,7 @@ IL_003b:
 		L_18 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(L_14, L_17, NULL);
 		// builder.AppendLine($"ID: {clipData.clipID}");
 		StringBuilder_t* L_19 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_20 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_20 = ___1_clipData;
 		NullCheck(L_20);
 		String_t* L_21 = L_20->___clipID_1;
 		String_t* L_22;
@@ -4639,7 +5082,7 @@ IL_003b:
 	}
 	{
 		// TTSDiskCacheSettings settings = clipData.diskCacheSettings;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_26 = ___clipData1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_26 = ___1_clipData;
 		NullCheck(L_26);
 		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_27 = L_26->___diskCacheSettings_4;
 		V_4 = L_27;
@@ -4718,7 +5161,7 @@ IL_00de:
 	}
 }
 // System.String Meta.WitAi.TTS.TTSService::GetClipID(System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m803CAAE7F50051D883C8DE6BFCFE99AFE874618E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m803CAAE7F50051D883C8DE6BFCFE99AFE874618E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___1_voiceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4763,7 +5206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetClipID_m803CAAE7F5005
 		// Dictionary<string, string> data = VoiceProvider.EncodeVoiceSettings(voiceSettings);
 		RuntimeObject* L_3;
 		L_3 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(7 /* Meta.WitAi.TTS.Interfaces.ITTSVoiceProvider Meta.WitAi.TTS.TTSService::get_VoiceProvider() */, __this);
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_4 = ___voiceSettings1;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_4 = ___1_voiceSettings;
 		NullCheck(L_3);
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_5;
 		L_5 = InterfaceFuncInvoker1< Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* >::Invoke(2 /* System.Collections.Generic.Dictionary`2<System.String,System.String> Meta.WitAi.TTS.Interfaces.ITTSVoiceProvider::EncodeVoiceSettings(Meta.WitAi.TTS.Data.TTSVoiceSettings) */, ITTSVoiceProvider_tCF64868A5AD0DC71EE1EB33D1AB10D5EBABA9E49_il2cpp_TypeInfo_var, L_3, L_4);
@@ -4854,7 +5297,7 @@ IL_008a:
 	{
 		// uniqueID.Append(textToSpeak.ToLower());
 		StringBuilder_t* L_21 = V_0;
-		String_t* L_22 = ___textToSpeak0;
+		String_t* L_22 = ___0_textToSpeak;
 		NullCheck(L_22);
 		String_t* L_23;
 		L_23 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_22, NULL);
@@ -4881,7 +5324,7 @@ IL_00ad:
 	}
 }
 // System.String Meta.WitAi.TTS.TTSService::GetSha256Hash(System.Security.Cryptography.SHA256,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11F89C58BA6C4DDE025B18DF9C5A379A2 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___shaHash0, String_t* ___input1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11F89C58BA6C4DDE025B18DF9C5A379A2 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* ___0_shaHash, String_t* ___1_input, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4897,13 +5340,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetSha256Hash_m994521C11
 	String_t* V_4 = NULL;
 	{
 		// byte[] data = shaHash.ComputeHash(Encoding.UTF8.GetBytes(input));
-		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0 = ___shaHash0;
+		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0 = ___0_shaHash;
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
 		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
-		String_t* L_2 = ___input1;
+		String_t* L_2 = ___1_input;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
-		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17 /* System.Byte[] System.Text.Encoding::GetBytes(System.String) */, L_1, L_2);
 		NullCheck(L_0);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4;
 		L_4 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_0, L_3, NULL);
@@ -4966,7 +5409,7 @@ IL_004f:
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_CreateClipData_m0F521E0119AC5702237305C5C8AF9143E87F1BA6 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_CreateClipData_m0F521E0119AC5702237305C5C8AF9143E87F1BA6 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4995,7 +5438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 	TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* G_B17_2 = NULL;
 	{
 		// if (voiceSettings == null && VoiceProvider != null)
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_0 = ___voiceSettings2;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_0 = ___2_voiceSettings;
 		if (L_0)
 		{
 			goto IL_000f;
@@ -5029,13 +5472,13 @@ IL_0010:
 		NullCheck(L_3);
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_4;
 		L_4 = InterfaceFuncInvoker0< TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* >::Invoke(0 /* Meta.WitAi.TTS.Data.TTSVoiceSettings Meta.WitAi.TTS.Interfaces.ITTSVoiceProvider::get_VoiceDefaultSettings() */, ITTSVoiceProvider_tCF64868A5AD0DC71EE1EB33D1AB10D5EBABA9E49_il2cpp_TypeInfo_var, L_3);
-		___voiceSettings2 = L_4;
+		___2_voiceSettings = L_4;
 	}
 
 IL_0023:
 	{
 		// if (diskCacheSettings == null && DiskCacheHandler != null)
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___diskCacheSettings3;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___3_diskCacheSettings;
 		if (L_5)
 		{
 			goto IL_0032;
@@ -5069,13 +5512,13 @@ IL_0033:
 		NullCheck(L_8);
 		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_9;
 		L_9 = InterfaceFuncInvoker0< TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* >::Invoke(2 /* Meta.WitAi.TTS.Data.TTSDiskCacheSettings Meta.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::get_DiskCacheDefaultSettings() */, ITTSDiskCacheHandler_t0A73366FD24988504FF06F8EEEA876709A5CB265_il2cpp_TypeInfo_var, L_8);
-		___diskCacheSettings3 = L_9;
+		___3_diskCacheSettings = L_9;
 	}
 
 IL_0046:
 	{
 		// if (string.IsNullOrEmpty(clipID))
-		String_t* L_10 = ___clipID1;
+		String_t* L_10 = ___1_clipID;
 		bool L_11;
 		L_11 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_10, NULL);
 		V_3 = L_11;
@@ -5087,17 +5530,17 @@ IL_0046:
 	}
 	{
 		// clipID = GetClipID(textToSpeak, voiceSettings);
-		String_t* L_13 = ___textToSpeak0;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_14 = ___voiceSettings2;
+		String_t* L_13 = ___0_textToSpeak;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_14 = ___2_voiceSettings;
 		String_t* L_15;
 		L_15 = VirtualFuncInvoker2< String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* >::Invoke(16 /* System.String Meta.WitAi.TTS.TTSService::GetClipID(System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings) */, __this, L_13, L_14);
-		___clipID1 = L_15;
+		___1_clipID = L_15;
 	}
 
 IL_005c:
 	{
 		// TTSClipData clipData = GetRuntimeCachedClip(clipID);
-		String_t* L_16 = ___clipID1;
+		String_t* L_16 = ___1_clipID;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17;
 		L_17 = TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA(__this, L_16, NULL);
 		V_0 = L_17;
@@ -5133,22 +5576,22 @@ IL_0074:
 		NullCheck(L_21);
 		TTSClipData__ctor_m8E8813962847F69D286A609B0CC34ECFAB6AACF7(L_21, NULL);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_22 = L_21;
-		String_t* L_23 = ___clipID1;
+		String_t* L_23 = ___1_clipID;
 		NullCheck(L_22);
 		L_22->___clipID_1 = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&L_22->___clipID_1), (void*)L_23);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_24 = L_22;
-		String_t* L_25 = ___textToSpeak0;
+		String_t* L_25 = ___0_textToSpeak;
 		NullCheck(L_24);
 		L_24->___textToSpeak_0 = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&L_24->___textToSpeak_0), (void*)L_25);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_26 = L_24;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_27 = ___voiceSettings2;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_27 = ___2_voiceSettings;
 		NullCheck(L_26);
 		L_26->___voiceSettings_3 = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&L_26->___voiceSettings_3), (void*)L_27);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_28 = L_26;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_29 = ___diskCacheSettings3;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_29 = ___3_diskCacheSettings;
 		NullCheck(L_28);
 		L_28->___diskCacheSettings_4 = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&L_28->___diskCacheSettings_4), (void*)L_29);
@@ -5182,7 +5625,7 @@ IL_0074:
 
 IL_00b6:
 	{
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_35 = ___voiceSettings2;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_35 = ___2_voiceSettings;
 		NullCheck(G_B16_0);
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_36;
 		L_36 = InterfaceFuncInvoker1< Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* >::Invoke(2 /* System.Collections.Generic.Dictionary`2<System.String,System.String> Meta.WitAi.TTS.Interfaces.ITTSVoiceProvider::EncodeVoiceSettings(Meta.WitAi.TTS.Data.TTSVoiceSettings) */, ITTSVoiceProvider_tCF64868A5AD0DC71EE1EB33D1AB10D5EBABA9E49_il2cpp_TypeInfo_var, G_B16_0, L_35);
@@ -5211,18 +5654,18 @@ IL_00c7:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m7F0F1FDC99B6A14419F4303B8C36023B49270947 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, int32_t ___loadState1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m7F0F1FDC99B6A14419F4303B8C36023B49270947 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, int32_t ___1_loadState, const RuntimeMethod* method) 
 {
 	Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* G_B2_0 = NULL;
 	Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* G_B1_0 = NULL;
 	{
 		// clipData.loadState = loadState;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
-		int32_t L_1 = ___loadState1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
+		int32_t L_1 = ___1_loadState;
 		NullCheck(L_0);
 		L_0->___loadState_7 = L_1;
 		// clipData.onStateChange?.Invoke(clipData, clipData.loadState);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___0_clipData;
 		NullCheck(L_2);
 		Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* L_3 = L_2->___onStateChange_9;
 		Action_2_tA8AAF96FAF4A6358E7130C80F784D938CD1CE694* L_4 = L_3;
@@ -5239,8 +5682,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_SetClipLoadState_m7F0F1FDC99B
 
 IL_0014:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___loadState_7;
 		NullCheck(G_B2_0);
@@ -5254,64 +5697,64 @@ IL_0021:
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_mC7E5B726D9469DAE3C4669ED34720C2A5D79F33C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___onStreamReady1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_mC7E5B726D9469DAE3C4669ED34720C2A5D79F33C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___1_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, null, null, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_1 = ___onStreamReady1;
+		String_t* L_0 = ___0_textToSpeak;
+		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_1 = ___1_onStreamReady;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2;
 		L_2 = VirtualFuncInvoker5< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* >::Invoke(19 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, (TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*)NULL, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, L_1);
 		return L_2;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m5D86D534C3F06A500A4C2C14EC3596431593A22C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___onStreamReady2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m5D86D534C3F06A500A4C2C14EC3596431593A22C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___2_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, string presetVoiceId, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), null, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208(__this, L_1, NULL);
-		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_3 = ___onStreamReady2;
+		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_3 = ___2_onStreamReady;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4;
 		L_4 = VirtualFuncInvoker5< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* >::Invoke(19 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_2, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, L_3);
 		return L_4;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m398B7A5744B1B04B5C66F1F16B0DD0CEA96E9C13 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings2, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___onStreamReady3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m398B7A5744B1B04B5C66F1F16B0DD0CEA96E9C13 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___2_diskCacheSettings, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___3_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, string presetVoiceId, TTSDiskCacheSettings diskCacheSettings, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), diskCacheSettings, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208(__this, L_1, NULL);
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___diskCacheSettings2;
-		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_4 = ___onStreamReady3;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___2_diskCacheSettings;
+		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_4 = ___3_onStreamReady;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5;
 		L_5 = VirtualFuncInvoker5< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* >::Invoke(19 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_2, L_3, L_4);
 		return L_5;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m2987DC4CC6DBC49BAB74D65ADF290CF3C596F49C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings1, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings2, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___onStreamReady3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m2987DC4CC6DBC49BAB74D65ADF290CF3C596F49C (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___1_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___2_diskCacheSettings, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___3_onStreamReady, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData Load(string textToSpeak, TTSVoiceSettings voiceSettings, TTSDiskCacheSettings diskCacheSettings, Action<TTSClipData, string> onStreamReady = null) => Load(textToSpeak, null, voiceSettings, diskCacheSettings, onStreamReady);
-		String_t* L_0 = ___textToSpeak0;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___voiceSettings1;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_2 = ___diskCacheSettings2;
-		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_3 = ___onStreamReady3;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___1_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_2 = ___2_diskCacheSettings;
+		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_3 = ___3_onStreamReady;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4;
 		L_4 = VirtualFuncInvoker5< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* >::Invoke(19 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>) */, __this, L_0, (String_t*)NULL, L_1, L_2, L_3);
 		return L_4;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::Load(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m65298917D4F721B68BE9774695660230E5E55468 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___onStreamReady4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_Load_m65298917D4F721B68BE9774695660230E5E55468 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* ___4_onStreamReady, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5344,7 +5787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 		U3CU3Ec__DisplayClass34_0__ctor_m3520C0A2B28626E501AE270ABDD8ABC3D4B02263(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* L_1 = V_0;
-		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_2 = ___onStreamReady4;
+		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_2 = ___4_onStreamReady;
 		NullCheck(L_1);
 		L_1->___onStreamReady_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___onStreamReady_0), (void*)L_2);
@@ -5356,10 +5799,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 		VirtualActionInvoker0::Invoke(12 /* System.Void Meta.WitAi.TTS.TTSService::AddDelegates() */, __this);
 		// TTSClipData clipData = CreateClipData(textToSpeak, clipID, voiceSettings, diskCacheSettings);
 		U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* L_4 = V_0;
-		String_t* L_5 = ___textToSpeak0;
-		String_t* L_6 = ___clipID1;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_7 = ___voiceSettings2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_8 = ___diskCacheSettings3;
+		String_t* L_5 = ___0_textToSpeak;
+		String_t* L_6 = ___1_clipID;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_7 = ___2_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_8 = ___3_diskCacheSettings;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9;
 		L_9 = VirtualFuncInvoker4< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* >::Invoke(17 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_5, L_6, L_7, L_8);
 		NullCheck(L_4);
@@ -5665,7 +6108,7 @@ IL_019d:
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.TTS.TTSService::CallAfterAMoment(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1766781CB4D6A587C3E079AB3A21988BC06501F4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___call0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1766781CB4D6A587C3E079AB3A21988BC06501F4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_call, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5682,7 +6125,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		U3CCallAfterAMomentU3Ed__35_tDA8338DB4F6E12834C8938E6B0A87AC202DFB211* L_2 = L_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___call0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_call;
 		NullCheck(L_2);
 		L_2->___call_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___call_2), (void*)L_3);
@@ -5690,7 +6133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSService_CallAfterAMoment_m1
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnLoadBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_m465EB9C9C01F48F9DF6C39DEBFB4004837E26BCF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_m465EB9C9C01F48F9DF6C39DEBFB4004837E26BCF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5705,10 +6148,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnLoadBegin_m465EB9C9C01F48F9
 	TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* G_B3_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Preparing);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t >::Invoke(18 /* System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 1);
 		// VLog.D(GetClipLog("Load Clip", clipData));
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		String_t* L_2;
 		L_2 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, _stringLiteralCA9358198FA5A964D3DC5881BE887E15DF1BA117, L_1);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_2, NULL);
@@ -5745,7 +6188,7 @@ IL_0028:
 
 IL_0033:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___0_clipData;
 		NullCheck(G_B4_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B4_0, L_7, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -5757,27 +6200,27 @@ IL_003a:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnDiskStreamBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamBegin_m2CD89F3F7F4FB2F79BB88F6504A444564CFD7FC9 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamBegin_m2CD89F3F7F4FB2F79BB88F6504A444564CFD7FC9 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamBegin(TTSClipData clipData) => OnStreamBegin(clipData, true);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_m6C98FE27CAE678C817E2938E9C47667ABFD873A4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamBegin_m6C98FE27CAE678C817E2938E9C47667ABFD873A4 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamBegin(TTSClipData clipData) => OnStreamBegin(clipData, false);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamBegin(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_mAEDB823D41F8B1770AA57EAC5DF990828AABB40B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5800,7 +6243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamBegin_mAEDB823D41F8B1
 	TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* G_B8_0 = NULL;
 	{
 		// VLog.D(GetClipLog($"{(fromDisk ? "Disk" : "Web")} Stream Begin", clipData));
-		bool L_0 = ___fromDisk1;
+		bool L_0 = ___1_fromDisk;
 		G_B1_0 = __this;
 		if (L_0)
 		{
@@ -5824,7 +6267,7 @@ IL_0011:
 	{
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B3_0, _stringLiteral3B239D70EE737C35BAC85C846FE74371E570623B, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___0_clipData;
 		NullCheck(G_B3_1);
 		String_t* L_3;
 		L_3 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, G_B3_1, L_1, L_2);
@@ -5878,7 +6321,7 @@ IL_003e:
 
 IL_0049:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
 		NullCheck(G_B9_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B9_0, L_10, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -5890,27 +6333,27 @@ IL_0050:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnDiskStreamReady(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamReady_m8CA25E3605D247ACEEAA7B14ABF7809977E6D7DE (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamReady_m8CA25E3605D247ACEEAA7B14ABF7809977E6D7DE (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamReady(TTSClipData clipData) => OnStreamReady(clipData, true);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamReady(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamReady_m7B0AF4F55D8A4983BCCCF4F0F62831241A4E9852 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamReady_m7B0AF4F55D8A4983BCCCF4F0F62831241A4E9852 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamReady(TTSClipData clipData) => OnStreamReady(clipData, false);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamReady(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2E9A04CF148DBDFE5F342524A98 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5968,7 +6411,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2
 		// bool failed = !RuntimeCacheHandler.AddClip(clipData);
 		RuntimeObject* L_5;
 		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(4 /* Meta.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler Meta.WitAi.TTS.TTSService::get_RuntimeCacheHandler() */, __this);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_5);
 		bool L_7;
 		L_7 = InterfaceFuncInvoker1< bool, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(6 /* System.Boolean Meta.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler::AddClip(Meta.WitAi.TTS.Data.TTSClipData) */, ITTSRuntimeCacheHandler_t85007853B91C81D5DA90A8DBD155232D55159759_il2cpp_TypeInfo_var, L_5, L_6);
@@ -5995,11 +6438,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamReady_mCE37EA100BC2A2
 	}
 	{
 		// OnStreamError(clipData, "Removed from runtime cache due to file size", fromDisk);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___clipData0;
-		bool L_14 = ___fromDisk1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___0_clipData;
+		bool L_14 = ___1_fromDisk;
 		TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC(__this, L_13, _stringLiteral36CFB72EF9F810E296FE038AECBA4E2D5E790FAD, L_14, NULL);
 		// OnRuntimeClipRemoved(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
 		VirtualActionInvoker1< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(21 /* System.Void Meta.WitAi.TTS.TTSService::OnRuntimeClipRemoved(Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_15);
 		// return;
 		goto IL_00f0;
@@ -6012,10 +6455,10 @@ IL_0079:
 IL_007a:
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Loaded);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t >::Invoke(18 /* System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_16, 2);
 		// VLog.D(GetClipLog($"{(fromDisk ? "Disk" : "Web")} Stream Ready", clipData));
-		bool L_17 = ___fromDisk1;
+		bool L_17 = ___1_fromDisk;
 		G_B5_0 = __this;
 		if (L_17)
 		{
@@ -6039,13 +6482,13 @@ IL_0093:
 	{
 		String_t* L_18;
 		L_18 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B7_0, _stringLiteral31DD2603A7665647F84816E084AE8BC54C9F801B, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___0_clipData;
 		NullCheck(G_B7_1);
 		String_t* L_20;
 		L_20 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, G_B7_1, L_18, L_19);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_20, NULL);
 		// clipData.onPlaybackReady?.Invoke(string.Empty);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_21 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_21 = ___0_clipData;
 		NullCheck(L_21);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_22 = L_21->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_23 = L_22;
@@ -6070,7 +6513,7 @@ IL_00b5:
 IL_00c0:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_25 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_25 = ___0_clipData;
 		NullCheck(L_25);
 		L_25->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_25->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
@@ -6123,7 +6566,7 @@ IL_00de:
 
 IL_00e9:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_32 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_32 = ___0_clipData;
 		NullCheck(G_B16_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B16_0, L_32, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -6135,27 +6578,27 @@ IL_00f0:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnDiskStreamCancel(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamCancel_m0CF8AF068FF00C6A775AC6D4B4713FB7738909CF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamCancel_m0CF8AF068FF00C6A775AC6D4B4713FB7738909CF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamCancel(TTSClipData clipData) => OnStreamCancel(clipData, true);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91(__this, L_0, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamCancel(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_m390F1C15AC89D640E2C2CEB16DCFD29D769A98BF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamCancel_m390F1C15AC89D640E2C2CEB16DCFD29D769A98BF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamCancel(TTSClipData clipData) => OnStreamCancel(clipData, false);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91(__this, L_0, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamCancel(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___fromDisk1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m8DD804F115852B4A2443A459D03FB57BC4A3AA91 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6181,10 +6624,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamCancel_m8DD804F115852
 	TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* G_B11_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Error);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t >::Invoke(18 /* System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 3);
 		// clipData.onPlaybackReady?.Invoke(CANCEL_WARNING);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_3 = L_2;
@@ -6208,12 +6651,12 @@ IL_0016:
 IL_0021:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// VLog.D(GetClipLog($"{(fromDisk ? "Disk" : "Web")} Stream Canceled", clipData));
-		bool L_5 = ___fromDisk1;
+		bool L_5 = ___1_fromDisk;
 		G_B4_0 = __this;
 		if (L_5)
 		{
@@ -6237,7 +6680,7 @@ IL_0038:
 	{
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B6_0, _stringLiteral0F266AC6431F19C7C4152990880D58E403B792E9, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___0_clipData;
 		NullCheck(G_B6_1);
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, G_B6_1, L_6, L_7);
@@ -6291,7 +6734,7 @@ IL_0065:
 
 IL_0070:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
 		NullCheck(G_B12_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B12_0, L_15, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -6299,36 +6742,36 @@ IL_0070:
 IL_0077:
 	{
 		// Unload(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___0_clipData;
 		TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16(__this, L_16, NULL);
 		// }
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnDiskStreamError(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamError_mCC205CC7FC8E0C9B25BB81A1412621E29AF10008 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnDiskStreamError_mCC205CC7FC8E0C9B25BB81A1412621E29AF10008 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// private void OnDiskStreamError(TTSClipData clipData, string error) => OnStreamError(clipData, error, true);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
-		String_t* L_1 = ___error1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
+		String_t* L_1 = ___1_error;
 		TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC(__this, L_0, L_1, (bool)1, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebStreamError(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_m54B61BF3CCA008B30FE95EB06D4E6B96697AE659 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebStreamError_m54B61BF3CCA008B30FE95EB06D4E6B96697AE659 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// private void OnWebStreamError(TTSClipData clipData, string error) => OnStreamError(clipData, error, false);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
-		String_t* L_1 = ___error1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
+		String_t* L_1 = ___1_error;
 		TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC(__this, L_0, L_1, (bool)0, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnStreamError(Meta.WitAi.TTS.Data.TTSClipData,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, bool ___fromDisk2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB18209EA11CCE2364D9DC7D78BFC (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, bool ___2_fromDisk, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6353,10 +6796,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB1
 	TTSClipErrorEvent_t6C9313A0819BDD71F8BA14EED5A72DD52F119689* G_B11_0 = NULL;
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Error);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t >::Invoke(18 /* System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_0, 3);
 		// clipData.onPlaybackReady?.Invoke(error);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1->___onPlaybackReady_10;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_3 = L_2;
@@ -6373,7 +6816,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnStreamError_m6F88F430BD6CB1
 
 IL_0016:
 	{
-		String_t* L_4 = ___error1;
+		String_t* L_4 = ___1_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_4, NULL);
 	}
@@ -6381,12 +6824,12 @@ IL_0016:
 IL_001d:
 	{
 		// clipData.onPlaybackReady = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
 		NullCheck(L_5);
 		L_5->___onPlaybackReady_10 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___onPlaybackReady_10), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// VLog.E(GetClipLog($"{(fromDisk ? "Disk" : "Web")} Stream Error\nError: {error}", clipData));
-		bool L_6 = ___fromDisk2;
+		bool L_6 = ___2_fromDisk;
 		G_B4_0 = __this;
 		if (L_6)
 		{
@@ -6408,10 +6851,10 @@ IL_002f:
 
 IL_0034:
 	{
-		String_t* L_7 = ___error1;
+		String_t* L_7 = ___1_error;
 		String_t* L_8;
 		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(G_B6_0, _stringLiteral42B8862F535F26D1DB28B62E3329CD7CBDFE8AAD, L_7, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___0_clipData;
 		NullCheck(G_B6_1);
 		String_t* L_10;
 		L_10 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, G_B6_1, L_8, L_9);
@@ -6465,8 +6908,8 @@ IL_0062:
 
 IL_006d:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___clipData0;
-		String_t* L_18 = ___error1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___0_clipData;
+		String_t* L_18 = ___1_error;
 		NullCheck(G_B12_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B12_0, L_17, L_18, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -6474,7 +6917,7 @@ IL_006d:
 IL_0075:
 	{
 		// Unload(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___0_clipData;
 		TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16(__this, L_19, NULL);
 		// }
 		return;
@@ -6595,7 +7038,7 @@ IL_0057:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::Unload(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850942CDD9F3365AAC7A16 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6619,7 +7062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850
 		// RuntimeCacheHandler.RemoveClip(clipData.clipID);
 		RuntimeObject* L_2;
 		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(4 /* Meta.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler Meta.WitAi.TTS.TTSService::get_RuntimeCacheHandler() */, __this);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___clipID_1;
 		NullCheck(L_2);
@@ -6630,7 +7073,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_Unload_mDA9BD950F640B5C7AB850
 IL_0024:
 	{
 		// OnUnloadBegin(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
 		TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E(__this, L_5, NULL);
 	}
 
@@ -6641,7 +7084,7 @@ IL_002e:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnUnloadBegin(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6667,7 +7110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A
 	TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* G_B16_0 = NULL;
 	{
 		// if (clipData.loadState == TTSClipLoadState.Preparing)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		int32_t L_1 = L_0->___loadState_7;
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
@@ -6695,7 +7138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnUnloadBegin_m516F2EFA34508A
 
 IL_001b:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
 		NullCheck(G_B3_0);
 		bool L_6;
 		L_6 = InterfaceFuncInvoker1< bool, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(4 /* System.Boolean Meta.WitAi.TTS.Interfaces.ITTSWebHandler::CancelWebStream(Meta.WitAi.TTS.Data.TTSClipData) */, ITTSWebHandler_tE4685959F63788910D98524B2613E156D24F85EB_il2cpp_TypeInfo_var, G_B3_0, L_5);
@@ -6720,17 +7163,17 @@ IL_0022:
 
 IL_002e:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___clipData0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_9 = ___0_clipData;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___textToSpeak_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_12 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_12 = ___0_clipData;
 		NullCheck(L_12);
 		String_t* L_13 = L_12->___clipID_1;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_14 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_14 = ___0_clipData;
 		NullCheck(L_14);
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_15 = L_14->___voiceSettings_3;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___0_clipData;
 		NullCheck(L_16);
 		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_17 = L_16->___diskCacheSettings_4;
 		String_t* L_18;
@@ -6759,7 +7202,7 @@ IL_0053:
 
 IL_005f:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_22 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_22 = ___0_clipData;
 		NullCheck(G_B9_0);
 		InterfaceActionInvoker1< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(7 /* System.Void Meta.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::CancelDiskCacheStream(Meta.WitAi.TTS.Data.TTSClipData) */, ITTSDiskCacheHandler_t0A73366FD24988504FF06F8EEEA876709A5CB265_il2cpp_TypeInfo_var, G_B9_0, L_22);
 	}
@@ -6772,7 +7215,7 @@ IL_0066:
 IL_0069:
 	{
 		// else if (clipData.clip != null)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_23 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_23 = ___0_clipData;
 		NullCheck(L_23);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_24 = L_23->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6787,7 +7230,7 @@ IL_0069:
 	}
 	{
 		// MonoBehaviour.DestroyImmediate(clipData.clip);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_27 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_27 = ___0_clipData;
 		NullCheck(L_27);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_28 = L_27->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -6797,10 +7240,10 @@ IL_0069:
 IL_0087:
 	{
 		// SetClipLoadState(clipData, TTSClipLoadState.Unloaded);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_29 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_29 = ___0_clipData;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, int32_t >::Invoke(18 /* System.Void Meta.WitAi.TTS.TTSService::SetClipLoadState(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.TTS.Data.TTSClipLoadState) */, __this, L_29, 0);
 		// VLog.D(GetClipLog($"Unload Clip", clipData));
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_30 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_30 = ___0_clipData;
 		String_t* L_31;
 		L_31 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, _stringLiteralAEC0BE82137004DC2AEBEF4D61180AC524907B84, L_30);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_31, NULL);
@@ -6837,7 +7280,7 @@ IL_00ae:
 
 IL_00b9:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___0_clipData;
 		NullCheck(G_B17_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B17_0, L_36, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -6849,7 +7292,7 @@ IL_00c0:
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::GetRuntimeCachedClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6879,7 +7322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 
 IL_000d:
 	{
-		String_t* L_2 = ___clipID0;
+		String_t* L_2 = ___0_clipID;
 		NullCheck(G_B2_0);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3;
 		L_3 = InterfaceFuncInvoker1< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t* >::Invoke(5 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.Interfaces.ITTSRuntimeCacheHandler::GetClip(System.String) */, ITTSRuntimeCacheHandler_t85007853B91C81D5DA90A8DBD155232D55159759_il2cpp_TypeInfo_var, G_B2_0, L_2);
@@ -6934,27 +7377,27 @@ IL_0012:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnRuntimeClipAdded(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipAdded_m418FD37F2E83D4C7D19025C63DE54D7E44C3B3DA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipAdded_m418FD37F2E83D4C7D19025C63DE54D7E44C3B3DA (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// protected virtual void OnRuntimeClipAdded(TTSClipData clipData) => OnLoadBegin(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnLoadBegin_m465EB9C9C01F48F9DF6C39DEBFB4004837E26BCF(__this, L_0, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnRuntimeClipRemoved(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipRemoved_mACBD791799BE1701C17837DFFD7FC77BBB97FF9E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnRuntimeClipRemoved_mACBD791799BE1701C17837DFFD7FC77BBB97FF9E (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	{
 		// protected virtual void OnRuntimeClipRemoved(TTSClipData clipData) => OnUnloadBegin(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		TTSService_OnUnloadBegin_m516F2EFA34508A829D64C7DB28D7B0A007AC4B6E(__this, L_0, NULL);
 		return;
 	}
 }
 // System.Boolean Meta.WitAi.TTS.TTSService::ShouldCacheToDisk(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mC8645C62BB958735C12B053416C122C9DB1B0E78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mC8645C62BB958735C12B053416C122C9DB1B0E78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6975,7 +7418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSService_ShouldCacheToDisk_mC8645C62BB
 	{
 		RuntimeObject* L_1;
 		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5 /* Meta.WitAi.TTS.Interfaces.ITTSDiskCacheHandler Meta.WitAi.TTS.TTSService::get_DiskCacheHandler() */, __this);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = InterfaceFuncInvoker1< bool, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(4 /* System.Boolean Meta.WitAi.TTS.Interfaces.ITTSDiskCacheHandler::ShouldCacheToDisk(Meta.WitAi.TTS.Data.TTSClipData) */, ITTSDiskCacheHandler_t0A73366FD24988504FF06F8EEEA876709A5CB265_il2cpp_TypeInfo_var, L_1, L_2);
@@ -6994,7 +7437,7 @@ IL_0017:
 	}
 }
 // System.String Meta.WitAi.TTS.TTSService::GetDiskCachePath(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m042A61F1789DD1344E3023617BF688BCD3598911 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m042A61F1789DD1344E3023617BF688BCD3598911 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7024,10 +7467,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSService_GetDiskCachePath_m042A61
 
 IL_000d:
 	{
-		String_t* L_2 = ___textToSpeak0;
-		String_t* L_3 = ___clipID1;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_4 = ___voiceSettings2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___diskCacheSettings3;
+		String_t* L_2 = ___0_textToSpeak;
+		String_t* L_3 = ___1_clipID;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_4 = ___2_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___3_diskCacheSettings;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6;
 		L_6 = VirtualFuncInvoker4< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* >::Invoke(17 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_2, L_3, L_4, L_5);
 		NullCheck(G_B2_0);
@@ -7042,81 +7485,81 @@ IL_001d:
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m538D81C89CED7D461E22B35E6B9915708CD1D80B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m538D81C89CED7D461E22B35E6B9915708CD1D80B (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___1_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, null, null, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_1 = ___onDownloadComplete1;
+		String_t* L_0 = ___0_textToSpeak;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_1 = ___1_onDownloadComplete;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2;
 		L_2 = TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032(__this, L_0, (String_t*)NULL, (TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*)NULL, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, L_1, NULL);
 		return L_2;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m37925B846BF259D6337D3351571814FF211962DF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m37925B846BF259D6337D3351571814FF211962DF (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___2_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// Action<TTSClipData, string, string> onDownloadComplete = null) => DownloadToDiskCache(textToSpeak, null,
 		// GetPresetVoiceSettings(presetVoiceId), null, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208(__this, L_1, NULL);
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_3 = ___onDownloadComplete2;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_3 = ___2_onDownloadComplete;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4;
 		L_4 = TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032(__this, L_0, (String_t*)NULL, L_2, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, L_3, NULL);
 		return L_4;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m0F89047E490AE0FF62284B816077A54BCC771935 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___presetVoiceId1, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings2, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m0F89047E490AE0FF62284B816077A54BCC771935 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_presetVoiceId, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___2_diskCacheSettings, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___3_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, GetPresetVoiceSettings(presetVoiceId), diskCacheSettings,
 		//     onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___presetVoiceId1;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_presetVoiceId;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2;
 		L_2 = TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208(__this, L_1, NULL);
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___diskCacheSettings2;
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_4 = ___onDownloadComplete3;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___2_diskCacheSettings;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_4 = ___3_onDownloadComplete;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5;
 		L_5 = TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032(__this, L_0, (String_t*)NULL, L_2, L_3, L_4, NULL);
 		return L_5;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m80010FA2D7EB89607345A046667B312A0F3D4471 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings1, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings2, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m80010FA2D7EB89607345A046667B312A0F3D4471 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___1_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___2_diskCacheSettings, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___3_onDownloadComplete, const RuntimeMethod* method) 
 {
 	{
 		// DownloadToDiskCache(textToSpeak, null, voiceSettings, diskCacheSettings, onDownloadComplete);
-		String_t* L_0 = ___textToSpeak0;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___voiceSettings1;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_2 = ___diskCacheSettings2;
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_3 = ___onDownloadComplete3;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___1_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_2 = ___2_diskCacheSettings;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_3 = ___3_onDownloadComplete;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4;
 		L_4 = TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032(__this, L_0, (String_t*)NULL, L_1, L_2, L_3, NULL);
 		return L_4;
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::DownloadToDiskCache(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSService_DownloadToDiskCache_m6CB01257020249E7A71B7ACDBA464016DD9C5032 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___4_onDownloadComplete, const RuntimeMethod* method) 
 {
 	TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* V_0 = NULL;
 	TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* V_1 = NULL;
 	{
 		// TTSClipData clipData = CreateClipData(textToSpeak, clipID, voiceSettings, diskCacheSettings);
-		String_t* L_0 = ___textToSpeak0;
-		String_t* L_1 = ___clipID1;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2 = ___voiceSettings2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___diskCacheSettings3;
+		String_t* L_0 = ___0_textToSpeak;
+		String_t* L_1 = ___1_clipID;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_2 = ___2_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_3 = ___3_diskCacheSettings;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4;
 		L_4 = VirtualFuncInvoker4< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* >::Invoke(17 /* Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.TTSService::CreateClipData(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings) */, __this, L_0, L_1, L_2, L_3);
 		V_0 = L_4;
 		// DownloadToDiskCache(clipData, onDownloadComplete);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = V_0;
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_6 = ___onDownloadComplete4;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_6 = ___4_onDownloadComplete;
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* >::Invoke(22 /* System.Void Meta.WitAi.TTS.TTSService::DownloadToDiskCache(Meta.WitAi.TTS.Data.TTSClipData,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>) */, __this, L_5, L_6);
 		// return clipData;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = V_0;
@@ -7132,7 +7575,7 @@ IL_001b:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::DownloadToDiskCache(Meta.WitAi.TTS.Data.TTSClipData,System.Action`3<Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_mB011E81AF4C7A866E66FB57EE4CBCF4BABC155A0 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___onDownloadComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_mB011E81AF4C7A866E66FB57EE4CBCF4BABC155A0 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* ___1_onDownloadComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7154,12 +7597,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_mB011E81A
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* L_2 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_2);
 		L_2->___clipData_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___clipData_2), (void*)L_3);
 		U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* L_4 = V_0;
-		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_5 = ___onDownloadComplete1;
+		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_5 = ___1_onDownloadComplete;
 		NullCheck(L_4);
 		L_4->___onDownloadComplete_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onDownloadComplete_3), (void*)L_5);
@@ -7219,7 +7662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_DownloadToDiskCache_mB011E81A
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadBegin(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m8A25725AE577B0A66502B3C5186A716FFA81B292 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m8A25725AE577B0A66502B3C5186A716FFA81B292 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7236,10 +7679,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadBegin_m8A25725AE
 	TTSClipDownloadEvent_t4507507811AEEFDA604DC482FD71A8089CAACD18* G_B5_0 = NULL;
 	{
 		// VLog.D(GetClipLog($"Download Clip - Begin\nPath: {downloadPath}", clipData));
-		String_t* L_0 = ___downloadPath1;
+		String_t* L_0 = ___1_downloadPath;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral105B80D12DB6276478E269600E49F476237FA089, L_0, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___0_clipData;
 		String_t* L_3;
 		L_3 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_1, L_2);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_3, NULL);
@@ -7292,8 +7735,8 @@ IL_0030:
 
 IL_003b:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
-		String_t* L_11 = ___downloadPath1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
+		String_t* L_11 = ___1_downloadPath;
 		NullCheck(G_B6_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B6_0, L_10, L_11, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -7305,7 +7748,7 @@ IL_0043:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadSuccess(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_mEF37EB28CA1038639675AB25390AE83CB5D8ED78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_mEF37EB28CA1038639675AB25390AE83CB5D8ED78 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7325,7 +7768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadSuccess_mEF37EB2
 	TTSClipDownloadEvent_t4507507811AEEFDA604DC482FD71A8089CAACD18* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(string.Empty);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7350,15 +7793,15 @@ IL_000d:
 IL_0018:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// VLog.D(GetClipLog($"Download Clip - Success\nPath: {downloadPath}", clipData));
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral064247AE52C426F897058C5DFDB095F0590FDEB9, L_5, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___0_clipData;
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_6, L_7);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_8, NULL);
@@ -7411,8 +7854,8 @@ IL_004e:
 
 IL_0059:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
-		String_t* L_16 = ___downloadPath1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
+		String_t* L_16 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B9_0, L_15, L_16, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -7424,7 +7867,7 @@ IL_0061:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadCancel(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m699E93D33AD6D6C701554927E2152C3920C0F98A (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m699E93D33AD6D6C701554927E2152C3920C0F98A (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7444,7 +7887,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadCancel_m699E93D3
 	TTSClipDownloadEvent_t4507507811AEEFDA604DC482FD71A8089CAACD18* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(CANCEL_WARNING);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7468,15 +7911,15 @@ IL_000d:
 IL_0018:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_3);
 		L_3->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// VLog.D(GetClipLog($"Download Clip - Canceled\nPath: {downloadPath}", clipData));
-		String_t* L_4 = ___downloadPath1;
+		String_t* L_4 = ___1_downloadPath;
 		String_t* L_5;
 		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral3DA4796A2E5EA8D2E1B1CE0B2085976BC1779BD1, L_4, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		String_t* L_7;
 		L_7 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_5, L_6);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_7, NULL);
@@ -7529,8 +7972,8 @@ IL_004e:
 
 IL_0059:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_14 = ___clipData0;
-		String_t* L_15 = ___downloadPath1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_14 = ___0_clipData;
+		String_t* L_15 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B9_0, L_14, L_15, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -7542,7 +7985,7 @@ IL_0061:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService::OnWebDownloadError(Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_mB7A9D5D61026729A50878C75663F9F8E45E7F796 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, String_t* ___error2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_mB7A9D5D61026729A50878C75663F9F8E45E7F796 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, String_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7561,7 +8004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_mB7A9D5D61
 	TTSClipDownloadErrorEvent_tCDE58117B733BFAE120FFD4A1D9C1532BDE7FCD7* G_B8_0 = NULL;
 	{
 		// clipData.onDownloadComplete?.Invoke(error);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		NullCheck(L_0);
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_1 = L_0->___onDownloadComplete_11;
 		Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* L_2 = L_1;
@@ -7578,7 +8021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSService_OnWebDownloadError_mB7A9D5D61
 
 IL_000d:
 	{
-		String_t* L_3 = ___error2;
+		String_t* L_3 = ___2_error;
 		NullCheck(G_B2_0);
 		Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline(G_B2_0, L_3, NULL);
 	}
@@ -7586,15 +8029,15 @@ IL_000d:
 IL_0014:
 	{
 		// clipData.onDownloadComplete = null;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		L_4->___onDownloadComplete_11 = (Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onDownloadComplete_11), (void*)(Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A*)NULL);
 		// VLog.E(GetClipLog($"Download Clip - Failed\nPath: {downloadPath}", clipData));
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		String_t* L_6;
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral92CEAA79C19FD21E860FD68E7D930D555B066F91, L_5, NULL);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7 = ___0_clipData;
 		String_t* L_8;
 		L_8 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_6, L_7);
 		VLog_E_m72B89ED9282703998618195366B61B9F26A40AC1(L_8, NULL);
@@ -7647,9 +8090,9 @@ IL_004a:
 
 IL_0055:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
-		String_t* L_16 = ___downloadPath1;
-		String_t* L_17 = ___error2;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
+		String_t* L_16 = ___1_downloadPath;
+		String_t* L_17 = ___2_error;
 		NullCheck(G_B9_0);
 		UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A(G_B9_0, L_15, L_16, L_17, UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A_RuntimeMethod_var);
 	}
@@ -7703,7 +8146,7 @@ IL_0012:
 	}
 }
 // Meta.WitAi.TTS.Data.TTSVoiceSettings Meta.WitAi.TTS.TTSService::GetPresetVoiceSettings(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___presetVoiceId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* TTSService_GetPresetVoiceSettings_mE28DEBD35319B357F85607CF3A19A1DC2047C208 (TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* __this, String_t* ___0_presetVoiceId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7725,7 +8168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0
 		U3CU3Ec__DisplayClass69_0__ctor_m523768DAB4A4C74ADEAE20E4C7554FCB2AA902F1(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass69_0_t262D662142132DB79AAF0ECF35C08D7680D17582* L_1 = V_0;
-		String_t* L_2 = ___presetVoiceId0;
+		String_t* L_2 = ___0_presetVoiceId;
 		NullCheck(L_1);
 		L_1->___presetVoiceId_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___presetVoiceId_0), (void*)L_2);
@@ -7854,13 +8297,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mA7431D6908702D15A126044C7
 	}
 }
 // System.Boolean Meta.WitAi.TTS.TTSService/<>c::<get_Instance>b__1_0(Meta.WitAi.TTS.TTSService)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3Cget_InstanceU3Eb__1_0_m0719FB89927CD9AA2944B17239533F236BFFEB02 (U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22* __this, TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* ___o0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3Cget_InstanceU3Eb__1_0_m0719FB89927CD9AA2944B17239533F236BFFEB02 (U3CU3Ec_tB4E501BA0F0910415371ABAB5FBF59115EC3FD22* __this, TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* ___0_o, const RuntimeMethod* method) 
 {
 	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		// _instance = Array.Find(services, (o) => o.gameObject.scene.rootCount != 0);
-		TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* L_0 = ___o0;
+		TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* L_0 = ___0_o;
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
@@ -7890,13 +8333,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0__ctor_m3520C0A
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0::<Load>b__3(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__3_mA938A5120BD25B0587F9DB012961CEFB159FB7CE (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, String_t* ___e0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__3_mA938A5120BD25B0587F9DB012961CEFB159FB7CE (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, String_t* ___0_e, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onPlaybackReady += (e) => onStreamReady(clipData, e);
 		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_0 = __this->___onStreamReady_0;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = __this->___clipData_1;
-		String_t* L_2 = ___e0;
+		String_t* L_2 = ___0_e;
 		NullCheck(L_0);
 		Action_2_Invoke_m1DBB6E225374096C6D9376FFA05CB29D9254A300_inline(L_0, L_1, L_2, NULL);
 		return;
@@ -7977,13 +8420,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__1
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0::<Load>b__4(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__4_mFE6D3C19F7E8DFEDBD7F85131CC166EE848FFA46 (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, String_t* ___error0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__4_mFE6D3C19F7E8DFEDBD7F85131CC166EE848FFA46 (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onPlaybackReady += (error) => onStreamReady(clipData, error);
 		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_0 = __this->___onStreamReady_0;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = __this->___clipData_1;
-		String_t* L_2 = ___error0;
+		String_t* L_2 = ___0_error;
 		NullCheck(L_0);
 		Action_2_Invoke_m1DBB6E225374096C6D9376FFA05CB29D9254A300_inline(L_0, L_1, L_2, NULL);
 		return;
@@ -8239,7 +8682,7 @@ IL_016e:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass34_0::<Load>b__5(Meta.WitAi.TTS.Data.TTSClipData,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__5_m6581160CCF71E79F2404C2F046037B63893B9981 (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData20, String_t* ___downloadPath1, String_t* ___error2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__5_m6581160CCF71E79F2404C2F046037B63893B9981 (U3CU3Ec__DisplayClass34_0_t4B7CAC9EC36D37EF7D78C20E0B1B4DEF4AAA9B61* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData2, String_t* ___1_downloadPath, String_t* ___2_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8257,7 +8700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__5
 	RuntimeObject* G_B8_0 = NULL;
 	{
 		// if (string.Equals(error, CANCEL_WARNING))
-		String_t* L_0 = ___error2;
+		String_t* L_0 = ___2_error;
 		bool L_1;
 		L_1 = String_Equals_m3354EFE6393BED8DD6E18F69BEA131AAADCC622D(L_0, _stringLiteral8A3C71AF924D8E06B6442B912950178D34D1D459, NULL);
 		V_0 = L_1;
@@ -8285,7 +8728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass34_0_U3CLoadU3Eb__5
 IL_0037:
 	{
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_7 = ___error2;
+		String_t* L_7 = ___2_error;
 		bool L_8;
 		L_8 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_7, NULL);
 		V_1 = L_8;
@@ -8370,11 +8813,11 @@ IL_0081:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.TTSService/<CallAfterAMoment>d__35::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__35__ctor_mD6B60907C94BB96313CA7507F6EEE2425044EFDB (U3CCallAfterAMomentU3Ed__35_tDA8338DB4F6E12834C8938E6B0A87AC202DFB211* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCallAfterAMomentU3Ed__35__ctor_mD6B60907C94BB96313CA7507F6EEE2425044EFDB (U3CCallAfterAMomentU3Ed__35_tDA8338DB4F6E12834C8938E6B0A87AC202DFB211* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -8538,7 +8981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0__ctor_mACF879F
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass63_0::<DownloadToDiskCache>b__0(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CDownloadToDiskCacheU3Eb__0_m34C6E6793FB59FD8F6942BB1889BA7D7693C0DB4 (U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clip0, bool ___found1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CDownloadToDiskCacheU3Eb__0_m34C6E6793FB59FD8F6942BB1889BA7D7693C0DB4 (U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clip, bool ___1_found, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8578,7 +9021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CDownloadToD
 	{
 		// VLog.D(GetClipLog($"Disk Cache {(found ? "Found" : "Missing")}\nPath: {downloadPath}", clipData));
 		TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* L_0 = __this->___U3CU3E4__this_0;
-		bool L_1 = ___found1;
+		bool L_1 = ___1_found;
 		G_B1_0 = _stringLiteral10D4D3E28E738F5A63F6F779970709AEAA675B24;
 		G_B1_1 = L_0;
 		if (L_1)
@@ -8613,7 +9056,7 @@ IL_001b:
 		L_5 = VirtualFuncInvoker2< String_t*, String_t*, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.String Meta.WitAi.TTS.TTSService::GetClipLog(System.String,Meta.WitAi.TTS.Data.TTSClipData) */, G_B3_2, L_3, L_4);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_5, NULL);
 		// if (found)
-		bool L_6 = ___found1;
+		bool L_6 = ___1_found;
 		V_0 = L_6;
 		bool L_7 = V_0;
 		if (!L_7)
@@ -8773,14 +9216,14 @@ IL_0108:
 	}
 }
 // System.Void Meta.WitAi.TTS.TTSService/<>c__DisplayClass63_0::<DownloadToDiskCache>b__1(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CDownloadToDiskCacheU3Eb__1_m24C4FD7A10503D355AFFC79A614FC99E7A4DF474 (U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* __this, String_t* ___error0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass63_0_U3CDownloadToDiskCacheU3Eb__1_m24C4FD7A10503D355AFFC79A614FC99E7A4DF474 (U3CU3Ec__DisplayClass63_0_tB410676522430F6EA431A2639BB99A875B2ABA48* __this, String_t* ___0_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.onDownloadComplete += (error) => onDownloadComplete(clipData, downloadPath, error);
 		Action_3_t79A1EE9B80B41FFFD091EBD6ABE16327969D3C9D* L_0 = __this->___onDownloadComplete_3;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = __this->___clipData_2;
 		String_t* L_2 = __this->___downloadPath_1;
-		String_t* L_3 = ___error0;
+		String_t* L_3 = ___0_error;
 		NullCheck(L_0);
 		Action_3_Invoke_mCBE5041E64DF8FE41C807D2CE878F6F7CD4BA3CB_inline(L_0, L_1, L_2, L_3, NULL);
 		return;
@@ -8803,11 +9246,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass69_0__ctor_m523768D
 	}
 }
 // System.Boolean Meta.WitAi.TTS.TTSService/<>c__DisplayClass69_0::<GetPresetVoiceSettings>b__0(Meta.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass69_0_U3CGetPresetVoiceSettingsU3Eb__0_mFB7208C51978C12BED6168D02673CA2FD4F28B1B (U3CU3Ec__DisplayClass69_0_t262D662142132DB79AAF0ECF35C08D7680D17582* __this, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___v0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass69_0_U3CGetPresetVoiceSettingsU3Eb__0_mFB7208C51978C12BED6168D02673CA2FD4F28B1B (U3CU3Ec__DisplayClass69_0_t262D662142132DB79AAF0ECF35C08D7680D17582* __this, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___0_v, const RuntimeMethod* method) 
 {
 	{
 		// return Array.Find(VoiceProvider.PresetVoiceSettings, (v) => string.Equals(v.settingsID, presetVoiceId, StringComparison.CurrentCultureIgnoreCase));
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_0 = ___v0;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_0 = ___0_v;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___settingsID_1;
 		String_t* L_2 = __this->___presetVoiceId_0;
@@ -8960,11 +9403,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::set_SpeakingClip(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData SpeakingClip { get; private set; }
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___value0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_value;
 		__this->___U3CSpeakingClipU3Ek__BackingField_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSpeakingClipU3Ek__BackingField_9), (void*)L_0);
 		return;
@@ -9200,7 +9643,7 @@ IL_003e:
 	}
 }
 // System.String Meta.WitAi.TTS.Utilities.TTSSpeaker::GetFormattedText(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___format0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_format, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_textsToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9214,14 +9657,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSSpeaker_GetFormattedText_m628E90
 	int32_t G_B3_0 = 0;
 	{
 		// if (textsToSpeak != null && !string.IsNullOrEmpty(format))
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___1_textsToSpeak;
 		if (!L_0)
 		{
 			goto IL_000f;
 		}
 	}
 	{
-		String_t* L_1 = ___format0;
+		String_t* L_1 = ___0_format;
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
 		G_B3_0 = ((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
@@ -9244,17 +9687,17 @@ IL_0010:
 	}
 	{
 		// object[] objects = new object[textsToSpeak.Length];
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = ___1_textsToSpeak;
 		NullCheck(L_4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length)));
 		V_1 = L_5;
 		// textsToSpeak.CopyTo(objects, 0);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ___textsToSpeak1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = ___1_textsToSpeak;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = V_1;
 		NullCheck((RuntimeArray*)L_6);
 		Array_CopyTo_mFD42E3443AB3B850ED6F19359698E242A08E1BAB((RuntimeArray*)L_6, (RuntimeArray*)L_7, 0, NULL);
 		// return string.Format(format, objects);
-		String_t* L_8 = ___format0;
+		String_t* L_8 = ___0_format;
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = V_1;
 		String_t* L_10;
 		L_10 = String_Format_m918500C1EFB475181349A79989BB79BB36102894(L_8, L_9, NULL);
@@ -9277,7 +9720,7 @@ IL_0035:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnClipUnload(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m6F46B365641695DC25A61CF4C440C3035DC8F61D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m6F46B365641695DC25A61CF4C440C3035DC8F61D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9290,7 +9733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m6F46B365641695D
 	{
 		// if (_queuedClips.Contains(clipData))
 		Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* L_0 = __this->____queuedClips_10;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E(L_0, L_1, Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E_RuntimeMethod_var);
@@ -9303,17 +9746,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipUnload_m6F46B365641695D
 	}
 	{
 		// RemoveLoadingClip(clipData, true);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E(__this, L_4, (bool)1, NULL);
 		// OnLoadCancel(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
 		VirtualActionInvoker1< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(14 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnLoadCancel(Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_5);
 	}
 
 IL_0024:
 	{
 		// if (clipData == SpeakingClip)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_7;
 		L_7 = TTSSpeaker_get_SpeakingClip_m222A968361BC058A0EE0BB58C09EFFD61EF56DFA_inline(__this, NULL);
 		V_1 = (bool)((((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_6) == ((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_7))? 1 : 0);
@@ -9335,54 +9778,54 @@ IL_003a:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m3E1160A00BC1A52F8C21368EF046FC231DCDEC5F (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m3E1160A00BC1A52F8C21368EF046FC231DCDEC5F (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) 
 {
 	{
 		// public void Speak(string textToSpeak, TTSDiskCacheSettings diskCacheSettings) => Speak(textToSpeak, diskCacheSettings, false);
-		String_t* L_0 = ___textToSpeak0;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_1 = ___diskCacheSettings1;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_1 = ___1_diskCacheSettings;
 		VirtualActionInvoker3< String_t*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, bool >::Invoke(8 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean) */, __this, L_0, L_1, (bool)0);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m0ABA1A70FAF37002E979AF866EDB7BE48C79CACD (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_m0ABA1A70FAF37002E979AF866EDB7BE48C79CACD (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	{
 		// public void Speak(string textToSpeak) => Speak(textToSpeak, null);
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		TTSSpeaker_Speak_m3E1160A00BC1A52F8C21368EF046FC231DCDEC5F(__this, L_0, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueued(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_m953A1C710DCDCD8DB8743581606933580AC31278 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_m953A1C710DCDCD8DB8743581606933580AC31278 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) 
 {
 	{
 		// public void SpeakQueued(string textToSpeak, TTSDiskCacheSettings diskCacheSettings) => Speak(textToSpeak, diskCacheSettings, true);
-		String_t* L_0 = ___textToSpeak0;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_1 = ___diskCacheSettings1;
+		String_t* L_0 = ___0_textToSpeak;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_1 = ___1_diskCacheSettings;
 		VirtualActionInvoker3< String_t*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, bool >::Invoke(8 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean) */, __this, L_0, L_1, (bool)1);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueued(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_mD0D8D308BD6058209262E1F6A444A9D173BBB7AC (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakQueued_mD0D8D308BD6058209262E1F6A444A9D173BBB7AC (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	{
 		// public void SpeakQueued(string textToSpeak) => SpeakQueued(textToSpeak, null);
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		TTSSpeaker_SpeakQueued_m953A1C710DCDCD8DB8743581606933580AC31278(__this, L_0, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, NULL);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakFormat(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormat_mBE685C05B6CBF5E756A3CABE8EAFFF39F3DC6F63 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___format0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormat_mBE685C05B6CBF5E756A3CABE8EAFFF39F3DC6F63 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_format, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_textsToSpeak, const RuntimeMethod* method) 
 {
 	{
 		// Speak(GetFormattedText(format, textsToSpeak), null, false);
-		String_t* L_0 = ___format0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___textsToSpeak1;
+		String_t* L_0 = ___0_format;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_textsToSpeak;
 		String_t* L_2;
 		L_2 = TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846(__this, L_0, L_1, NULL);
 		VirtualActionInvoker3< String_t*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, bool >::Invoke(8 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean) */, __this, L_2, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, (bool)0);
@@ -9390,12 +9833,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormat_mBE685C05B6CBF5E7
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakFormatQueued(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormatQueued_m42FC410038BF745DDAC559F9A366BFC3AFD7F9E5 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___format0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormatQueued_m42FC410038BF745DDAC559F9A366BFC3AFD7F9E5 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_format, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_textsToSpeak, const RuntimeMethod* method) 
 {
 	{
 		// Speak(GetFormattedText(format, textsToSpeak), null, true);
-		String_t* L_0 = ___format0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___textsToSpeak1;
+		String_t* L_0 = ___0_format;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_textsToSpeak;
 		String_t* L_2;
 		L_2 = TTSSpeaker_GetFormattedText_m628E90310F5D39C804641CFD7E6A961A9A9EB846(__this, L_0, L_1, NULL);
 		VirtualActionInvoker3< String_t*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, bool >::Invoke(8 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean) */, __this, L_2, (TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*)NULL, (bool)1);
@@ -9403,7 +9846,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_SpeakFormatQueued_m42FC410038
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakAsync(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF7EFA2582E8029413C1FD730845AD857F9 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF7EFA2582E8029413C1FD730845AD857F9 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9420,12 +9863,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF
 		L_1->___U3CU3E4__this_4 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_4), (void*)__this);
 		U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* L_2 = L_1;
-		String_t* L_3 = ___textToSpeak0;
+		String_t* L_3 = ___0_textToSpeak;
 		NullCheck(L_2);
 		L_2->___textToSpeak_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___textToSpeak_2), (void*)L_3);
 		U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* L_4 = L_2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___diskCacheSettings1;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___1_diskCacheSettings;
 		NullCheck(L_4);
 		L_4->___diskCacheSettings_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___diskCacheSettings_3), (void*)L_5);
@@ -9433,7 +9876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m856A9CF
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakAsync(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m16363C42C3CB004A8A0992553BE1123D0DB22B27 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m16363C42C3CB004A8A0992553BE1123D0DB22B27 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9450,7 +9893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m16363C4
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		U3CSpeakAsyncU3Ed__33_t259571AB608559D9B27622778CAAF788062C6775* L_2 = L_1;
-		String_t* L_3 = ___textToSpeak0;
+		String_t* L_3 = ___0_textToSpeak;
 		NullCheck(L_2);
 		L_2->___textToSpeak_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___textToSpeak_2), (void*)L_3);
@@ -9458,7 +9901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakAsync_m16363C4
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueuedAsync(System.String[],Meta.WitAi.TTS.Data.TTSDiskCacheSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6561C526498CE631432D2C23FAE13A0B01D8930D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6561C526498CE631432D2C23FAE13A0B01D8930D (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_textsToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9475,12 +9918,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6
 		L_1->___U3CU3E4__this_4 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_4), (void*)__this);
 		U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* L_2 = L_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___textsToSpeak0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___0_textsToSpeak;
 		NullCheck(L_2);
 		L_2->___textsToSpeak_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___textsToSpeak_2), (void*)L_3);
 		U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* L_4 = L_2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___diskCacheSettings1;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = ___1_diskCacheSettings;
 		NullCheck(L_4);
 		L_4->___diskCacheSettings_3 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___diskCacheSettings_3), (void*)L_5);
@@ -9488,7 +9931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_m6
 	}
 }
 // System.Collections.IEnumerator Meta.WitAi.TTS.Utilities.TTSSpeaker::SpeakQueuedAsync(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_mFB337458B1051705E9B5730217A07348D402020C (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___textsToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_mFB337458B1051705E9B5730217A07348D402020C (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_textsToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9505,7 +9948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_mF
 		L_1->___U3CU3E4__this_3 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		U3CSpeakQueuedAsyncU3Ed__35_t9866CAFE2B15F1C551D673DAEFC9CB79729DB818* L_2 = L_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___textsToSpeak0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___0_textsToSpeak;
 		NullCheck(L_2);
 		L_2->___textsToSpeak_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___textsToSpeak_2), (void*)L_3);
@@ -9513,7 +9956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_SpeakQueuedAsync_mF
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::Speak(System.String,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mD6A1DEBAC71CAC4CEAB5EB5210AAD1DFDEDF7F58 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings1, bool ___addToQueue2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Speak_mD6A1DEBAC71CAC4CEAB5EB5210AAD1DFDEDF7F58 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___1_diskCacheSettings, bool ___2_addToQueue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9633,11 +10076,11 @@ IL_0083:
 	{
 		// textToSpeak = prependedText + textToSpeak + appendedText;
 		String_t* L_14 = __this->___prependedText_6;
-		String_t* L_15 = ___textToSpeak0;
+		String_t* L_15 = ___0_textToSpeak;
 		String_t* L_16 = __this->___appendedText_7;
 		String_t* L_17;
 		L_17 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_14, L_15, L_16, NULL);
-		___textToSpeak0 = L_17;
+		___0_textToSpeak = L_17;
 		// TTSVoiceSettings voiceSettings = VoiceSettings;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_18;
 		L_18 = TTSSpeaker_get_VoiceSettings_mD13F2686E89EB574B33A0D6A4588124587B86E9B(__this, NULL);
@@ -9664,7 +10107,7 @@ IL_0083:
 IL_00c4:
 	{
 		// if (string.IsNullOrEmpty(textToSpeak))
-		String_t* L_23 = ___textToSpeak0;
+		String_t* L_23 = ___0_textToSpeak;
 		bool L_24;
 		L_24 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_23, NULL);
 		V_6 = L_24;
@@ -9685,7 +10128,7 @@ IL_00e1:
 	{
 		// string newClipID = _tts.GetClipID(textToSpeak, voiceSettings);
 		TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* L_26 = __this->____tts_11;
-		String_t* L_27 = ___textToSpeak0;
+		String_t* L_27 = ___0_textToSpeak;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_28 = V_0;
 		NullCheck(L_26);
 		String_t* L_29;
@@ -9699,7 +10142,7 @@ IL_00e1:
 		L_32 = TTSService_GetRuntimeCachedClip_m5BE3642A785B432C421BBE6EFFBF0DE5FFC916FA(L_30, L_31, NULL);
 		V_2 = L_32;
 		// if (!addToQueue)
-		bool L_33 = ___addToQueue2;
+		bool L_33 = ___2_addToQueue;
 		V_7 = (bool)((((int32_t)L_33) == ((int32_t)0))? 1 : 0);
 		bool L_34 = V_7;
 		if (!L_34)
@@ -9745,7 +10188,7 @@ IL_011e:
 	}
 	{
 		// if (!addToQueue)
-		bool L_39 = ___addToQueue2;
+		bool L_39 = ___2_addToQueue;
 		V_9 = (bool)((((int32_t)L_39) == ((int32_t)0))? 1 : 0);
 		bool L_40 = V_9;
 		if (!L_40)
@@ -9814,11 +10257,11 @@ IL_0163:
 IL_016e:
 	{
 		// OnLoadBegin(textToSpeak, newClipID, voiceSettings, diskCacheSettings, addToQueue);
-		String_t* L_49 = ___textToSpeak0;
+		String_t* L_49 = ___0_textToSpeak;
 		String_t* L_50 = V_1;
 		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_51 = V_0;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_52 = ___diskCacheSettings1;
-		bool L_53 = ___addToQueue2;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_52 = ___1_diskCacheSettings;
+		bool L_53 = ___2_addToQueue;
 		VirtualActionInvoker5< String_t*, String_t*, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80*, bool >::Invoke(12 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnLoadBegin(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean) */, __this, L_49, L_50, L_51, L_52, L_53);
 	}
 
@@ -9937,7 +10380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_Stop_mAE97D7DA62BE1426520A642
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnLoadBegin(System.String,System.String,Meta.WitAi.TTS.Data.TTSVoiceSettings,Meta.WitAi.TTS.Data.TTSDiskCacheSettings,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m0FE08B59706570A8CE205501C89347F12620FB97 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___textToSpeak0, String_t* ___clipID1, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings2, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___diskCacheSettings3, bool ___addToQueue4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m0FE08B59706570A8CE205501C89347F12620FB97 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, String_t* ___0_textToSpeak, String_t* ___1_clipID, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___2_voiceSettings, TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* ___3_diskCacheSettings, bool ___4_addToQueue, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9976,7 +10419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m0FE08B59706570A8
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass40_0_t65CF5C63B613443BF2B879F8E5B08AD37A555689* L_2 = V_0;
-		bool L_3 = ___addToQueue4;
+		bool L_3 = ___4_addToQueue;
 		NullCheck(L_2);
 		L_2->___addToQueue_1 = L_3;
 		// DateTime startTime = DateTime.Now;
@@ -9988,10 +10431,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m0FE08B59706570A8
 		L_4->___startTime_2 = L_5;
 		// TTSClipData newClip = _tts.Load(textToSpeak, clipID, voiceSettings, diskCacheSettings, (clipData, error) => OnClipLoadComplete(clipData, error, addToQueue, startTime));
 		TTSService_t7DD4DD6DBB4E281054C4BBEF602772814245A57D* L_6 = __this->____tts_11;
-		String_t* L_7 = ___textToSpeak0;
-		String_t* L_8 = ___clipID1;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_9 = ___voiceSettings2;
-		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_10 = ___diskCacheSettings3;
+		String_t* L_7 = ___0_textToSpeak;
+		String_t* L_8 = ___1_clipID;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_9 = ___2_voiceSettings;
+		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_10 = ___3_diskCacheSettings;
 		U3CU3Ec__DisplayClass40_0_t65CF5C63B613443BF2B879F8E5B08AD37A555689* L_11 = V_0;
 		Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36* L_12 = (Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36*)il2cpp_codegen_object_new(Action_2_t436AB83C456FE0D97BACB5F6537BF25251E2CE36_il2cpp_TypeInfo_var);
 		NullCheck(L_12);
@@ -10006,7 +10449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadBegin_m0FE08B59706570A8
 		NullCheck(L_14);
 		Queue_1_Enqueue_mCDACE8654C2D5B9271244202FE193BDFE67D9D8B(L_14, L_15, Queue_1_Enqueue_mCDACE8654C2D5B9271244202FE193BDFE67D9D8B_RuntimeMethod_var);
 		// VLog.D($"Load Begin\nText: {textToSpeak}");
-		String_t* L_16 = ___textToSpeak0;
+		String_t* L_16 = ___0_textToSpeak;
 		String_t* L_17;
 		L_17 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF454A4B2372B574ECE70DCBBEBE231D6B0D7C6B6, L_16, NULL);
 		VLog_D_mB02A9F04675FF3F84DC071AC2427B6933782AD37(L_17, NULL);
@@ -10137,7 +10580,7 @@ IL_00bc:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnClipLoadComplete(Meta.WitAi.TTS.Data.TTSClipData,System.String,System.Boolean,System.DateTime)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipLoadComplete_mC2C440318ECAFED0BB20F05EA243F39FCC9E80DF (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, bool ___addToQueue2, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___startTime3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipLoadComplete_mC2C440318ECAFED0BB20F05EA243F39FCC9E80DF (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, bool ___2_addToQueue, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___3_startTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10187,7 +10630,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnClipLoadComplete_mC2C440318
 	{
 		// if (!_queuedClips.Contains(clipData))
 		Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* L_0 = __this->____queuedClips_10;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E(L_0, L_1, Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E_RuntimeMethod_var);
@@ -10209,7 +10652,7 @@ IL_001a:
 		il2cpp_codegen_runtime_class_init_inline(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = DateTime_get_Now_m636CB9651A9099D20BA1CF813A0C69637317325C(NULL);
-		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5 = ___startTime3;
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5 = ___3_startTime;
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_6;
 		L_6 = DateTime_op_Subtraction_m64D26F5ABFAE6E166A7E567093D025F6C69F0123(L_4, L_5, NULL);
 		V_2 = L_6;
@@ -10217,7 +10660,7 @@ IL_001a:
 		L_7 = TimeSpan_get_TotalMilliseconds_m3506C1A49F1FE37A82F3027EA061D18215EF87CF((&V_2), NULL);
 		V_0 = L_7;
 		// if (clipData.clip == null)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_8 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_8 = ___0_clipData;
 		NullCheck(L_8);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_9 = L_8->___clip_6;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -10232,13 +10675,13 @@ IL_001a:
 	}
 	{
 		// error = "No clip returned";
-		___error1 = _stringLiteral032BE3296E34D285AA79A57D630E1257967444EC;
+		___1_error = _stringLiteral032BE3296E34D285AA79A57D630E1257967444EC;
 	}
 
 IL_0048:
 	{
 		// if (!string.IsNullOrEmpty(error))
-		String_t* L_12 = ___error1;
+		String_t* L_12 = ___1_error;
 		bool L_13;
 		L_13 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_12, NULL);
 		V_4 = (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0);
@@ -10250,10 +10693,10 @@ IL_0048:
 	}
 	{
 		// RemoveLoadingClip(clipData, false);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
 		TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E(__this, L_15, (bool)0, NULL);
 		// VLog.E($"Load Failed\nText: {clipData?.textToSpeak}\nDuration: {loadDuration:0.00}ms\n{error}");
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___0_clipData;
 		G_B6_0 = _stringLiteralAB366C85B7C64682A212AE0F8D222626D01436D8;
 		if (L_16)
 		{
@@ -10269,7 +10712,7 @@ IL_0048:
 
 IL_006c:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___0_clipData;
 		NullCheck(L_17);
 		String_t* L_18 = L_17->___textToSpeak_0;
 		G_B8_0 = L_18;
@@ -10281,7 +10724,7 @@ IL_0072:
 		double L_19 = V_0;
 		double L_20 = L_19;
 		RuntimeObject* L_21 = Box(Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_il2cpp_TypeInfo_var, &L_20);
-		String_t* L_22 = ___error1;
+		String_t* L_22 = ___1_error;
 		String_t* L_23;
 		L_23 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(G_B8_1, G_B8_0, L_21, L_22, NULL);
 		VLog_E_m72B89ED9282703998618195366B61B9F26A40AC1(L_23, NULL);
@@ -10318,7 +10761,7 @@ IL_0090:
 
 IL_009b:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_28 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_28 = ___0_clipData;
 		NullCheck(G_B12_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B12_0, L_28, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -10358,7 +10801,7 @@ IL_00ae:
 
 IL_00b9:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_33 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_33 = ___0_clipData;
 		NullCheck(L_33);
 		String_t* L_34 = L_33->___textToSpeak_0;
 		NullCheck(G_B17_0);
@@ -10374,7 +10817,7 @@ IL_00c6:
 IL_00c8:
 	{
 		// VLog.D($"Load Success\nText: {clipData?.textToSpeak}\nDuration: {loadDuration:0.00}ms");
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_35 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_35 = ___0_clipData;
 		G_B20_0 = _stringLiteralCB4029D50A33F701A89E8E08AF218A12F8C2D26B;
 		if (L_35)
 		{
@@ -10390,7 +10833,7 @@ IL_00c8:
 
 IL_00d3:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___0_clipData;
 		NullCheck(L_36);
 		String_t* L_37 = L_36->___textToSpeak_0;
 		G_B22_0 = L_37;
@@ -10438,7 +10881,7 @@ IL_00f6:
 
 IL_0101:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_46 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_46 = ___0_clipData;
 		NullCheck(G_B26_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B26_0, L_46, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -10478,7 +10921,7 @@ IL_0114:
 
 IL_011f:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_51 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_51 = ___0_clipData;
 		NullCheck(L_51);
 		String_t* L_52 = L_51->___textToSpeak_0;
 		NullCheck(G_B31_0);
@@ -10488,7 +10931,7 @@ IL_011f:
 IL_012c:
 	{
 		// if (!addToQueue)
-		bool L_53 = ___addToQueue2;
+		bool L_53 = ___2_addToQueue;
 		V_5 = (bool)((((int32_t)L_53) == ((int32_t)0))? 1 : 0);
 		bool L_54 = V_5;
 		if (!L_54)
@@ -10504,7 +10947,7 @@ IL_012c:
 IL_013f:
 	{
 		// OnPlaybackReady(clipData);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_55 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_55 = ___0_clipData;
 		VirtualActionInvoker1< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* >::Invoke(15 /* System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackReady(Meta.WitAi.TTS.Data.TTSClipData) */, __this, L_55);
 	}
 
@@ -10515,7 +10958,7 @@ IL_0147:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnLoadCancel(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadCancel_mE986EA317DE68A3BE3B1526EBCF45A92F2BA7CD6 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadCancel_mE986EA317DE68A3BE3B1526EBCF45A92F2BA7CD6 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10539,7 +10982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadCancel_mE986EA317DE68A3
 	TTSSpeakerEvent_tB871834D286B7848990EA0743E4228B98B45D4E8* G_B11_0 = NULL;
 	{
 		// VLog.D($"Load Cancelled\nText: {clipData?.textToSpeak}");
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		G_B1_0 = _stringLiteral84A01F45574A937B31BFF882C7B453F8F4D82719;
 		if (L_0)
 		{
@@ -10555,7 +10998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnLoadCancel_mE986EA317DE68A3
 
 IL_000c:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___textToSpeak_0;
 		G_B3_0 = L_2;
@@ -10600,7 +11043,7 @@ IL_0029:
 
 IL_0034:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_8 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_8 = ___0_clipData;
 		NullCheck(G_B7_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B7_0, L_8, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -10640,7 +11083,7 @@ IL_0047:
 
 IL_0052:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___0_clipData;
 		NullCheck(L_13);
 		String_t* L_14 = L_13->___textToSpeak_0;
 		NullCheck(G_B12_0);
@@ -10654,7 +11097,7 @@ IL_005f:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::RemoveLoadingClip(Meta.WitAi.TTS.Data.TTSClipData,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, bool ___allInstances1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEAD267F38644D6E4AB51F717566BF10E (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, bool ___1_allInstances, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10679,7 +11122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEA
 	int32_t G_B3_0 = 0;
 	{
 		// if (!allInstances && _queuedClips.Peek().Equals(clipData))
-		bool L_0 = ___allInstances1;
+		bool L_0 = ___1_allInstances;
 		if (L_0)
 		{
 			goto IL_0017;
@@ -10690,7 +11133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_RemoveLoadingClip_m31B155CAEA
 		NullCheck(L_1);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2;
 		L_2 = Queue_1_Peek_m990185F1E8995A7DD49270ED4E4B22588A5D7512(L_1, Queue_1_Peek_m990185F1E8995A7DD49270ED4E4B22588A5D7512_RuntimeMethod_var);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718(L_2, L_3, NULL);
@@ -10748,7 +11191,7 @@ IL_0044:
 		V_3 = L_11;
 		// if (check.Equals(clipData))
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_12 = V_3;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___0_clipData;
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718(L_12, L_13, NULL);
@@ -10778,7 +11221,7 @@ IL_0044:
 IL_006a:
 	{
 		// else if (!allInstances)
-		bool L_18 = ___allInstances1;
+		bool L_18 = ___1_allInstances;
 		V_6 = (bool)((((int32_t)L_18) == ((int32_t)0))? 1 : 0);
 		bool L_19 = V_6;
 		if (!L_19)
@@ -10844,7 +11287,7 @@ IL_00af:
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackReady(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackReady_mEB77E811F7B10DBD6B60A140539E7A6CE5F2C1F8 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackReady_mEB77E811F7B10DBD6B60A140539E7A6CE5F2C1F8 (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -10867,7 +11310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackReady_mEB77E811F7B1
 	{
 		// if (!_queuedClips.Contains(clipData))
 		Queue_1_t601DB03B2AD18E89A780B7517D6DEAD6D26A6629* L_0 = __this->____queuedClips_10;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E(L_0, L_1, Queue_1_Contains_m2F0AE5AD66BC5C9E991879F5A12FD1CD834B212E_RuntimeMethod_var);
@@ -10886,7 +11329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackReady_mEB77E811F7B1
 IL_0017:
 	{
 		// VLog.D($"Playback Queued\nText: {clipData.textToSpeak}");
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		String_t* L_5 = L_4->___textToSpeak_0;
 		String_t* L_6;
@@ -10925,7 +11368,7 @@ IL_0039:
 
 IL_0044:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_11 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_11 = ___0_clipData;
 		NullCheck(L_11);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_12 = L_11->___clip_6;
 		NullCheck(G_B6_0);
@@ -10967,7 +11410,7 @@ IL_005c:
 
 IL_0067:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_17 = ___0_clipData;
 		NullCheck(G_B11_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B11_0, L_17, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -11408,7 +11851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* TTSSpeaker_WaitForCompletion_m
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker::OnPlaybackComplete(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackComplete_mC1F19CEDFB13BB9402F7BB15844C71EF5E9E5D1B (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, bool ___cancelled0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSSpeaker_OnPlaybackComplete_mC1F19CEDFB13BB9402F7BB15844C71EF5E9E5D1B (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, bool ___0_cancelled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11528,7 +11971,7 @@ IL_0046:
 IL_0063:
 	{
 		// if (!cancelled)
-		bool L_10 = ___cancelled0;
+		bool L_10 = ___0_cancelled;
 		V_4 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
 		bool L_11 = V_4;
 		if (!L_11)
@@ -11984,11 +12427,11 @@ IL_0011:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__32::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__32__ctor_m2E4016EC1479643B55B1B809A7E0E372BCE11C0C (U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__32__ctor_m2E4016EC1479643B55B1B809A7E0E372BCE11C0C (U3CSpeakAsyncU3Ed__32_tBBA06EE58DBB6252AFE0AE42EDDDD98E2E4995D8* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -12117,11 +12560,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpeakAsyncU3Ed__32_System_C
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakAsync>d__33::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__33__ctor_mE565444614C4FE31C7A1AF6EB71DE230D4590FEA (U3CSpeakAsyncU3Ed__33_t259571AB608559D9B27622778CAAF788062C6775* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakAsyncU3Ed__33__ctor_mE565444614C4FE31C7A1AF6EB71DE230D4590FEA (U3CSpeakAsyncU3Ed__33_t259571AB608559D9B27622778CAAF788062C6775* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -12234,11 +12677,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpeakAsyncU3Ed__33_System_C
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__34::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__34__ctor_mDB5CFE577FED18D2CB64A4E5BC219AC5071E807F (U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__34__ctor_mDB5CFE577FED18D2CB64A4E5BC219AC5071E807F (U3CSpeakQueuedAsyncU3Ed__34_t031FB57A5BF2EF93A4D74C087DA79D2AEFBDF665* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -12405,11 +12848,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CSpeakQueuedAsyncU3Ed__34_Sy
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<SpeakQueuedAsync>d__35::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__35__ctor_m9734BA80900926C49871935688E643D2EE28F777 (U3CSpeakQueuedAsyncU3Ed__35_t9866CAFE2B15F1C551D673DAEFC9CB79729DB818* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CSpeakQueuedAsyncU3Ed__35__ctor_m9734BA80900926C49871935688E643D2EE28F777 (U3CSpeakQueuedAsyncU3Ed__35_t9866CAFE2B15F1C551D673DAEFC9CB79729DB818* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -12530,13 +12973,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0__ctor_m9173549
 	}
 }
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<>c__DisplayClass40_0::<OnLoadBegin>b__0(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3COnLoadBeginU3Eb__0_m27920F6D9830993F672392D2EDB8001EBB3A998F (U3CU3Ec__DisplayClass40_0_t65CF5C63B613443BF2B879F8E5B08AD37A555689* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3COnLoadBeginU3Eb__0_m27920F6D9830993F672392D2EDB8001EBB3A998F (U3CU3Ec__DisplayClass40_0_t65CF5C63B613443BF2B879F8E5B08AD37A555689* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// TTSClipData newClip = _tts.Load(textToSpeak, clipID, voiceSettings, diskCacheSettings, (clipData, error) => OnClipLoadComplete(clipData, error, addToQueue, startTime));
 		TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* L_0 = __this->___U3CU3E4__this_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
-		String_t* L_2 = ___error1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
+		String_t* L_2 = ___1_error;
 		bool L_3 = __this->___addToQueue_1;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4 = __this->___startTime_2;
 		NullCheck(L_0);
@@ -12553,11 +12996,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass40_0_U3COnLoadBegin
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void Meta.WitAi.TTS.Utilities.TTSSpeaker/<WaitForCompletion>d__47::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForCompletionU3Ed__47__ctor_m23D6062EDF934E5E74B4B32952DFA79C4C6817AA (U3CWaitForCompletionU3Ed__47_t62C536F4869B58BDCF720475C059AA27BF065D7C* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForCompletionU3Ed__47__ctor_m23D6062EDF934E5E74B4B32952DFA79C4C6817AA (U3CWaitForCompletionU3Ed__47_t62C536F4869B58BDCF720475C059AA27BF065D7C* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -12779,11 +13222,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::set_DiskStreamEvents(Meta.WitAi.TTS.Events.TTSStreamEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_m6B71DD2A047B71F8E3F4B534D2810052DA090879 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_m6B71DD2A047B71F8E3F4B534D2810052DA090879 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set { _events = value; }
-		TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* L_0 = ___value0;
+		TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* L_0 = ___0_value;
 		__this->____events_6 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____events_6), (void*)L_0);
 		// set { _events = value; }
@@ -12791,7 +13234,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_set_DiskStreamEvents_m6B71D
 	}
 }
 // System.String Meta.WitAi.TTS.Integrations.TTSDiskCache::GetDiskCachePath(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB5A23A6C0889C63B7B08DE5BFC2D17F7475A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB5A23A6C0889C63B7B08DE5BFC2D17F7475A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -12816,7 +13259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB
 	int32_t G_B12_0 = 0;
 	{
 		// if (!ShouldCacheToDisk(clipData))
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		bool L_1;
 		L_1 = TTSDiskCache_ShouldCacheToDisk_m5D6E1265C7354DD9FE92F64AB0A6A5EE513C8361(__this, L_0, NULL);
 		V_2 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
@@ -12836,7 +13279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSDiskCache_GetDiskCachePath_mE9DB
 IL_001b:
 	{
 		// TTSDiskCacheLocation location = clipData.diskCacheSettings.DiskCacheLocation;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_5 = L_4->___diskCacheSettings_4;
 		NullCheck(L_5);
@@ -12994,10 +13437,10 @@ IL_00cf:
 	{
 		// return Path.Combine(directory, clipData.clipID + "." + clipData.audioType.ToString().ToLower());
 		String_t* L_33 = V_1;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_34 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_34 = ___0_clipData;
 		NullCheck(L_34);
 		String_t* L_35 = L_34->___clipID_1;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_36 = ___0_clipData;
 		NullCheck(L_36);
 		int32_t* L_37 = (&L_36->___audioType_2);
 		Il2CppFakeBox<int32_t> L_38(AudioType_tAA97CF19EED43C03E5DCE504D47D5CD5906AE82B_il2cpp_TypeInfo_var, L_37);
@@ -13023,20 +13466,20 @@ IL_00fe:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSDiskCache::ShouldCacheToDisk(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_m5D6E1265C7354DD9FE92F64AB0A6A5EE513C8361 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_m5D6E1265C7354DD9FE92F64AB0A6A5EE513C8361 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B4_0 = 0;
 	{
 		// return clipData != null && clipData.diskCacheSettings.DiskCacheLocation != TTSDiskCacheLocation.Stream && !string.IsNullOrEmpty(clipData.clipID);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		if (!L_0)
 		{
 			goto IL_0021;
 		}
 	}
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		TTSDiskCacheSettings_tB9D20D402A7386227ADC2A29BA87AE6F1774EE80* L_2 = L_1->___diskCacheSettings_4;
 		NullCheck(L_2);
@@ -13047,7 +13490,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSDiskCache_ShouldCacheToDisk_m5D6E1265
 		}
 	}
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_4 = ___0_clipData;
 		NullCheck(L_4);
 		String_t* L_5 = L_4->___clipID_1;
 		bool L_6;
@@ -13075,7 +13518,7 @@ IL_0025:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::CheckCachedToDisk(Meta.WitAi.TTS.Data.TTSClipData,System.Action`2<Meta.WitAi.TTS.Data.TTSClipData,System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CheckCachedToDisk_mB9A395CCD6F910CC29445D575BD2A2AC1CF8552B (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* ___onCheckComplete1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CheckCachedToDisk_mB9A395CCD6F910CC29445D575BD2A2AC1CF8552B (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* ___1_onCheckComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13105,12 +13548,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CheckCachedToDisk_mB9A395CC
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass13_0_t6B9CFB7447E8013ACDC325751A5DDCF8AFC7B5CF* L_2 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_2);
 		L_2->___clipData_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___clipData_1), (void*)L_3);
 		U3CU3Ec__DisplayClass13_0_t6B9CFB7447E8013ACDC325751A5DDCF8AFC7B5CF* L_4 = V_0;
-		Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* L_5 = ___onCheckComplete1;
+		Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* L_5 = ___1_onCheckComplete;
 		NullCheck(L_4);
 		L_4->___onCheckComplete_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___onCheckComplete_2), (void*)L_5);
@@ -13220,7 +13663,7 @@ IL_008c:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::StreamFromDiskCache(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_mBDCB7E6F6C095966B34C9006C8E60319E7A834A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_mBDCB7E6F6C095966B34C9006C8E60319E7A834A0 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13252,7 +13695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_StreamFromDiskCache_mBDCB7E
 		U3CU3Ec__DisplayClass14_0__ctor_m50208C4947E0F071B327BD30D316628C349D45CB(L_0, NULL);
 		V_0 = L_0;
 		U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* L_1 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_2 = ___0_clipData;
 		NullCheck(L_1);
 		L_1->___clipData_0 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___clipData_0), (void*)L_2);
@@ -13373,7 +13816,7 @@ IL_009d:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::CancelDiskCacheStream(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mFCB37FEDC4DEC92008A39A914F540C71040C93C1 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mFCB37FEDC4DEC92008A39A914F540C71040C93C1 (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13393,7 +13836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_CancelDiskCacheStream_mFCB3
 	{
 		// if (!_streamRequests.ContainsKey(clipData.clipID))
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_0 = __this->____streamRequests_7;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -13415,7 +13858,7 @@ IL_001c:
 	{
 		// VRequest request = _streamRequests[clipData.clipID];
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_5 = __this->____streamRequests_7;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___clipID_1;
 		NullCheck(L_5);
@@ -13424,7 +13867,7 @@ IL_001c:
 		V_0 = L_8;
 		// _streamRequests.Remove(clipData.clipID);
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_9 = __this->____streamRequests_7;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___clipID_1;
 		NullCheck(L_9);
@@ -13485,7 +13928,7 @@ IL_005a:
 
 IL_0065:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___0_clipData;
 		NullCheck(G_B9_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B9_0, L_19, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -13497,7 +13940,7 @@ IL_006c:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::OnStreamComplete(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_mCE3C9BA9FC59D37A936DDC98F5F9CE5B6A567A8F (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_mCE3C9BA9FC59D37A936DDC98F5F9CE5B6A567A8F (TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13521,7 +13964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSDiskCache_OnStreamComplete_mCE3C9BA9F
 	{
 		// if (!_streamRequests.ContainsKey(clipData.clipID))
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_0 = __this->____streamRequests_7;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -13543,14 +13986,14 @@ IL_001c:
 	{
 		// _streamRequests.Remove(clipData.clipID);
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_5 = __this->____streamRequests_7;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___clipID_1;
 		NullCheck(L_5);
 		bool L_8;
 		L_8 = Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3(L_5, L_7, Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3_RuntimeMethod_var);
 		// if (!string.IsNullOrEmpty(error))
-		String_t* L_9 = ___error1;
+		String_t* L_9 = ___1_error;
 		bool L_10;
 		L_10 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_9, NULL);
 		V_1 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
@@ -13594,8 +14037,8 @@ IL_0048:
 
 IL_0053:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___clipData0;
-		String_t* L_17 = ___error1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_16 = ___0_clipData;
+		String_t* L_17 = ___1_error;
 		NullCheck(G_B7_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B7_0, L_16, L_17, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -13640,7 +14083,7 @@ IL_006b:
 
 IL_0076:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_22 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_22 = ___0_clipData;
 		NullCheck(G_B13_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B13_0, L_22, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -13711,7 +14154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0__ctor_m64F4743
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass13_0::<CheckCachedToDisk>b__0(System.Boolean,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CCheckCachedToDiskU3Eb__0_m523C21D5B6F4C4C897B8085D477C536DC00BF144 (U3CU3Ec__DisplayClass13_0_t6B9CFB7447E8013ACDC325751A5DDCF8AFC7B5CF* __this, bool ___success0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_0_U3CCheckCachedToDiskU3Eb__0_m523C21D5B6F4C4C897B8085D477C536DC00BF144 (U3CU3Ec__DisplayClass13_0_t6B9CFB7447E8013ACDC325751A5DDCF8AFC7B5CF* __this, bool ___0_success, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13757,7 +14200,7 @@ IL_003e:
 		// onCheckComplete(clipData, success);
 		Action_2_tA6B78C274344790ADD817A987C01AA1E25653AB6* L_11 = __this->___onCheckComplete_2;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_12 = __this->___clipData_1;
-		bool L_13 = ___success0;
+		bool L_13 = ___0_success;
 		NullCheck(L_11);
 		Action_2_Invoke_m3F27D046697BDCE14C7F53A0C99CA3DC933DBAFF_inline(L_11, L_12, L_13, NULL);
 		// });
@@ -13781,19 +14224,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0__ctor_m50208C4
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::<StreamFromDiskCache>b__0(UnityEngine.AudioClip,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__0_m5E8A522696699471EDD7F2988309DD0024E7D6DE (U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__0_m5E8A522696699471EDD7F2988309DD0024E7D6DE (U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	{
 		// clipData.clip = clip;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = __this->___clipData_0;
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_1 = ___0_clip;
 		NullCheck(L_0);
 		L_0->___clip_6 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___clip_6), (void*)L_1);
 		// OnStreamComplete(clipData, error);
 		TTSDiskCache_tB8F8C36CFCA7AB614D88D68E90E3A47BF34CBAA2* L_2 = __this->___U3CU3E4__this_1;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = __this->___clipData_0;
-		String_t* L_4 = ___error1;
+		String_t* L_4 = ___1_error;
 		NullCheck(L_2);
 		VirtualActionInvoker2< TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*, String_t* >::Invoke(12 /* System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache::OnStreamComplete(Meta.WitAi.TTS.Data.TTSClipData,System.String) */, L_2, L_3, L_4);
 		// }, WitTTSVRequest.TTSAudioType, true, (progress) => clipData.loadProgress = progress);
@@ -13801,12 +14244,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromD
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSDiskCache/<>c__DisplayClass14_0::<StreamFromDiskCache>b__1(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__1_m5F420268DE616DEB64E96C4EDD67776AE8EA43BD (U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* __this, float ___progress0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass14_0_U3CStreamFromDiskCacheU3Eb__1_m5F420268DE616DEB64E96C4EDD67776AE8EA43BD (U3CU3Ec__DisplayClass14_0_tDCE407CA9CAAAFCB4F77D78F5DBA44E828089031* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
 		// }, WitTTSVRequest.TTSAudioType, true, (progress) => clipData.loadProgress = progress);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = __this->___clipData_0;
-		float L_1 = ___progress0;
+		float L_1 = ___0_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
@@ -13830,11 +14273,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF6
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSRuntimeCache::set_OnClipAdded(Meta.WitAi.TTS.Events.TTSClipEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipAdded_mCDB36FA05C3B39718667C432B8C9EEB2A9C0CE16 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipAdded_mCDB36FA05C3B39718667C432B8C9EEB2A9C0CE16 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipEvent OnClipAdded { get; set; } = new TTSClipEvent();
-		TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* L_0 = ___value0;
+		TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* L_0 = ___0_value;
 		__this->___U3COnClipAddedU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COnClipAddedU3Ek__BackingField_8), (void*)L_0);
 		return;
@@ -13850,11 +14293,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF6
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSRuntimeCache::set_OnClipRemoved(Meta.WitAi.TTS.Events.TTSClipEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipRemoved_mDA7A4713EFF72DD02657B175587765CE17059801 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_set_OnClipRemoved_mDA7A4713EFF72DD02657B175587765CE17059801 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipEvent OnClipRemoved { get; set; } = new TTSClipEvent();
-		TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* L_0 = ___value0;
+		TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* L_0 = ___0_value;
 		__this->___U3COnClipRemovedU3Ek__BackingField_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3COnClipRemovedU3Ek__BackingField_9), (void*)L_0);
 		return;
@@ -13882,7 +14325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipDataU5BU5D_t2AE56AC2A4BB002E81CB8249EC
 	}
 }
 // Meta.WitAi.TTS.Data.TTSClipData Meta.WitAi.TTS.Integrations.TTSRuntimeCache::GetClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSRuntimeCache_GetClip_mA02A4C4B6B31E669D864BE44E2A9320E3E0A1941 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* TTSRuntimeCache_GetClip_mA02A4C4B6B31E669D864BE44E2A9320E3E0A1941 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13900,7 +14343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSClipData_t6E5451499F8FAE0DFD198CD51F544835
 	{
 		// if (!_clips.ContainsKey(clipID))
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_0 = __this->____clips_10;
-		String_t* L_1 = ___clipID0;
+		String_t* L_1 = ___0_clipID;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643(L_0, L_1, Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643_RuntimeMethod_var);
@@ -13921,7 +14364,7 @@ IL_0019:
 	{
 		// int clipIndex = _clipOrder.IndexOf(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_4 = __this->____clipOrder_11;
-		String_t* L_5 = ___clipID0;
+		String_t* L_5 = ___0_clipID;
 		NullCheck(L_4);
 		int32_t L_6;
 		L_6 = List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4(L_4, L_5, List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4_RuntimeMethod_var);
@@ -13933,12 +14376,12 @@ IL_0019:
 		List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D(L_7, L_8, List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D_RuntimeMethod_var);
 		// _clipOrder.Add(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->____clipOrder_11;
-		String_t* L_10 = ___clipID0;
+		String_t* L_10 = ___0_clipID;
 		NullCheck(L_9);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_9, L_10, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		// return _clips[clipID];
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_11 = __this->____clips_10;
-		String_t* L_12 = ___clipID0;
+		String_t* L_12 = ___0_clipID;
 		NullCheck(L_11);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13;
 		L_13 = Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9(L_11, L_12, Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9_RuntimeMethod_var);
@@ -13954,7 +14397,7 @@ IL_004f:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSRuntimeCache::AddClip(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSRuntimeCache_AddClip_m5058C7C384009C82F7BBD96BDC5A98B9E544FEAA (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSRuntimeCache_AddClip_m5058C7C384009C82F7BBD96BDC5A98B9E544FEAA (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13983,7 +14426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSRuntimeCache_AddClip_m5058C7C384009C8
 	TTSClipEvent_t0C9F8CBB0FBCD9667A0F33D12833AF655FD55D40* G_B15_0 = NULL;
 	{
 		// if (clipData == null)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_clipData;
 		V_2 = (bool)((((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_0) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_1 = V_2;
 		if (!L_1)
@@ -14003,7 +14446,7 @@ IL_0011:
 		V_0 = (bool)1;
 		// int clipIndex = _clipOrder.IndexOf(clipData.clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_2 = __this->____clipOrder_11;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_3);
 		String_t* L_4 = L_3->___clipID_1;
 		NullCheck(L_2);
@@ -14033,15 +14476,15 @@ IL_0043:
 	{
 		// _clips[clipData.clipID] = clipData;
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_10 = __this->____clips_10;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_11 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_11 = ___0_clipData;
 		NullCheck(L_11);
 		String_t* L_12 = L_11->___clipID_1;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_13 = ___0_clipData;
 		NullCheck(L_10);
 		Dictionary_2_set_Item_m831FE5AEBCD52CBE0AB00782DF90AF91849C0CB3(L_10, L_12, L_13, Dictionary_2_set_Item_m831FE5AEBCD52CBE0AB00782DF90AF91849C0CB3_RuntimeMethod_var);
 		// _clipOrder.Add(clipData.clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_14 = __this->____clipOrder_11;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_15 = ___0_clipData;
 		NullCheck(L_15);
 		String_t* L_16 = L_15->___clipID_1;
 		NullCheck(L_14);
@@ -14144,7 +14587,7 @@ IL_00b7:
 
 IL_00ca:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_30 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_30 = ___0_clipData;
 		NullCheck(G_B16_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B16_0, L_30, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -14175,7 +14618,7 @@ IL_00e8:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSRuntimeCache::RemoveClip(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mA5B7062558B1F632383BFBE6D678B2D97EFFBB74 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___clipID0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mA5B7062558B1F632383BFBE6D678B2D97EFFBB74 (TTSRuntimeCache_tDA3DB8C3F9CEF8CE727EF2A5360B6940FED9AD05* __this, String_t* ___0_clipID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14196,7 +14639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSRuntimeCache_RemoveClip_mA5B7062558B1
 	{
 		// if (!_clips.ContainsKey(clipID))
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_0 = __this->____clips_10;
-		String_t* L_1 = ___clipID0;
+		String_t* L_1 = ___0_clipID;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643(L_0, L_1, Dictionary_2_ContainsKey_mF34AA93A9E69EE726F81026F795DA192ECC6B643_RuntimeMethod_var);
@@ -14216,20 +14659,20 @@ IL_0017:
 	{
 		// TTSClipData clipData = _clips[clipID];
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_4 = __this->____clips_10;
-		String_t* L_5 = ___clipID0;
+		String_t* L_5 = ___0_clipID;
 		NullCheck(L_4);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6;
 		L_6 = Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9(L_4, L_5, Dictionary_2_get_Item_m841939CE8F899013617379C5AB442B21E5158EC9_RuntimeMethod_var);
 		V_0 = L_6;
 		// _clips.Remove(clipID);
 		Dictionary_2_tBA9352270A454F800F6649C8C8CF1DDA6E012FC0* L_7 = __this->____clips_10;
-		String_t* L_8 = ___clipID0;
+		String_t* L_8 = ___0_clipID;
 		NullCheck(L_7);
 		bool L_9;
 		L_9 = Dictionary_2_Remove_m191904AE148BE08CB5D6AD1EBE45CFF0EA579A79(L_7, L_8, Dictionary_2_Remove_m191904AE148BE08CB5D6AD1EBE45CFF0EA579A79_RuntimeMethod_var);
 		// int clipIndex = _clipOrder.IndexOf(clipID);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = __this->____clipOrder_11;
-		String_t* L_11 = ___clipID0;
+		String_t* L_11 = ___0_clipID;
 		NullCheck(L_10);
 		int32_t L_12;
 		L_12 = List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4(L_10, L_11, List_1_IndexOf_m407F5E43ED8B2BD39036693B8F25F363362CE9D4_RuntimeMethod_var);
@@ -14474,7 +14917,7 @@ IL_0063:
 	}
 }
 // System.Int64 Meta.WitAi.TTS.Integrations.TTSRuntimeCache::GetClipBytes(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED74477FE1D25D3028FEAFB695127DF56444CCA (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED74477FE1D25D3028FEAFB695127DF56444CCA (AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14486,7 +14929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED7447
 	int64_t V_1 = 0;
 	{
 		// if (clip == null)
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clip;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
@@ -14506,11 +14949,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t TTSRuntimeCache_GetClipBytes_mDED7447
 IL_0012:
 	{
 		// return ((clip.samples * clip.channels) * 2);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = ___0_clip;
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = AudioClip_get_samples_mDEA01CA75E7DEA0F8D480E4AF97FB96085BCF38E(L_3, NULL);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_5 = ___0_clip;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = AudioClip_get_channels_mFEECF5D6389D196BA5102EB79257298B9FDC9F84(L_5, NULL);
@@ -14776,11 +15219,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit::set_WebStreamEvents(Meta.WitAi.TTS.Events.TTSStreamEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebStreamEvents_m56ED8CD636CF4E2D56B651D0BBAE3AAA8135A077 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebStreamEvents_m56ED8CD636CF4E2D56B651D0BBAE3AAA8135A077 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSStreamEvents WebStreamEvents { get; set; } = new TTSStreamEvents();
-		TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* L_0 = ___value0;
+		TTSStreamEvents_t2D1DD89F7FFCBF9EA64C9F0758C1D1C7523EEFE6* L_0 = ___0_value;
 		__this->___U3CWebStreamEventsU3Ek__BackingField_13 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWebStreamEventsU3Ek__BackingField_13), (void*)L_0);
 		return;
@@ -14886,7 +15329,7 @@ IL_0064:
 	}
 }
 // System.String Meta.WitAi.TTS.Integrations.TTSWit::IsTextValid(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mB273DD030A0FD2C47DC748C8E3D982091B0AE539 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, String_t* ___textToSpeak0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mB273DD030A0FD2C47DC748C8E3D982091B0AE539 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, String_t* ___0_textToSpeak, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14898,7 +15341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsTextValid_mB273DD030A0FD2C
 	String_t* G_B3_0 = NULL;
 	{
 		// public string IsTextValid(string textToSpeak) => string.IsNullOrEmpty(textToSpeak) ? WitConstants.ENDPOINT_TTS_NO_TEXT : string.Empty;
-		String_t* L_0 = ___textToSpeak0;
+		String_t* L_0 = ___0_textToSpeak;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (L_1)
@@ -14923,7 +15366,7 @@ IL_0014:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit::RequestStreamFromWeb(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m40321900B94E938C2F4F1EEE715150AB3A1869CC (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m40321900B94E938C2F4F1EEE715150AB3A1869CC (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14963,7 +15406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestStreamFromWeb_m40321900B94
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass18_0_t515B773164D969BF6327F4991EBBC2C6567BFFFC* L_2 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_2);
 		L_2->___clipData_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___clipData_1), (void*)L_3);
@@ -15177,7 +15620,7 @@ IL_0110:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSWit::CancelWebStream(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_m65761464CCCFAF8DC17976EB7AD6BC7BE6D68578 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_m65761464CCCFAF8DC17976EB7AD6BC7BE6D68578 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15198,7 +15641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebStream_m65761464CCCFAF8D
 	{
 		// if (!_webStreams.ContainsKey(clipData.clipID))
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_0 = __this->____webStreams_14;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -15221,7 +15664,7 @@ IL_001e:
 	{
 		// VRequest request = _webStreams[clipData.clipID];
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_5 = __this->____webStreams_14;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___clipID_1;
 		NullCheck(L_5);
@@ -15230,7 +15673,7 @@ IL_001e:
 		V_0 = L_8;
 		// _webStreams.Remove(clipData.clipID);
 		Dictionary_2_t88B2413F532D0B8B703FABE569EBFFBB3C85DCA7* L_9 = __this->____webStreams_14;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___clipID_1;
 		NullCheck(L_9);
@@ -15291,7 +15734,7 @@ IL_005c:
 
 IL_0067:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___0_clipData;
 		NullCheck(G_B9_0);
 		UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119(G_B9_0, L_19, UnityEvent_1_Invoke_mDE230DEA1E9974195C3F174765A9E0DB1526F119_RuntimeMethod_var);
 	}
@@ -15320,18 +15763,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit::set_WebDownloadEvents(Meta.WitAi.TTS.Events.TTSDownloadEvents)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebDownloadEvents_m883C532E3511F60C09FAAF10918FB99045D1E2AC (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_set_WebDownloadEvents_m883C532E3511F60C09FAAF10918FB99045D1E2AC (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSDownloadEvents WebDownloadEvents { get; set; } = new TTSDownloadEvents();
-		TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* L_0 = ___value0;
+		TTSDownloadEvents_tB819CF70F58DFFD1D1DA2E8DA6749442251EC089* L_0 = ___0_value;
 		__this->___U3CWebDownloadEventsU3Ek__BackingField_15 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CWebDownloadEventsU3Ek__BackingField_15), (void*)L_0);
 		return;
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit::RequestDownloadFromWeb(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m5A5137C8D274639E8B09B53846F08871A7624E27 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m5A5137C8D274639E8B09B53846F08871A7624E27 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15371,12 +15814,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSWit_RequestDownloadFromWeb_m5A5137C8D
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* L_2 = V_0;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_3 = ___0_clipData;
 		NullCheck(L_2);
 		L_2->___clipData_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___clipData_1), (void*)L_3);
 		U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* L_4 = V_0;
-		String_t* L_5 = ___downloadPath1;
+		String_t* L_5 = ___1_downloadPath;
 		NullCheck(L_4);
 		L_4->___downloadPath_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___downloadPath_2), (void*)L_5);
@@ -15594,7 +16037,7 @@ IL_012f:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Integrations.TTSWit::CancelWebDownload(Meta.WitAi.TTS.Data.TTSClipData,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m668EECF084A405833C0F6A10ED18128521EF5F63 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, String_t* ___downloadPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m668EECF084A405833C0F6A10ED18128521EF5F63 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, String_t* ___1_downloadPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15615,7 +16058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSWit_CancelWebDownload_m668EECF084A405
 	{
 		// if (!_webDownloads.ContainsKey(clipData.clipID))
 		Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* L_0 = __this->____webDownloads_16;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = ___0_clipData;
 		NullCheck(L_1);
 		String_t* L_2 = L_1->___clipID_1;
 		NullCheck(L_0);
@@ -15638,7 +16081,7 @@ IL_001e:
 	{
 		// WitVRequest request = _webDownloads[clipData.clipID];
 		Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* L_5 = __this->____webDownloads_16;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_6 = ___0_clipData;
 		NullCheck(L_6);
 		String_t* L_7 = L_6->___clipID_1;
 		NullCheck(L_5);
@@ -15647,7 +16090,7 @@ IL_001e:
 		V_0 = L_8;
 		// _webDownloads.Remove(clipData.clipID);
 		Dictionary_2_tB905E171CAD951F64829BD67F3D88CE1402F54A7* L_9 = __this->____webDownloads_16;
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_10 = ___0_clipData;
 		NullCheck(L_10);
 		String_t* L_11 = L_10->___clipID_1;
 		NullCheck(L_9);
@@ -15708,8 +16151,8 @@ IL_005c:
 
 IL_0067:
 	{
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___clipData0;
-		String_t* L_20 = ___downloadPath1;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_19 = ___0_clipData;
+		String_t* L_20 = ___1_downloadPath;
 		NullCheck(G_B9_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B9_0, L_19, L_20, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -15825,7 +16268,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0
 	}
 }
 // System.Collections.Generic.Dictionary`2<System.String,System.String> Meta.WitAi.TTS.Integrations.TTSWit::EncodeVoiceSettings(Meta.WitAi.TTS.Data.TTSVoiceSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* TTSWit_EncodeVoiceSettings_m5AB213BBDD047EE7E87C94A8C41D5E1A210FB403 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___voiceSettings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* TTSWit_EncodeVoiceSettings_m5AB213BBDD047EE7E87C94A8C41D5E1A210FB403 (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* ___0_voiceSettings, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15871,7 +16314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 		Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052(L_0, Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var);
 		V_0 = L_0;
 		// if (voiceSettings != null)
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___voiceSettings0;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_1 = ___0_voiceSettings;
 		V_1 = (bool)((!(((RuntimeObject*)(TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_2 = V_1;
 		if (!L_2)
@@ -15881,7 +16324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 	}
 	{
 		// foreach (FieldInfo field in voiceSettings.GetType().GetFields())
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_3 = ___voiceSettings0;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_3 = ___0_voiceSettings;
 		NullCheck(L_3);
 		Type_t* L_4;
 		L_4 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_3, NULL);
@@ -15919,7 +16362,7 @@ IL_0027:
 	{
 		// object fieldVal = field.GetValue(voiceSettings);
 		FieldInfo_t* L_14 = V_4;
-		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_15 = ___voiceSettings0;
+		TTSVoiceSettings_tFC2FD981FC744E24B4D7186EFD0DC70FC5BE7326* L_15 = ___0_voiceSettings;
 		NullCheck(L_14);
 		RuntimeObject* L_16;
 		L_16 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(21 /* System.Object System.Reflection.FieldInfo::GetValue(System.Object) */, L_14, L_15);
@@ -16142,7 +16585,7 @@ IL_015c:
 	}
 }
 // System.String Meta.WitAi.TTS.Integrations.TTSWit::IsRequestValid(Meta.WitAi.TTS.Data.TTSClipData,Meta.WitAi.Data.Configuration.WitConfiguration)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m3373AB0DDA02667FD6624752203966A80DFBC0DA (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___clipData0, WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E* ___configuration1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m3373AB0DDA02667FD6624752203966A80DFBC0DA (TTSWit_tC112A26D217C48EABDB9AC695D5B3EF2A4AAF0A3* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_clipData, WitConfiguration_t85BCD6C826D35078E90334092184A53D1B69C72E* ___1_configuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16181,7 +16624,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TTSWit_IsRequestValid_m3373AB0DDA02
 IL_001a:
 	{
 		// if (clipData == null)
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___clipData0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = ___0_clipData;
 		V_3 = (bool)((((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_5) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 		bool L_6 = V_3;
 		if (!L_6)
@@ -16270,7 +16713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0__ctor_m5805D2B
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0::<RequestStreamFromWeb>b__0(UnityEngine.AudioClip,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__0_mB1CCAD98A4466C3AF9E1D05DCDCA31DF68FB9317 (U3CU3Ec__DisplayClass18_0_t515B773164D969BF6327F4991EBBC2C6567BFFFC* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___clip0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__0_mB1CCAD98A4466C3AF9E1D05DCDCA31DF68FB9317 (U3CU3Ec__DisplayClass18_0_t515B773164D969BF6327F4991EBBC2C6567BFFFC* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___0_clip, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16308,12 +16751,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStre
 		L_4 = Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3(L_1, L_3, Dictionary_2_Remove_m5639E647088345033EF89D801A7DFA119F6F93A3_RuntimeMethod_var);
 		// clipData.clip = clip;
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_5 = __this->___clipData_1;
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = ___clip0;
+		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_6 = ___0_clip;
 		NullCheck(L_5);
 		L_5->___clip_6 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___clip_6), (void*)L_6);
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_7 = ___error1;
+		String_t* L_7 = ___1_error;
 		bool L_8;
 		L_8 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_7, NULL);
 		V_0 = L_8;
@@ -16372,7 +16815,7 @@ IL_005c:
 IL_005f:
 	{
 		// if (string.Equals(error, VRequest.CANCEL_ERROR, StringComparison.CurrentCultureIgnoreCase))
-		String_t* L_16 = ___error1;
+		String_t* L_16 = ___1_error;
 		bool L_17;
 		L_17 = String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B(L_16, _stringLiteralAC511DE6494CB691166B2E9F28AC49D3C56037BA, 1, NULL);
 		V_1 = L_17;
@@ -16466,7 +16909,7 @@ IL_00ae:
 IL_00b9:
 	{
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_30 = __this->___clipData_1;
-		String_t* L_31 = ___error1;
+		String_t* L_31 = ___1_error;
 		NullCheck(G_B18_0);
 		UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7(G_B18_0, L_30, L_31, UnityEvent_2_Invoke_m1D09481C2110083E19F3AE7544220FC59E633AC7_RuntimeMethod_var);
 	}
@@ -16486,12 +16929,12 @@ IL_00c8:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass18_0::<RequestStreamFromWeb>b__1(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__1_m690C45549C570C25CF8EBC3418271878095416DD (U3CU3Ec__DisplayClass18_0_t515B773164D969BF6327F4991EBBC2C6567BFFFC* __this, float ___progress0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass18_0_U3CRequestStreamFromWebU3Eb__1_m690C45549C570C25CF8EBC3418271878095416DD (U3CU3Ec__DisplayClass18_0_t515B773164D969BF6327F4991EBBC2C6567BFFFC* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
 		// (progress) => clipData.loadProgress = progress);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = __this->___clipData_1;
-		float L_1 = ___progress0;
+		float L_1 = ___0_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
@@ -16514,7 +16957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0__ctor_m5BC4C7E
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::<RequestDownloadFromWeb>b__0(System.Boolean,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__0_mF5BF253FE69DDAC7727166A2FF026E17207547BC (U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* __this, bool ___success0, String_t* ___error1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__0_mF5BF253FE69DDAC7727166A2FF026E17207547BC (U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* __this, bool ___0_success, String_t* ___1_error, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16545,7 +16988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDown
 		bool L_4;
 		L_4 = Dictionary_2_Remove_mAC0649F6B4E6A5853735FAF4A0B8639D1656D027(L_1, L_3, Dictionary_2_Remove_mAC0649F6B4E6A5853735FAF4A0B8639D1656D027_RuntimeMethod_var);
 		// if (string.IsNullOrEmpty(error))
-		String_t* L_5 = ___error1;
+		String_t* L_5 = ___1_error;
 		bool L_6;
 		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
 		V_0 = L_6;
@@ -16641,7 +17084,7 @@ IL_0076:
 	{
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_20 = __this->___clipData_1;
 		String_t* L_21 = __this->___downloadPath_2;
-		String_t* L_22 = ___error1;
+		String_t* L_22 = ___1_error;
 		NullCheck(G_B11_0);
 		UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A(G_B11_0, L_20, L_21, L_22, UnityEvent_3_Invoke_m83A74383D940D2C4D5028C17F2BC5E820EBB560A_RuntimeMethod_var);
 	}
@@ -16657,12 +17100,12 @@ IL_008a:
 	}
 }
 // System.Void Meta.WitAi.TTS.Integrations.TTSWit/<>c__DisplayClass25_0::<RequestDownloadFromWeb>b__1(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__1_mBEBC8C078780E29EAA77E57F4F728373D3050CC4 (U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* __this, float ___progress0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass25_0_U3CRequestDownloadFromWebU3Eb__1_mBEBC8C078780E29EAA77E57F4F728373D3050CC4 (U3CU3Ec__DisplayClass25_0_t663E283377A378BFE37CE9048735A2166CD603A8* __this, float ___0_progress, const RuntimeMethod* method) 
 {
 	{
 		// (progress) => clipData.loadProgress = progress);
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = __this->___clipData_1;
-		float L_1 = ___progress0;
+		float L_1 = ___0_progress;
 		NullCheck(L_0);
 		L_0->___loadProgress_8 = L_1;
 		return;
@@ -16907,7 +17350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TTSStreamEvents__ctor_m41F9DE1389E4698A6
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean Meta.WitAi.TTS.Data.TTSClipData::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_mBBD2D9ADEC1CD3F4D868DFA3F600236004DEC51F (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_mBBD2D9ADEC1CD3F4D868DFA3F600236004DEC51F (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16920,7 +17363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_mBBD2D9ADEC1CD3F4D868
 	bool V_2 = false;
 	{
 		// if (obj is TTSClipData other)
-		RuntimeObject* L_0 = ___obj0;
+		RuntimeObject* L_0 = ___0_obj;
 		V_0 = ((TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)IsInstClass((RuntimeObject*)L_0, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827_il2cpp_TypeInfo_var));
 		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_1 = V_0;
 		V_1 = (bool)((!(((RuntimeObject*)(TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
@@ -16954,12 +17397,12 @@ IL_001f:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Data.TTSClipData::Equals(Meta.WitAi.TTS.Data.TTSClipData)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___other0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_Equals_m33065A5661419BE32C96A1F75B8D625B988A1718 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_other, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// return HasClipId(other.clipID);
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___other0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_other;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___clipID_1;
 		bool L_2;
@@ -16976,13 +17419,13 @@ IL_0010:
 	}
 }
 // System.Boolean Meta.WitAi.TTS.Data.TTSClipData::HasClipId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_HasClipId_m80BE688C84E0930E3B701E3A99729C71184E2F27 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, String_t* ___clipId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TTSClipData_HasClipId_m80BE688C84E0930E3B701E3A99729C71184E2F27 (TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* __this, String_t* ___0_clipId, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// return string.Equals(clipID, clipId, StringComparison.CurrentCultureIgnoreCase);
 		String_t* L_0 = __this->___clipID_1;
-		String_t* L_1 = ___clipId0;
+		String_t* L_1 = ___0_clipId;
 		bool L_2;
 		L_2 = String_Equals_mCC34895D0DB2AD440C9D8767032215BC86B5C48B(L_0, L_1, 1, NULL);
 		V_0 = L_2;
@@ -17116,11 +17559,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSSpeakerEvents_t80895FED7384EDF
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01_inline (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void TTSSpeaker_set_SpeakingClip_mC8AAB39F58D104DA9D52A388E6FBE0FA46C22A01_inline (TTSSpeaker_tD5B4F9BF6B84E7144D7DBD08DF599AD60A4CCA9C* __this, TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public TTSClipData SpeakingClip { get; private set; }
-		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___value0;
+		TTSClipData_t6E5451499F8FAE0DFD198CD51F544835F65F3827* L_0 = ___0_value;
 		__this->___U3CSpeakingClipU3Ek__BackingField_9 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CSpeakingClipU3Ek__BackingField_9), (void*)L_0);
 		return;
@@ -17174,14 +17617,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TTSDownloadEvents_tB819CF70F58DFF
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___value0, int32_t ___min1, int32_t ___max2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
 	int32_t V_2 = 0;
 	{
-		int32_t L_0 = ___value0;
-		int32_t L_1 = ___min1;
+		int32_t L_0 = ___0_value;
+		int32_t L_1 = ___1_min;
 		V_0 = (bool)((((int32_t)L_0) < ((int32_t)L_1))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -17190,15 +17633,15 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5
 		}
 	}
 	{
-		int32_t L_3 = ___min1;
-		___value0 = L_3;
+		int32_t L_3 = ___1_min;
+		___0_value = L_3;
 		goto IL_0019;
 	}
 
 IL_000e:
 	{
-		int32_t L_4 = ___value0;
-		int32_t L_5 = ___max2;
+		int32_t L_4 = ___0_value;
+		int32_t L_5 = ___2_max;
 		V_1 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
 		bool L_6 = V_1;
 		if (!L_6)
@@ -17207,13 +17650,13 @@ IL_000e:
 		}
 	}
 	{
-		int32_t L_7 = ___max2;
-		___value0 = L_7;
+		int32_t L_7 = ___2_max;
+		___0_value = L_7;
 	}
 
 IL_0019:
 	{
-		int32_t L_8 = ___value0;
+		int32_t L_8 = ___0_value;
 		V_2 = L_8;
 		goto IL_001d;
 	}
@@ -17231,25 +17674,25 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___arg10, int32_t ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m3BFB5987F7235AEF25980B76D635DBD5B56B0F7A_gshared_inline (Action_2_t9C4E97D0565650F0AEF7C72077EB8A0F9326E40B* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_m7BFCE0BBCF67689D263059B56A8D79161B698587_gshared_inline (Action_2_t156C43F079E7E68155FCDCD12DC77DD11AEF7E3C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_gshared_inline (Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___arg10, RuntimeObject* ___arg21, RuntimeObject* ___arg32, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_3_Invoke_m399A0EB5E51EFD9B7D25DFE0EB7BF5EC0BE98346_gshared_inline (Action_3_tCDB60724FE7702C8848DCEE7A25283B015D0DA58* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, ___arg32, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, ___2_arg3, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m1768ADA9855B7CDA14C9C42E098A287F1A39C3A2_gshared_inline (Queue_1_tE9EF546915795972C3BFD68FBB8FA859D3BAF3B5* __this, const RuntimeMethod* method) 
 {
@@ -17258,12 +17701,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Queue_1_get_Count_m1768AD
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___arg10, bool ___arg21, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_2_Invoke_mB2DD87F61EB655A33F6277F1E277246CE23B6625_gshared_inline (Action_2_t5BCD350E28ADACED656596CC308132ED74DA0915* __this, RuntimeObject* ___0_arg1, bool ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, bool, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___arg10, ___arg21, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_arg1, ___1_arg2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -17287,7 +17730,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
-		RuntimeObject* L_8 = ___item0;
+		RuntimeObject* L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
@@ -17295,7 +17738,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 
 IL_0034:
 	{
-		RuntimeObject* L_9 = ___item0;
+		RuntimeObject* L_9 = ___0_item;
 		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}
