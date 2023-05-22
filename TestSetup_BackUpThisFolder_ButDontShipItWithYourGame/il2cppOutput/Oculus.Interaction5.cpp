@@ -462,16 +462,10 @@ struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
 struct PlaneSurface_tEBEE129858C06C130F2245C44C19B37BEBC935AC;
 // Oculus.Interaction.Locomotion.PlayerLocomotor
 struct PlayerLocomotor_t36FC05317118A47650E19F42C5A6871EE972BACA;
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568;
-// Oculus.Interaction.Deprecated.PolylineGizmos
-struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8;
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401;
 // System.Random
 struct Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8;
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
-struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403;
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551;
 // UnityEngine.Renderer
@@ -1019,16 +1013,6 @@ struct HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A  : public RuntimeO
 	HandSkeletonJointU5BU5D_t51777BC841638FBD65EF72F51217D480C935E4F6* ___joints_0;
 };
 
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-struct PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568  : public RuntimeObject
-{
-};
-
-// Oculus.Interaction.Deprecated.PolylineGizmos
-struct PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8  : public RuntimeObject
-{
-};
-
 // Oculus.Interaction.ProgressCurve
 struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public RuntimeObject
 {
@@ -1038,11 +1022,6 @@ struct ProgressCurve_t4240A915DEBE2CD7C1D414683EB5A89A06494401  : public Runtime
 	float ____animationLength_1;
 	// System.Single Oculus.Interaction.ProgressCurve::_animationStartTime
 	float ____animationStartTime_2;
-};
-
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
-struct RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403  : public RuntimeObject
-{
 };
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
@@ -3194,21 +3173,9 @@ struct HandSkeleton_t1D460014EB9A79C22A05097791ABEE5855DAF34A_StaticFields
 
 // Oculus.Interaction.Input.HandSkeleton
 
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-
-// Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos
-
-// Oculus.Interaction.Deprecated.PolylineGizmos
-
-// Oculus.Interaction.Deprecated.PolylineGizmos
-
 // Oculus.Interaction.ProgressCurve
 
 // Oculus.Interaction.ProgressCurve
-
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
-
-// Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos
 
 // Oculus.Interaction.Input.ReadOnlyHandJointPoses
 struct ReadOnlyHandJointPoses_t6C048A8D103A3648C7BDE5EAFD651164C1A1F551_StaticFields
@@ -9797,54 +9764,6 @@ IL_003d:
 		// }
 		CylinderSegment_t636D1FA76F840C8AC0867C87F79B7C37A99632E7 L_1 = V_1;
 		return L_1;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.RayInteractorDebugPolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RayInteractorDebugPolylineGizmos__ctor_m08A8FA5FB3622D0C8A00EE9D0ABCF0AFC5D1B6E0 (RayInteractorDebugPolylineGizmos_t931C944C882AE1D37E0941BFACFD00BA7133F403* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PointableDebugPolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableDebugPolylineGizmos__ctor_m594235DD2648776D55411715DF97B0FE9CEAA610 (PointableDebugPolylineGizmos_t2DE45A6E8897D347D67431E94F432F20343FA568* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Oculus.Interaction.Deprecated.PolylineGizmos::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolylineGizmos__ctor_m0394AE1D48B493931A4425B4B2C10173100B9C84 (PolylineGizmos_tF07843F74110BB21FAA28205531CA6536815A1C8* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
 	}
 }
 #ifdef __clang__

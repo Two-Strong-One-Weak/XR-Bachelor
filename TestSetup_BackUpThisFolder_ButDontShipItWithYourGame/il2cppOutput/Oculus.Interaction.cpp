@@ -519,6 +519,8 @@ struct SecondaryInteractorFilter_t592A2906F199F187643CC9EAAFBC6BA015703C29;
 struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
 // System.String
 struct String_t;
+// Oculus.Interaction.TagMonoBehaviourFilter
+struct TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8;
 // Oculus.Interaction.TagSet
 struct TagSet_t5349668073CEC8B05C55211650DC15C72E13BA64;
 // Oculus.Interaction.TagSetFilter
@@ -1765,6 +1767,8 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Quaternion
@@ -1878,9 +1882,9 @@ struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3
 struct ConditionalHideAttribute_t6BA4FC61FDD13F86C5CF20F393C94795F99BBA93  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Oculus.Interaction.ConditionalHideAttribute::<ConditionalFieldPath>k__BackingField
-	String_t* ___U3CConditionalFieldPathU3Ek__BackingField_0;
+	String_t* ___U3CConditionalFieldPathU3Ek__BackingField_1;
 	// System.Object Oculus.Interaction.ConditionalHideAttribute::<HideValue>k__BackingField
-	RuntimeObject* ___U3CHideValueU3Ek__BackingField_1;
+	RuntimeObject* ___U3CHideValueU3Ek__BackingField_2;
 };
 
 // System.Delegate
@@ -2036,11 +2040,11 @@ struct Exception_t_marshaled_com
 struct InspectorButtonAttribute_tE88CAE64ACF46DBFEC5C3E7516387B07947AAD24  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Single Oculus.Interaction.InspectorButtonAttribute::<ButtonWidth>k__BackingField
-	float ___U3CButtonWidthU3Ek__BackingField_2;
+	float ___U3CButtonWidthU3Ek__BackingField_3;
 	// System.String Oculus.Interaction.InspectorButtonAttribute::methodName
-	String_t* ___methodName_3;
+	String_t* ___methodName_4;
 	// System.Single Oculus.Interaction.InspectorButtonAttribute::buttonHeight
-	float ___buttonHeight_4;
+	float ___buttonHeight_5;
 };
 
 // UnityEngine.MaterialPropertyBlock
@@ -2838,6 +2842,11 @@ struct SecondaryInteractorFilter_t592A2906F199F187643CC9EAAFBC6BA015703C29  : pu
 	Dictionary_2_t209CDE01C85870E1FA1B9D5C35FA4757320775C8* ____primaryToSecondaryMap_9;
 	// System.Boolean Oculus.Interaction.SecondaryInteractorFilter::_started
 	bool ____started_10;
+};
+
+// Oculus.Interaction.TagMonoBehaviourFilter
+struct TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
 };
 
 // Oculus.Interaction.TagSet
@@ -3948,6 +3957,10 @@ struct OneGrabPhysicsJointTransformer_t0E610A52B11C8F72D6377D7E541B30675B950D6F_
 // Oculus.Interaction.SecondaryInteractorFilter
 
 // Oculus.Interaction.SecondaryInteractorFilter
+
+// Oculus.Interaction.TagMonoBehaviourFilter
+
+// Oculus.Interaction.TagMonoBehaviourFilter
 
 // Oculus.Interaction.TagSet
 
@@ -5950,7 +5963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConditionalHideAttribute_get_Condit
 {
 	{
 		// public string ConditionalFieldPath { get; private set; }
-		String_t* L_0 = __this->___U3CConditionalFieldPathU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3CConditionalFieldPathU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -5960,8 +5973,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalHideAttribute_set_Conditional
 	{
 		// public string ConditionalFieldPath { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CConditionalFieldPathU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionalFieldPathU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CConditionalFieldPathU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionalFieldPathU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
@@ -5970,7 +5983,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ConditionalHideAttribute_get_H
 {
 	{
 		// public object HideValue { get; private set; }
-		RuntimeObject* L_0 = __this->___U3CHideValueU3Ek__BackingField_1;
+		RuntimeObject* L_0 = __this->___U3CHideValueU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -5980,8 +5993,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConditionalHideAttribute_set_HideValue_m
 	{
 		// public object HideValue { get; private set; }
 		RuntimeObject* L_0 = ___0_value;
-		__this->___U3CHideValueU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHideValueU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CHideValueU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHideValueU3Ek__BackingField_2), (void*)L_0);
 		return;
 	}
 }
@@ -6014,7 +6027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InspectorButtonAttribute_get_ButtonWidt
 {
 	{
 		// public float ButtonWidth { get; set; } = BUTTON_WIDTH;
-		float L_0 = __this->___U3CButtonWidthU3Ek__BackingField_2;
+		float L_0 = __this->___U3CButtonWidthU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -6024,7 +6037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorButtonAttribute_set_ButtonWidth
 	{
 		// public float ButtonWidth { get; set; } = BUTTON_WIDTH;
 		float L_0 = ___0_value;
-		__this->___U3CButtonWidthU3Ek__BackingField_2 = L_0;
+		__this->___U3CButtonWidthU3Ek__BackingField_3 = L_0;
 		return;
 	}
 }
@@ -6033,15 +6046,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorButtonAttribute__ctor_m52F2C66D
 {
 	{
 		// public float ButtonWidth { get; set; } = BUTTON_WIDTH;
-		__this->___U3CButtonWidthU3Ek__BackingField_2 = (80.0f);
+		__this->___U3CButtonWidthU3Ek__BackingField_3 = (80.0f);
 		// public InspectorButtonAttribute(string methodName)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.methodName = methodName;
 		String_t* L_0 = ___0_methodName;
-		__this->___methodName_3 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___methodName_3), (void*)L_0);
+		__this->___methodName_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___methodName_4), (void*)L_0);
 		// this.buttonHeight = BUTTON_HEIGHT;
-		__this->___buttonHeight_4 = (20.0f);
+		__this->___buttonHeight_5 = (20.0f);
 		// }
 		return;
 	}
@@ -6051,16 +6064,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InspectorButtonAttribute__ctor_m09D1C4C0
 {
 	{
 		// public float ButtonWidth { get; set; } = BUTTON_WIDTH;
-		__this->___U3CButtonWidthU3Ek__BackingField_2 = (80.0f);
+		__this->___U3CButtonWidthU3Ek__BackingField_3 = (80.0f);
 		// public InspectorButtonAttribute(string methodName, float buttonHeight)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.methodName = methodName;
 		String_t* L_0 = ___0_methodName;
-		__this->___methodName_3 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___methodName_3), (void*)L_0);
+		__this->___methodName_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___methodName_4), (void*)L_0);
 		// this.buttonHeight = buttonHeight;
 		float L_1 = ___1_buttonHeight;
-		__this->___buttonHeight_4 = L_1;
+		__this->___buttonHeight_5 = L_1;
 		// }
 		return;
 	}
@@ -23703,6 +23716,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SecondaryInteractorFilter__ctor_mB4651E9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void Oculus.Interaction.TagMonoBehaviourFilter::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagMonoBehaviourFilter__ctor_m4B81D65EA5245114D115C35F94F9120BBB0979C6 (TagMonoBehaviourFilter_t828796ECFA3840178C27A2EAEAC1CF7867A3FBB8* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Oculus.Interaction.TagSet::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TagSet_Start_m71F3E7AC8063963D0BC84029B83FA10139E3A2D4 (TagSet_t5349668073CEC8B05C55211650DC15C72E13BA64* __this, const RuntimeMethod* method) 
 {
@@ -30985,8 +31014,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConditionalHideAttribute_set
 	{
 		// public string ConditionalFieldPath { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CConditionalFieldPathU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionalFieldPathU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CConditionalFieldPathU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CConditionalFieldPathU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
@@ -30995,8 +31024,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ConditionalHideAttribute_set
 	{
 		// public object HideValue { get; private set; }
 		RuntimeObject* L_0 = ___0_value;
-		__this->___U3CHideValueU3Ek__BackingField_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHideValueU3Ek__BackingField_1), (void*)L_0);
+		__this->___U3CHideValueU3Ek__BackingField_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CHideValueU3Ek__BackingField_2), (void*)L_0);
 		return;
 	}
 }

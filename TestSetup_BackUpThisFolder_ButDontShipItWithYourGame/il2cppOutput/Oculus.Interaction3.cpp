@@ -541,6 +541,8 @@ struct FingerShapes_tB688B596C28AF6D38BEBA5C15BECF9EBD4E85D7F;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 // Oculus.Interaction.Grabbable
 struct Grabbable_tC5F191DABDA6ADE2D8270476D37B4E122C1387D3;
+// Oculus.Interaction.GrabbableUnityEventWrapper
+struct GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
 // UnityEngine.UI.GraphicRaycaster
@@ -1742,6 +1744,11 @@ struct FingerShapes_tB688B596C28AF6D38BEBA5C15BECF9EBD4E85D7F  : public RuntimeO
 {
 };
 
+// Oculus.Interaction.GrabbableUnityEventWrapper
+struct GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51  : public RuntimeObject
+{
+};
+
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
 {
@@ -2474,6 +2481,8 @@ struct OneEuroFilterPropertyBlock_tD4933DA56D1BA2B127CC5A8D613800502BF94A59
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.Quaternion
@@ -3121,9 +3130,9 @@ struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C
 struct InterfaceAttribute_t2FD5E35B02A68E81FC030FEB52C4268C26064053  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.Type[] Oculus.Interaction.InterfaceAttribute::Types
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___Types_0;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___Types_1;
 	// System.String Oculus.Interaction.InterfaceAttribute::TypeFromFieldName
-	String_t* ___TypeFromFieldName_1;
+	String_t* ___TypeFromFieldName_2;
 };
 
 // System.Text.RegularExpressions.Match
@@ -5582,6 +5591,10 @@ struct FingerShapes_tB688B596C28AF6D38BEBA5C15BECF9EBD4E85D7F_StaticFields
 
 // Oculus.Interaction.PoseDetection.FingerShapes
 
+// Oculus.Interaction.GrabbableUnityEventWrapper
+
+// Oculus.Interaction.GrabbableUnityEventWrapper
+
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
@@ -7601,6 +7614,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_mE097DBD72433D1AFC11733F567
 // T[] System.Array::Empty<System.Int32Enum>()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Int32EnumU5BU5D_t87B7DB802810C38016332669039EF42C487A081F* Array_Empty_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m94E12BB613D748D2EEB9E1ABD961630D2F970385_gshared_inline (const RuntimeMethod* method) ;
 
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.MonoBehaviourStartExtensions::BeginStart(UnityEngine.MonoBehaviour,System.Boolean&,System.Action)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviourStartExtensions_BeginStart_mC498E0AC129F7CDC354718BF0E799CB2A2E04366 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* ___0_monoBehaviour, bool* ___1_started, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___2_baseStart, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.AssertUtils::AssertField<Oculus.Interaction.IInteractableView>(UnityEngine.Component,TValue,System.String,System.String,System.String,System.String)
@@ -7729,8 +7744,6 @@ inline void Action_2__ctor_m96B793523110B3C70F74A1C79978EA6975EFF67D (Action_2_t
 }
 // System.Void Oculus.Interaction.PhysicsGrabbable/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mE02AF405A4D01A90E9BD40B7E9B7A58236284E9A (U3CU3Ec_t62C9BCF2505F09FBE6D288B0D45FEFEC21577B78* __this, const RuntimeMethod* method) ;
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Oculus.Interaction.PointableElement::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointableElement_Start_m0CF7415E75E267BE1BD63FF51BD5438136524C78 (PointableElement_t0F91651B1FF972C5FBC7E9476BBA548F38EF9CF7* __this, const RuntimeMethod* method) ;
 // UnityEngine.Canvas Oculus.Interaction.PointableCanvas::get_Canvas()
@@ -9460,6 +9473,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, String_t* ___1_paramName, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.GrabbableUnityEventWrapper::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GrabbableUnityEventWrapper__ctor_mB4AA80D99B568EC1D9301A327435DA4AB3554276 (GrabbableUnityEventWrapper_t43DEE24D52F9FD460D671EDD7B8494BA7EA89E51* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -17567,8 +17596,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_mAB83AA82F52987
 	bool V_1 = false;
 	{
 		// public Type[] Types = null;
-		__this->___Types_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_0), (void*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL);
+		__this->___Types_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_1), (void*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL);
 		// public InterfaceAttribute(Type type, params Type[] types)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// Debug.Assert(type.IsInterface, $"{type.Name} needs to be an interface.");
@@ -17588,10 +17617,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_mAB83AA82F52987
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_5 = ___1_types;
 		NullCheck(L_5);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_6 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_5)->max_length)), 1)));
-		__this->___Types_0 = L_6;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_0), (void*)L_6);
+		__this->___Types_1 = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_1), (void*)L_6);
 		// Types[0] = type;
-		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_7 = __this->___Types_0;
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_7 = __this->___Types_1;
 		Type_t* L_8 = ___0_type;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
@@ -17625,7 +17654,7 @@ IL_0048:
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Assert_mA460392021AC0A8210C9081E3C1C9652DBF32BF6(L_13, L_19, NULL);
 		// Types[i+1] = types[i];
-		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_20 = __this->___Types_0;
+		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_20 = __this->___Types_1;
 		int32_t L_21 = V_0;
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_22 = ___1_types;
 		int32_t L_23 = V_0;
@@ -17663,14 +17692,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterfaceAttribute__ctor_m22DC14EB17CE39
 {
 	{
 		// public Type[] Types = null;
-		__this->___Types_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_0), (void*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL);
+		__this->___Types_1 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Types_1), (void*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)NULL);
 		// public InterfaceAttribute(string typeFromFieldName)
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// this.TypeFromFieldName = typeFromFieldName;
 		String_t* L_0 = ___0_typeFromFieldName;
-		__this->___TypeFromFieldName_1 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___TypeFromFieldName_1), (void*)L_0);
+		__this->___TypeFromFieldName_2 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___TypeFromFieldName_2), (void*)L_0);
 		// }
 		return;
 	}
@@ -27934,7 +27963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenCloseStateBuilder__ctor_mAB0F90185AD
 		int32_t L_3 = __this->____fingerFeature_1;
 		NullCheck(L_2);
 		FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02* L_4;
-		L_4 = InterfaceFuncInvoker1< FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02*, int32_t >::Invoke(1 /* TValue System.Collections.Generic.IReadOnlyDictionary`2<Oculus.Interaction.PoseDetection.FingerFeature,Oculus.Interaction.PoseDetection.FeatureDescription>::get_Item(TKey) */, IReadOnlyDictionary_2_tDBEDDB3C706A71057C78ED712625FF0C07F43EB4_il2cpp_TypeInfo_var, L_2, L_3);
+		L_4 = InterfaceFuncInvoker1< FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02*, int32_t >::Invoke(2 /* TValue System.Collections.Generic.IReadOnlyDictionary`2<Oculus.Interaction.PoseDetection.FingerFeature,Oculus.Interaction.PoseDetection.FeatureDescription>::get_Item(TKey) */, IReadOnlyDictionary_2_tDBEDDB3C706A71057C78ED712625FF0C07F43EB4_il2cpp_TypeInfo_var, L_2, L_3);
 		NullCheck(L_4);
 		FeatureStateDescriptionU5BU5D_t9E59F8181F6573B081F443C115351608B525183C* L_5;
 		L_5 = FeatureDescription_get_FeatureStates_mDC30D3E98102B4CCAA82C439EBF5C667DC39DED8_inline(L_4, NULL);
@@ -28752,7 +28781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrueFalseStateBuilder__ctor_m4E8D404212F
 		int32_t L_3 = __this->____transformFeature_1;
 		NullCheck(L_2);
 		FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02* L_4;
-		L_4 = InterfaceFuncInvoker1< FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02*, int32_t >::Invoke(1 /* TValue System.Collections.Generic.IReadOnlyDictionary`2<Oculus.Interaction.PoseDetection.TransformFeature,Oculus.Interaction.PoseDetection.FeatureDescription>::get_Item(TKey) */, IReadOnlyDictionary_2_t7AEA088251267779522229886D06EDBDAB08DCF9_il2cpp_TypeInfo_var, L_2, L_3);
+		L_4 = InterfaceFuncInvoker1< FeatureDescription_t8FF400243BDD3D1212B4BE0678426ADD02EBCE02*, int32_t >::Invoke(2 /* TValue System.Collections.Generic.IReadOnlyDictionary`2<Oculus.Interaction.PoseDetection.TransformFeature,Oculus.Interaction.PoseDetection.FeatureDescription>::get_Item(TKey) */, IReadOnlyDictionary_2_t7AEA088251267779522229886D06EDBDAB08DCF9_il2cpp_TypeInfo_var, L_2, L_3);
 		NullCheck(L_4);
 		FeatureStateDescriptionU5BU5D_t9E59F8181F6573B081F443C115351608B525183C* L_5;
 		L_5 = FeatureDescription_get_FeatureStates_mDC30D3E98102B4CCAA82C439EBF5C667DC39DED8_inline(L_4, NULL);

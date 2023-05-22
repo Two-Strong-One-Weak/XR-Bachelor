@@ -4,7 +4,68 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/AvatarAndPhoton.unity
+    guid: 83883361234f9014685d85ca3ec4d406
+  - enabled: 0
+    path: Assets/Scenes/PhotonTest.unity
+    guid: b3555dc5a167d6a43ac4f1f2cd0c3e3f
+  - enabled: 0
+    path: Assets/Scenes/Room for 1.unity
+    guid: 68b5adae2b056f34bb57a1bcb591fb18
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.3.0/Starter Assets/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 0
+    path: Assets/Scenes/TutorialTest.unity
+    guid: 8db792205744c7347a24000463235459
+  - enabled: 0
+    path: Assets/Scenes/HandTracking.unity
+    guid: ab29513c10b63244c8f2bd27fff7a2b1
+  - enabled: 0
+    path: Assets/Scenes/SceneTilLasse.unity
+    guid: 448131473f8989d4681dc10dfce89799
+  - enabled: 0
+    path: Assets/Scenes/Combine.unity
+    guid: 7d4d2563c76a17f4db00b19181abc1bb
+  - enabled: 0
+    path: Assets/Scenes/HandTrackingWithISDK_Grab_Throw.unity
+    guid: 6f91d936d62d005498c08e923f9ca5a9
+  - enabled: 0
+    path: Assets/Scenes/TheUserStudyScene.unity
+    guid: dc9298641cd3b7b4ebbcdce3d7e520e8
+  - enabled: 0
+    path: Assets/Scenes/ClassRoom.unity
+    guid: 2c33e62d64ffd534aa295e3f55833f30
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/2.3.0/Hands Interaction Demo/Runtime/HandsDemoScene.unity
+    guid: 3ff35cecbcc52cc42945cf531638a60a
+  - enabled: 1
+    path: Assets/Scenes/UserStudyScenes/UserStudyStartScene.unity
+    guid: b9d03c33f9e2f5d47928a085f2953398
+  - enabled: 1
+    path: Assets/Scenes/UserStudyScenes/Test1.unity
+    guid: 25d8f7b8cce697d4aa025468a94a62e1
+  - enabled: 1
+    path: Assets/Scenes/UserStudyScenes/Test2.unity
+    guid: cb2f3e6b87e079b4cb4f231b60238b13
+  - enabled: 1
+    path: Assets/Scenes/UserStudyScenes/Test3.unity
+    guid: 5be3b3dca93907f48beb7d4efc9e0632
+  - enabled: 1
+    path: Assets/Scenes/UserStudyScenes/EndOfTestScene.unity
+    guid: 83ded50feaa42a244a3c48b0af9208e4
+  - enabled: 0
+    path: Assets/Scenes/UserStudyScenes/Test2_OtherOld.unity
+    guid: ea22d93d7401e7a4094754e10e624d1e
+  - enabled: 0
+    path: Assets/Scenes/UserStudyScenes/Test6_notNeeded.unity
+    guid: 2f07797adfe69f74e9072c1f26449c1d
+  - enabled: 0
+    path: Assets/Scenes/UserStudyScenes/Test4_OtherOld.unity
+    guid: 957bfa4a8700ca349ae56bd7aa97e626
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 15dbfdebca82695468b0fa1783becb08, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f6db5a3b5f6925845a20ede70d9acf8c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 420dc03f0d10d6b45bd6bfa398c47e05, type: 2}

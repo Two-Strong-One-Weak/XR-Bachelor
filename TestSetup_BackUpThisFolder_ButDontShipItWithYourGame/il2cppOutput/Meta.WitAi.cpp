@@ -594,6 +594,8 @@ struct AudioBufferEvents_t464B32397852A58D1333411135D8AB9CF2F6C233;
 struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
 // Meta.WitAi.Data.AudioEncoding
 struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4;
+// Oculus.Interaction.Deprecated.AudioEncoding
+struct AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971;
 // Meta.WitAi.Events.UnityEventListeners.AudioEventListener
 struct AudioEventListener_t39E39D7138664E757F322BB01CE82890433659AB;
 // Meta.WitAi.ServiceReferences.AudioInputServiceReference
@@ -622,6 +624,8 @@ struct CookieCollection_tB62B610A8E70C48DC8854F3D27BA916AF21D6608;
 struct CookieContainer_t54CCEBC3470E5D0699BB17928C171D7AFCA7614E;
 // UnityEngine.Coroutine
 struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+// Oculus.Interaction.Deprecated.CoroutineUtility
+struct CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37;
 // System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0;
 // Meta.WitAi.Interfaces.CustomTranscriptionProvider
@@ -744,6 +748,12 @@ struct MethodBase_t;
 struct MethodInfo_t;
 // Meta.WitAi.Lib.Mic
 struct Mic_t754EFE9D630FC1FBB701EB317849C522C0F384F4;
+// Oculus.Interaction.Deprecated.Mic
+struct Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD;
+// Oculus.Interaction.Deprecated.MicBase
+struct MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE;
+// Oculus.Interaction.Deprecated.MicDebug
+struct MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15;
 // Mono.Net.Security.MobileTlsProvider
 struct MobileTlsProvider_tD60D82BEBF267F50F388A026DBB092C7188BB017;
 // UnityEngine.MonoBehaviour
@@ -888,6 +898,8 @@ struct WebRequestStream_t731AE4852452BAA73C240BDC7DCBA42ADAD2BAAB;
 struct WebResponse_t7CDE1F20895C8D5AD392425F9AD4BE8E8696B682;
 // Meta.WitAi.Wit
 struct Wit_tB9F35FF1077BBD2C3F0E14EE0ACBFEE7351A5B81;
+// Oculus.Interaction.Deprecated.WitApplication
+struct WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441;
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E;
 // Meta.WitAi.Events.WitByteDataEvent
@@ -906,18 +918,26 @@ struct WitDynamicEntitiesData_t372BA7AB1BA929F633A88ADF252C252444A79146;
 struct WitDynamicEntity_tE0824DEF90E6E8AA7D10CC0A6892B4C1018DE2B4;
 // Meta.WitAi.Configuration.WitEndpointConfig
 struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D;
+// Oculus.Interaction.Deprecated.WitEntity
+struct WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F;
 // Meta.WitAi.Data.Entities.WitEntityData
 struct WitEntityData_t3814C265B1FEF49FEBAD433FB102049418BB736B;
 // Meta.WitAi.Data.Entities.WitEntityFloatData
 struct WitEntityFloatData_t102A2BB5C9BCA8A0FEA4D3CC3F9D8B83AE31CCB8;
 // Meta.WitAi.Data.Entities.WitEntityIntData
 struct WitEntityIntData_t25F04B7F8B86E577ED2F1C8CA31E13A827F9CB3C;
+// Oculus.Interaction.Deprecated.WitEntityKeyword
+struct WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77;
+// Oculus.Interaction.Deprecated.WitEntityRole
+struct WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4;
 // Meta.WitAi.Events.WitErrorEvent
 struct WitErrorEvent_tF617F56AD9B12E89D73E125B79E441A56067F1B2;
 // Meta.WitAi.Data.WitFloatValue
 struct WitFloatValue_t0CD86D3313AB3919655A9F71C881B82124190FD7;
 // Meta.WitAi.Data.WitIntValue
 struct WitIntValue_t67EABB88E65123FE396BDDB9C49054D20A693E48;
+// Oculus.Interaction.Deprecated.WitIntent
+struct WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835;
 // Meta.WitAi.Data.Intents.WitIntentData
 struct WitIntentData_tAEC870A54A863E27A1FDC98AE01CA9C99F22F515;
 // Meta.WitAi.CallbackHandlers.WitIntentMatcher
@@ -932,6 +952,8 @@ struct WitRequestCreatedEvent_t1A01ABB6F9E3C02D0251B5DC9F5B290EDA0E319B;
 struct WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483;
 // Meta.WitAi.Events.WitRequestOptionsEvent
 struct WitRequestOptionsEvent_t84FCD56D356445821DECABA3F66CADF6B07ABB1B;
+// Oculus.Interaction.Deprecated.WitResponse
+struct WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7;
 // Meta.WitAi.Json.WitResponseArray
 struct WitResponseArray_tAC1DCF75C6C2FAB0A70A7DB879A0F35999BAB30A;
 // Meta.WitAi.Json.WitResponseClass
@@ -956,6 +978,10 @@ struct WitService_t56C5E2169F4FFED7AA01BC97F7834E24AE60C5DB;
 struct WitSimpleDynamicEntity_t936086F8CD53DE1BABD07C5133D814C5DD1937F1;
 // Meta.WitAi.Data.WitStringValue
 struct WitStringValue_tC57E63A29F85DBA9BF5A71184C079C4FA0069805;
+// Oculus.Interaction.Deprecated.WitTrait
+struct WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF;
+// Oculus.Interaction.Deprecated.WitTraitValue
+struct WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD;
 // Meta.WitAi.Events.WitTranscriptionEvent
 struct WitTranscriptionEvent_t51292FC7EB7BAF38C2EC6B57D87724C1BEB3C739;
 // Meta.WitAi.Events.WitValidationEvent
@@ -2030,6 +2056,11 @@ struct AudioEncoding_t98ED2D092A9829C604C73C3B611E2FC987413EE4  : public Runtime
 	int32_t ___endian_3;
 };
 
+// Oculus.Interaction.Deprecated.AudioEncoding
+struct AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971  : public RuntimeObject
+{
+};
+
 // Meta.Conduit.ConduitDispatcherFactory
 struct ConduitDispatcherFactory_t8E74B42CC2D728C6130649788CD0B36188D26BD7  : public RuntimeObject
 {
@@ -2050,6 +2081,11 @@ struct ConfidenceRange_tE0A93D2F39AE1C9E6340C39D30A9201709B737E8  : public Runti
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onWithinConfidenceRange_2;
 	// UnityEngine.Events.UnityEvent Meta.WitAi.CallbackHandlers.ConfidenceRange::onOutsideConfidenceRange
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___onOutsideConfidenceRange_3;
+};
+
+// Oculus.Interaction.Deprecated.CoroutineUtility
+struct CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37  : public RuntimeObject
+{
 };
 
 // System.Runtime.ConstrainedExecution.CriticalFinalizerObject
@@ -2131,6 +2167,21 @@ struct MatchIntentRegistry_t81C03C870BB0E7C4BD144BCC4600D7008AE54270  : public R
 
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.Mic
+struct Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.MicBase
+struct MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.MicDebug
+struct MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15  : public RuntimeObject
 {
 };
 
@@ -2340,6 +2391,11 @@ struct VoiceSession_t375D68D23448E9C51C8E4CE1972477813E92E68B  : public RuntimeO
 	bool ___validResponse_2;
 };
 
+// Oculus.Interaction.Deprecated.WitApplication
+struct WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441  : public RuntimeObject
+{
+};
+
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E  : public RuntimeObject
 {
@@ -2387,6 +2443,26 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D  : public Run
 	String_t* ___dictation_7;
 };
 
+// Oculus.Interaction.Deprecated.WitEntity
+struct WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.WitEntityKeyword
+struct WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.WitEntityRole
+struct WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.WitIntent
+struct WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835  : public RuntimeObject
+{
+};
+
 // Meta.WitAi.Data.Intents.WitIntentData
 struct WitIntentData_tAEC870A54A863E27A1FDC98AE01CA9C99F22F515  : public RuntimeObject
 {
@@ -2420,6 +2496,11 @@ struct WitRequestOptions_tB2E8B103538F7E42F0568C6F62F2158FA45EF483  : public Run
 	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___additionalParameters_4;
 	// System.Action`1<Meta.WitAi.WitRequest> Meta.WitAi.Configuration.WitRequestOptions::onResponse
 	Action_1_tEE33A71F533D86EBC6A768BBF5F08D7A5AA0DA35* ___onResponse_5;
+};
+
+// Oculus.Interaction.Deprecated.WitResponse
+struct WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7  : public RuntimeObject
+{
 };
 
 // Meta.WitAi.Json.WitResponseNode
@@ -2470,6 +2551,16 @@ struct WitRuntimeConfiguration_t9724E21E35E3E1ABB5F0B4ECD5CC8F325CA1CC05  : publ
 	bool ___alwaysRecord_11;
 	// System.Single Meta.WitAi.Configuration.WitRuntimeConfiguration::preferredActivationOffset
 	float ___preferredActivationOffset_12;
+};
+
+// Oculus.Interaction.Deprecated.WitTrait
+struct WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF  : public RuntimeObject
+{
+};
+
+// Oculus.Interaction.Deprecated.WitTraitValue
+struct WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD  : public RuntimeObject
+{
 };
 
 // Meta.WitAi.WrapHttpWebRequest
@@ -2976,6 +3067,8 @@ struct ObjectNodeReference_t3E9903F03200146BD45140F15D1B741C752F71BD  : public W
 // UnityEngine.PropertyAttribute
 struct PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+	// System.Int32 UnityEngine.PropertyAttribute::<order>k__BackingField
+	int32_t ___U3CorderU3Ek__BackingField_0;
 };
 
 // UnityEngine.SceneManagement.Scene
@@ -3653,18 +3746,18 @@ struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com
 struct DynamicRangeAttribute_t769686568A05595A5593BDDF4EC8353DD0B3E8EF  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Meta.WitAi.Utilities.DynamicRangeAttribute::<RangeProperty>k__BackingField
-	String_t* ___U3CRangePropertyU3Ek__BackingField_0;
+	String_t* ___U3CRangePropertyU3Ek__BackingField_1;
 	// System.Single Meta.WitAi.Utilities.DynamicRangeAttribute::<DefaultMin>k__BackingField
-	float ___U3CDefaultMinU3Ek__BackingField_1;
+	float ___U3CDefaultMinU3Ek__BackingField_2;
 	// System.Single Meta.WitAi.Utilities.DynamicRangeAttribute::<DefaultMax>k__BackingField
-	float ___U3CDefaultMaxU3Ek__BackingField_2;
+	float ___U3CDefaultMaxU3Ek__BackingField_3;
 };
 
 // Meta.WitAi.Events.EventCategoryAttribute
 struct EventCategoryAttribute_t589C967400362B59FE256F9DDEDC9ABB013BD883  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
 {
 	// System.String Meta.WitAi.Events.EventCategoryAttribute::Category
-	String_t* ___Category_0;
+	String_t* ___Category_1;
 };
 
 // System.Exception
@@ -5073,6 +5166,10 @@ struct List_1_t70CCEFCAE6F71D8649DBE5AE19FB65E8548E5452_StaticFields
 
 // Meta.WitAi.Data.AudioEncoding
 
+// Oculus.Interaction.Deprecated.AudioEncoding
+
+// Oculus.Interaction.Deprecated.AudioEncoding
+
 // Meta.Conduit.ConduitDispatcherFactory
 struct ConduitDispatcherFactory_t8E74B42CC2D728C6130649788CD0B36188D26BD7_StaticFields
 {
@@ -5085,6 +5182,10 @@ struct ConduitDispatcherFactory_t8E74B42CC2D728C6130649788CD0B36188D26BD7_Static
 // Meta.WitAi.CallbackHandlers.ConfidenceRange
 
 // Meta.WitAi.CallbackHandlers.ConfidenceRange
+
+// Oculus.Interaction.Deprecated.CoroutineUtility
+
+// Oculus.Interaction.Deprecated.CoroutineUtility
 
 // System.Text.Encoding
 struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
@@ -5141,6 +5242,18 @@ struct MatchIntentRegistry_t81C03C870BB0E7C4BD144BCC4600D7008AE54270_StaticField
 // System.Reflection.MemberInfo
 
 // System.Reflection.MemberInfo
+
+// Oculus.Interaction.Deprecated.Mic
+
+// Oculus.Interaction.Deprecated.Mic
+
+// Oculus.Interaction.Deprecated.MicBase
+
+// Oculus.Interaction.Deprecated.MicBase
+
+// Oculus.Interaction.Deprecated.MicDebug
+
+// Oculus.Interaction.Deprecated.MicDebug
 
 // System.Reflection.ParameterInfo
 
@@ -5237,6 +5350,10 @@ struct VRequest_tFD9B8F15B7482BF5BE064752EAE7162E3588B8A1_StaticFields
 
 // Meta.WitAi.Data.VoiceSession
 
+// Oculus.Interaction.Deprecated.WitApplication
+
+// Oculus.Interaction.Deprecated.WitApplication
+
 // Meta.WitAi.WitAuthUtility
 struct WitAuthUtility_tAB697A186D5288EA065DCCD214F720F18B80DA6E_StaticFields
 {
@@ -5269,6 +5386,22 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 
 // Meta.WitAi.Configuration.WitEndpointConfig
 
+// Oculus.Interaction.Deprecated.WitEntity
+
+// Oculus.Interaction.Deprecated.WitEntity
+
+// Oculus.Interaction.Deprecated.WitEntityKeyword
+
+// Oculus.Interaction.Deprecated.WitEntityKeyword
+
+// Oculus.Interaction.Deprecated.WitEntityRole
+
+// Oculus.Interaction.Deprecated.WitEntityRole
+
+// Oculus.Interaction.Deprecated.WitIntent
+
+// Oculus.Interaction.Deprecated.WitIntent
+
 // Meta.WitAi.Data.Intents.WitIntentData
 
 // Meta.WitAi.Data.Intents.WitIntentData
@@ -5280,6 +5413,10 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 // Meta.WitAi.Configuration.WitRequestOptions
 
 // Meta.WitAi.Configuration.WitRequestOptions
+
+// Oculus.Interaction.Deprecated.WitResponse
+
+// Oculus.Interaction.Deprecated.WitResponse
 
 // Meta.WitAi.Json.WitResponseNode
 
@@ -5296,6 +5433,14 @@ struct WitEndpointConfig_t7CCDA7CBBF1FDD2A7779DDF6745BAED47E69BB1D_StaticFields
 // Meta.WitAi.Configuration.WitRuntimeConfiguration
 
 // Meta.WitAi.Configuration.WitRuntimeConfiguration
+
+// Oculus.Interaction.Deprecated.WitTrait
+
+// Oculus.Interaction.Deprecated.WitTrait
+
+// Oculus.Interaction.Deprecated.WitTraitValue
+
+// Oculus.Interaction.Deprecated.WitTraitValue
 
 // Meta.WitAi.WrapHttpWebRequest
 
@@ -7429,6 +7574,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityDataBase_1__ctor_m47659B0D37AAA
 // Meta.WitAi.Data.Entities.WitEntityDataBase`1<T> Meta.WitAi.Data.Entities.WitEntityDataBase`1<System.Int32>::FromEntityWitResponseNode(Meta.WitAi.Json.WitResponseNode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WitEntityDataBase_1_t46F92AF5EC7866816B6CD6D417773D4FFE270507* WitEntityDataBase_1_FromEntityWitResponseNode_m0AACEFF9E3C6FEA0A185EA5A1B1B4EF5FB491FBB_gshared (WitEntityDataBase_1_t46F92AF5EC7866816B6CD6D417773D4FFE270507* __this, WitResponseNode_t1BFF810F15B21416F5F6D0A1CAAF03CEF942038C* ___0_node, const RuntimeMethod* method) ;
 
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.String>()
 inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisString_t_m9832B70DF2B936246FE60F75D3D12CB946C39D16_inline (const RuntimeMethod* method)
 {
@@ -7436,8 +7583,6 @@ inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Array_Empty_TisSt
 }
 // System.Void Meta.Conduit.ConduitActionAttribute::.ctor(System.String,System.Single,System.Single,System.Boolean,System.String[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConduitActionAttribute__ctor_mDD815F166271E464D875C0FBBA24D4AAF602828E (ConduitActionAttribute_t3984A43CA00448FDDA2FC2BEEA0FE1406A4DC05A* __this, String_t* ___0_intent, float ___1_minConfidence, float ___2_maxConfidence, bool ___3_validatePartial, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___4_aliases, const RuntimeMethod* method) ;
-// System.Void System.Object::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.MatchIntentRegistry::Initialize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchIntentRegistry_Initialize_m33250FB87C67E52FA01A0AE47C1B21588CFA53C4 (const RuntimeMethod* method) ;
 // System.Void Meta.WitAi.Utilities.DictionaryList`2<System.String,Meta.WitAi.RegisteredMatchIntent>::.ctor()
@@ -9113,6 +9258,214 @@ inline void UnityEvent_1_RemoveListener_m3B91983165CA1EF3E27EB37077C047683907939
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.AudioEncoding::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioEncoding__ctor_m1148474EE45E02D03900423A53C1D14802DBF2B6 (AudioEncoding_t68E3C684C2949F48AD9B62C916EF205E49645971* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitApplication::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitApplication__ctor_m6E5BDFF353992D4987B47BDB639D9AD2FC6821F8 (WitApplication_t76EA14982977E5F38F82D8ECF05B6E9A56692441* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitEntity::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntity__ctor_mEB3E1F96E77F17163A907B20F0BC53D4565FF500 (WitEntity_t36711131739C1BE8673C9578E98B63DDEC26998F* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitEntityKeyword::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityKeyword__ctor_mF251161EBA815FB4431DA130C4BC70200788BB66 (WitEntityKeyword_t804B36B82C807D5E3A9D8C4D7B2234E9DD4DEB77* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitEntityRole::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitEntityRole__ctor_m5170F77DD2E44FD33660494F8F38E8336973261C (WitEntityRole_t4A2986841D33FC4741B8D87385B4ECA9200277F4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitIntent::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitIntent__ctor_mA330847174C3433DA69BF2F0240A462F645FF19F (WitIntent_t4E04BA5FF03B3A128F8D5BC3250C5FB2336FB835* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitTrait::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTrait__ctor_m4919B350F9768DABD17A7E3348D1C02265EF43B8 (WitTrait_tEE82DCD283E39F04AE914A7FF732A891F5E5B6DF* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitTraitValue::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitTraitValue__ctor_mBBF76CBB7891E115D88F6B1CC621F5C0E00666CD (WitTraitValue_t91B02FA29298CDEAD97A7DE24D96002A81359CCD* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.Mic::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mic__ctor_mE6FEA8F883ED17FE4C95686ABA2C4DAD74899F32 (Mic_t556E4CC1AD7B288089EDB4C8EF80B66DD6AE2DCD* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.MicBase::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicBase__ctor_m233FAF0D4D9EF2478870B31B8FC698B974FCDBCD (MicBase_tBB4FA30BA5EBB8709CAE5CD9EA743AE328733BCE* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.MicDebug::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MicDebug__ctor_mA5F548FCF50ED5678C8881373036D6D3104ACB1D (MicDebug_tF75C67DC3185125C86995A80B6656AF022D51A15* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.WitResponse::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WitResponse__ctor_mC47CD1B2E446BA5793577FE8419F86F750ADEB22 (WitResponse_t59C334A5371384AD9C1A83B6EBB58E265A4029D7* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Oculus.Interaction.Deprecated.CoroutineUtility::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoroutineUtility__ctor_m888C1450F8B31F2D5E8D4BAD0B23D3D07721D374 (CoroutineUtility_t5589B6F5C367B5C00778ADF8D2B180E871F3BD37* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -27150,7 +27503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DynamicRangeAttribute_get_RangeProp
 {
 	{
 		// public string RangeProperty { get; private set; }
-		String_t* L_0 = __this->___U3CRangePropertyU3Ek__BackingField_0;
+		String_t* L_0 = __this->___U3CRangePropertyU3Ek__BackingField_1;
 		return L_0;
 	}
 }
@@ -27160,8 +27513,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_RangeProperty_
 	{
 		// public string RangeProperty { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CRangePropertyU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CRangePropertyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
@@ -27170,7 +27523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DynamicRangeAttribute_get_DefaultMin_mD
 {
 	{
 		// public float DefaultMin { get; private set; }
-		float L_0 = __this->___U3CDefaultMinU3Ek__BackingField_1;
+		float L_0 = __this->___U3CDefaultMinU3Ek__BackingField_2;
 		return L_0;
 	}
 }
@@ -27180,7 +27533,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_DefaultMin_m6D
 	{
 		// public float DefaultMin { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMinU3Ek__BackingField_1 = L_0;
+		__this->___U3CDefaultMinU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
@@ -27189,7 +27542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DynamicRangeAttribute_get_DefaultMax_m4
 {
 	{
 		// public float DefaultMax { get; private set; }
-		float L_0 = __this->___U3CDefaultMaxU3Ek__BackingField_2;
+		float L_0 = __this->___U3CDefaultMaxU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -27199,7 +27552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_DefaultMax_m97
 	{
 		// public float DefaultMax { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMaxU3Ek__BackingField_2 = L_0;
+		__this->___U3CDefaultMaxU3Ek__BackingField_3 = L_0;
 		return;
 	}
 }
@@ -28488,8 +28841,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventCategoryAttribute__ctor_m3E91D5B0FF
 		PropertyAttribute__ctor_m19247686E165101F140615C7306DC2DA3953D97D(__this, NULL);
 		// Category = category;
 		String_t* L_0 = ___0_category;
-		__this->___Category_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___Category_0), (void*)L_0);
+		__this->___Category_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Category_1), (void*)L_0);
 		// }
 		return;
 	}
@@ -36549,7 +36902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_De
 	{
 		// public float DefaultMin { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMinU3Ek__BackingField_1 = L_0;
+		__this->___U3CDefaultMinU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
@@ -36558,7 +36911,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_De
 	{
 		// public float DefaultMax { get; private set; }
 		float L_0 = ___0_value;
-		__this->___U3CDefaultMaxU3Ek__BackingField_2 = L_0;
+		__this->___U3CDefaultMaxU3Ek__BackingField_3 = L_0;
 		return;
 	}
 }
@@ -36567,8 +36920,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void DynamicRangeAttribute_set_Ra
 	{
 		// public string RangeProperty { get; private set; }
 		String_t* L_0 = ___0_value;
-		__this->___U3CRangePropertyU3Ek__BackingField_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_0), (void*)L_0);
+		__this->___U3CRangePropertyU3Ek__BackingField_1 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CRangePropertyU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
